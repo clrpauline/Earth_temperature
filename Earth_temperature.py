@@ -13,7 +13,7 @@ with st.sidebar:
     selected = option_menu(menu_title="Menu", 
                options=["Introduction","Datasets de base","Autres données","Projections", "Bonus"])
     
-#affichage option de menu Dataset de base:    
+#affichage option de menu Introduction:    
 if selected == "Introduction":
         st.title("Analyse et projections du dérèglement climatique global")
 
