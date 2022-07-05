@@ -7,6 +7,11 @@ import plotly.graph_objects as go
 import plotly
 import streamlit as st
 
+st.set_page_config(
+    page_title="Bonus",
+    page_icon="🌍",
+)
+
 st.title("Bonus")
 st.write("Bubble heatmap Guillaume")
 st.write("Autres visualisations que vous souhaitez proposer?")
