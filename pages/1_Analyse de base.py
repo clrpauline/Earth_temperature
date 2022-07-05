@@ -15,7 +15,7 @@ st.set_page_config(
 
 st.write("# Analyse Macro du dérèglement climatique 🌍")
 
-st.write(df)
+st.dataframe(df)
 
 st.markdown(
     """
