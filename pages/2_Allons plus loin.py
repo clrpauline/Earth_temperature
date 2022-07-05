@@ -12,9 +12,9 @@ st.set_page_config(
     page_icon="🌍",
 )
 st.title("Comparaison avec d'autres données")
-st.write("Introduction du dataframe Kaggle")
-st.write("Graph additionnels kaggle: Boxplot, Relplot, polarplot...")
 
+st.write("Graph additionnels kaggle: Boxplot, Relplot, polarplot...")
+st.write("Pour aller plus loin, il nous paraît important d'aller étudier les anomalies sur une maille plus fine. Nous avons donc trouvé des données qui proviennent de la World Bank et qui nous permettent d'affiné notre étude:")
 #Chargement des dataframes Kaggle:
 df_country = pd.read_csv("ressources/df_country_kaggle.csv")
 df_zone = pd.read_csv("ressources/df_zone_kaggle.csv")
