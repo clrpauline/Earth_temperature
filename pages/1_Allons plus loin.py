@@ -15,9 +15,7 @@ st.write("Graph additionnels kaggle: Boxplot, Relplot, polarplot...")
 df_country = pd.read_csv("ressources/df_country_kaggle.csv")
 df_zone = pd.read_csv("ressources/df_zone_kaggle.csv")
 df_country.rename(columns={'Country Code': 'Code'}, inplace=True)
-    
-    example_df.rename(columns={'Marks': 'Roll_no', 
-                           'Roll_no': 'Marks'}, inplace=True)
+df_zone.rename(columns={'Country Code': 'Code'}, inplace=True) 
 
 col1, col2 = st.columns(2)
 
