@@ -8,3 +8,5 @@ import plotly
 import streamlit as st
 
 st.title("Projections pour la fin du siècle")
+st.write("Cartes de projections des anomalies")
+st.write("Cartes de projections des pays invivables")
