@@ -24,15 +24,15 @@ df_zone.rename(columns={'Country Code': 'Code'}, inplace=True)
 col1, col2 = st.columns(2)
 
 with col1:
-    st.subheader("DataFrame par Pays")
+    st.subheader("Données par pays")
     st.write("Le DataFrame des anomalies dans tous les pays du monde de 1961 à 2015")
-    st.dataframe(df_country ,1000, 500)
+    st.dataframe(df_country ,1000, 250)
             
 
 with col2:
-    st.subheader("DataFrame par Zone")
+    st.subheader("Données par zones")
     st.write("Le DataFrame des anomalies classées par zones de 1961 à 2015")
-    st.dataframe(df_zone, 1000, 500)
+    st.dataframe(df_zone, 1000, 250)
 
 
     
