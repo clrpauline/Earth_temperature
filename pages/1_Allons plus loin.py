@@ -18,12 +18,12 @@ df_zone = pd.read_csv("ressources/df_zone_kaggle.csv")
 col1, col2 = st.columns(2)
 
 with col1:
-    st.header("DataFrame par Pays") 
+    st.write("DataFrame par Pays") 
     st.dataframe(df_country ,1000, 500)
             
 
 with col2:
-    st.header("DataFrame par Zone")    
+    st.write("DataFrame par Zone")    
     st.dataframe(df_zone, 1000, 500)
 
 
