@@ -39,7 +39,7 @@ On observe que la pente de la courbe est plus importante entre 1980 et 2020 quâ€
 """)
 
 
-df_zone=pd.read_csv('("ressources/df_zone_kaggle.csv')
+df_zone=pd.read_csv('ressources/df_zone_kaggle.csv')
 fig = px.bar_polar(df_zone, r="Anomalies", theta="Country Name", color="Anomalies", animation_frame="year",
                    animation_group="Country Name" , color_continuous_scale= 'RdYlBu_r', color_continuous_midpoint=0, 
                     range_color=[df_zone["Anomalies"].min(), df_zone["Anomalies"].max()],labels={"Anomalies": "Anomaly<br>in Â°C"}
