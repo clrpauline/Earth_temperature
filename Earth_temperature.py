@@ -9,7 +9,7 @@ import streamlit as st
 from streamlit_option_menu import option_menu
 
 st.set_page_config(
-    page_title="Bienvenue dans le Streamlit du Projet: Earth Temperature",
+    page_title="Earth Temperature",
     page_icon="👋",
 )
-
+st.title("Earth Temperature: Etude du réchauffement climatique de 1880 à 2100")
