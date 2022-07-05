@@ -1,0 +1,1299 @@
+,Country Code,Country Name,year,Anomalies
+247,X01,World,1961,0.207
+531,X01,World,1962,0.034
+815,X01,World,1963,0.159
+1099,X01,World,1964,-0.253
+1383,X01,World,1965,-0.226
+1667,X01,World,1966,0.201
+1951,X01,World,1967,-0.114
+2235,X01,World,1968,-0.12
+2519,X01,World,1969,-0.09
+2803,X01,World,1970,0.153
+3087,X01,World,1971,-0.092
+3371,X01,World,1972,-0.195
+3655,X01,World,1973,0.275
+3939,X01,World,1974,-0.181
+4223,X01,World,1975,0.09
+4507,X01,World,1976,-0.311
+4791,X01,World,1977,0.271
+5075,X01,World,1978,0.004
+5359,X01,World,1979,0.225
+5643,X01,World,1980,0.33
+5927,X01,World,1981,0.439
+6211,X01,World,1982,0.078
+6495,X01,World,1983,0.452
+6779,X01,World,1984,0.12
+7063,X01,World,1985,-0.034
+7347,X01,World,1986,0.238
+7631,X01,World,1987,0.391
+7915,X01,World,1988,0.549
+8199,X01,World,1989,0.326
+8483,X01,World,1990,0.636
+8767,X01,World,1991,0.458
+9051,X01,World,1992,0.183
+9335,X01,World,1993,0.346
+9619,X01,World,1994,0.501
+9903,X01,World,1995,0.831
+10187,X01,World,1996,0.354
+10471,X01,World,1997,0.656
+10755,X01,World,1998,0.992
+11039,X01,World,1999,0.788
+11323,X01,World,2000,0.735
+11607,X01,World,2001,0.836
+11891,X01,World,2002,1.018
+12175,X01,World,2003,0.896
+12459,X01,World,2004,0.914
+12743,X01,World,2005,1.103
+13027,X01,World,2006,1.001
+13311,X01,World,2007,1.198
+13595,X01,World,2008,0.938
+13879,X01,World,2009,0.967
+14163,X01,World,2010,1.228
+14447,X01,World,2011,0.923
+14731,X01,World,2012,1.081
+15015,X01,World,2013,1.021
+15299,X01,World,2014,1.052
+15583,X01,World,2015,1.419
+15867,X01,World,2016,1.674
+16151,X01,World,2017,1.44
+16435,X01,World,2018,1.301
+16719,X01,World,2019,1.473
+248,X06,Africa,1961,-0.017
+532,X06,Africa,1962,-0.04
+816,X06,Africa,1963,0.064
+1100,X06,Africa,1964,-0.153
+1384,X06,Africa,1965,-0.197
+1668,X06,Africa,1966,0.138
+1952,X06,Africa,1967,-0.209
+2236,X06,Africa,1968,-0.218
+2520,X06,Africa,1969,0.354
+2804,X06,Africa,1970,0.221
+3088,X06,Africa,1971,-0.208
+3372,X06,Africa,1972,-0.002
+3656,X06,Africa,1973,0.377
+3940,X06,Africa,1974,-0.237
+4224,X06,Africa,1975,-0.23
+4508,X06,Africa,1976,-0.26
+4792,X06,Africa,1977,0.232
+5076,X06,Africa,1978,0.077
+5360,X06,Africa,1979,0.444
+5644,X06,Africa,1980,0.366
+5928,X06,Africa,1981,0.104
+6212,X06,Africa,1982,0.217
+6496,X06,Africa,1983,0.408
+6780,X06,Africa,1984,0.333
+7064,X06,Africa,1985,0.301
+7348,X06,Africa,1986,0.283
+7632,X06,Africa,1987,0.671
+7916,X06,Africa,1988,0.608
+8200,X06,Africa,1989,-0.019
+8484,X06,Africa,1990,0.574
+8768,X06,Africa,1991,0.386
+9052,X06,Africa,1992,0.112
+9336,X06,Africa,1993,0.407
+9620,X06,Africa,1994,0.418
+9904,X06,Africa,1995,0.58
+10188,X06,Africa,1996,0.551
+10472,X06,Africa,1997,0.588
+10756,X06,Africa,1998,0.961
+11040,X06,Africa,1999,0.666
+11324,X06,Africa,2000,0.496
+11608,X06,Africa,2001,0.677
+11892,X06,Africa,2002,0.894
+12176,X06,Africa,2003,0.999
+12460,X06,Africa,2004,0.825
+12744,X06,Africa,2005,1.1
+13028,X06,Africa,2006,0.94
+13312,X06,Africa,2007,0.818
+13596,X06,Africa,2008,0.754
+13880,X06,Africa,2009,1.011
+14164,X06,Africa,2010,1.541
+14448,X06,Africa,2011,0.949
+14732,X06,Africa,2012,0.781
+15016,X06,Africa,2013,1.014
+15300,X06,Africa,2014,1.036
+15584,X06,Africa,2015,1.208
+15868,X06,Africa,2016,1.442
+16152,X06,Africa,2017,1.224
+16436,X06,Africa,2018,1.222
+16720,X06,Africa,2019,1.415
+249,,Eastern Africa,1961,0.252
+533,,Eastern Africa,1962,-0.12
+817,,Eastern Africa,1963,-0.212
+1101,,Eastern Africa,1964,-0.273
+1385,,Eastern Africa,1965,-0.374
+1669,,Eastern Africa,1966,0.124
+1953,,Eastern Africa,1967,-0.042
+2237,,Eastern Africa,1968,-0.38
+2521,,Eastern Africa,1969,0.253
+2805,,Eastern Africa,1970,0.26
+3089,,Eastern Africa,1971,-0.238
+3373,,Eastern Africa,1972,-0.025
+3657,,Eastern Africa,1973,0.382
+3941,,Eastern Africa,1974,-0.236
+4225,,Eastern Africa,1975,-0.124
+4509,,Eastern Africa,1976,-0.064
+4793,,Eastern Africa,1977,0.31
+5077,,Eastern Africa,1978,0.155
+5361,,Eastern Africa,1979,0.174
+5645,,Eastern Africa,1980,0.391
+5929,,Eastern Africa,1981,0.066
+6213,,Eastern Africa,1982,0.218
+6497,,Eastern Africa,1983,0.612
+6781,,Eastern Africa,1984,0.248
+7065,,Eastern Africa,1985,0.131
+7349,,Eastern Africa,1986,0.12
+7633,,Eastern Africa,1987,0.658
+7917,,Eastern Africa,1988,0.667
+8201,,Eastern Africa,1989,0.033
+8485,,Eastern Africa,1990,0.372
+8769,,Eastern Africa,1991,0.315
+9053,,Eastern Africa,1992,0.492
+9337,,Eastern Africa,1993,0.182
+9621,,Eastern Africa,1994,0.393
+9905,,Eastern Africa,1995,0.607
+10189,,Eastern Africa,1996,0.461
+10473,,Eastern Africa,1997,0.543
+10757,,Eastern Africa,1998,0.741
+11041,,Eastern Africa,1999,0.268
+11325,,Eastern Africa,2000,0.432
+11609,,Eastern Africa,2001,0.547
+11893,,Eastern Africa,2002,0.772
+12177,,Eastern Africa,2003,0.874
+12461,,Eastern Africa,2004,0.596
+12745,,Eastern Africa,2005,1.051
+13029,,Eastern Africa,2006,0.792
+13313,,Eastern Africa,2007,0.76
+13597,,Eastern Africa,2008,0.613
+13881,,Eastern Africa,2009,0.986
+14165,,Eastern Africa,2010,1.233
+14449,,Eastern Africa,2011,0.983
+14733,,Eastern Africa,2012,0.99
+15017,,Eastern Africa,2013,0.96
+15301,,Eastern Africa,2014,0.971
+15585,,Eastern Africa,2015,1.353
+15869,,Eastern Africa,2016,1.338
+16153,,Eastern Africa,2017,1.304
+16437,,Eastern Africa,2018,0.983
+16721,,Eastern Africa,2019,1.515
+250,,Middle Africa,1961,-0.1
+534,,Middle Africa,1962,-0.176
+818,,Middle Africa,1963,0.038
+1102,,Middle Africa,1964,-0.16
+1386,,Middle Africa,1965,-0.154
+1670,,Middle Africa,1966,0.088
+1954,,Middle Africa,1967,-0.172
+2238,,Middle Africa,1968,-0.16
+2522,,Middle Africa,1969,0.231
+2806,,Middle Africa,1970,0.21
+3090,,Middle Africa,1971,-0.141
+3374,,Middle Africa,1972,0.059
+3658,,Middle Africa,1973,0.523
+3942,,Middle Africa,1974,-0.09
+4226,,Middle Africa,1975,-0.107
+4510,,Middle Africa,1976,-0.133
+4794,,Middle Africa,1977,0.195
+5078,,Middle Africa,1978,0.045
+5362,,Middle Africa,1979,0.382
+5646,,Middle Africa,1980,0.314
+5930,,Middle Africa,1981,0.033
+6214,,Middle Africa,1982,0.124
+6498,,Middle Africa,1983,0.3
+6782,,Middle Africa,1984,0.304
+7066,,Middle Africa,1985,0.203
+7350,,Middle Africa,1986,0.277
+7634,,Middle Africa,1987,0.467
+7918,,Middle Africa,1988,0.334
+8202,,Middle Africa,1989,-0.203
+8486,,Middle Africa,1990,0.334
+8770,,Middle Africa,1991,0.317
+9054,,Middle Africa,1992,-0.183
+9338,,Middle Africa,1993,0.178
+9622,,Middle Africa,1994,0.324
+9906,,Middle Africa,1995,0.43
+10190,,Middle Africa,1996,0.231
+10474,,Middle Africa,1997,0.443
+10758,,Middle Africa,1998,0.993
+11042,,Middle Africa,1999,0.454
+11326,,Middle Africa,2000,0.393
+11610,,Middle Africa,2001,0.271
+11894,,Middle Africa,2002,0.725
+12178,,Middle Africa,2003,0.817
+12462,,Middle Africa,2004,0.699
+12746,,Middle Africa,2005,0.994
+13030,,Middle Africa,2006,0.875
+13314,,Middle Africa,2007,0.658
+13598,,Middle Africa,2008,0.547
+13882,,Middle Africa,2009,0.895
+14166,,Middle Africa,2010,1.191
+14450,,Middle Africa,2011,0.758
+14734,,Middle Africa,2012,0.504
+15018,,Middle Africa,2013,0.863
+15302,,Middle Africa,2014,0.799
+15586,,Middle Africa,2015,1.095
+15870,,Middle Africa,2016,1.325
+16154,,Middle Africa,2017,1.097
+16438,,Middle Africa,2018,1.279
+16722,,Middle Africa,2019,1.476
+251,,Northern Africa,1961,-0.03
+535,,Northern Africa,1962,0.129
+819,,Northern Africa,1963,0.192
+1103,,Northern Africa,1964,-0.083
+1387,,Northern Africa,1965,-0.153
+1671,,Northern Africa,1966,0.25
+1955,,Northern Africa,1967,-0.35
+2239,,Northern Africa,1968,-0.163
+2523,,Northern Africa,1969,0.406
+2807,,Northern Africa,1970,0.048
+3091,,Northern Africa,1971,-0.329
+3375,,Northern Africa,1972,-0.146
+3659,,Northern Africa,1973,0.091
+3943,,Northern Africa,1974,-0.29
+4227,,Northern Africa,1975,-0.359
+4511,,Northern Africa,1976,-0.458
+4795,,Northern Africa,1977,0.221
+5079,,Northern Africa,1978,-0.045
+5363,,Northern Africa,1979,0.561
+5647,,Northern Africa,1980,0.242
+5931,,Northern Africa,1981,0.138
+6215,,Northern Africa,1982,0.195
+6499,,Northern Africa,1983,0.046
+6783,,Northern Africa,1984,0.153
+7067,,Northern Africa,1985,0.363
+7351,,Northern Africa,1986,0.314
+7635,,Northern Africa,1987,0.545
+7919,,Northern Africa,1988,0.826
+8203,,Northern Africa,1989,0.1
+8487,,Northern Africa,1990,0.765
+8771,,Northern Africa,1991,0.303
+9055,,Northern Africa,1992,-0.211
+9339,,Northern Africa,1993,0.417
+9623,,Northern Africa,1994,0.595
+9907,,Northern Africa,1995,0.527
+10191,,Northern Africa,1996,0.68
+10475,,Northern Africa,1997,0.68
+10759,,Northern Africa,1998,0.915
+11043,,Northern Africa,1999,1.081
+11327,,Northern Africa,2000,0.579
+11611,,Northern Africa,2001,1.197
+11895,,Northern Africa,2002,1.119
+12179,,Northern Africa,2003,1.187
+12463,,Northern Africa,2004,0.984
+12747,,Northern Africa,2005,1.075
+13031,,Northern Africa,2006,1.155
+13315,,Northern Africa,2007,0.85
+13599,,Northern Africa,2008,1.041
+13883,,Northern Africa,2009,1.16
+14167,,Northern Africa,2010,2.057
+14451,,Northern Africa,2011,1.197
+14735,,Northern Africa,2012,1.094
+15019,,Northern Africa,2013,1.24
+15303,,Northern Africa,2014,1.515
+15587,,Northern Africa,2015,1.097
+15871,,Northern Africa,2016,1.712
+16155,,Northern Africa,2017,1.212
+16439,,Northern Africa,2018,1.519
+16723,,Northern Africa,2019,1.175
+252,,Southern Africa,1961,0.212
+536,,Southern Africa,1962,0.13
+820,,Southern Africa,1963,0.013
+1104,,Southern Africa,1964,-0.058
+1388,,Southern Africa,1965,-0.01
+1672,,Southern Africa,1966,0.248
+1956,,Southern Africa,1967,-0.179
+2240,,Southern Africa,1968,-0.27
+2524,,Southern Africa,1969,0.254
+2808,,Southern Africa,1970,0.457
+3092,,Southern Africa,1971,-0.129
+3376,,Southern Africa,1972,-0.029
+3660,,Southern Africa,1973,0.484
+3944,,Southern Africa,1974,-0.508
+4228,,Southern Africa,1975,-0.134
+4512,,Southern Africa,1976,-0.598
+4796,,Southern Africa,1977,0.171
+5080,,Southern Africa,1978,-0.035
+5364,,Southern Africa,1979,0.351
+5648,,Southern Africa,1980,0.127
+5932,,Southern Africa,1981,-0.276
+6216,,Southern Africa,1982,0.275
+6500,,Southern Africa,1983,0.747
+6784,,Southern Africa,1984,0.556
+7068,,Southern Africa,1985,0.508
+7352,,Southern Africa,1986,0.329
+7636,,Southern Africa,1987,0.895
+7920,,Southern Africa,1988,0.286
+8204,,Southern Africa,1989,-0.226
+8488,,Southern Africa,1990,0.53
+8772,,Southern Africa,1991,0.238
+9056,,Southern Africa,1992,0.777
+9340,,Southern Africa,1993,0.76
+9624,,Southern Africa,1994,0.154
+9908,,Southern Africa,1995,0.881
+10192,,Southern Africa,1996,-0.065
+10476,,Southern Africa,1997,0.161
+10760,,Southern Africa,1998,1.036
+11044,,Southern Africa,1999,0.955
+11328,,Southern Africa,2000,0.024
+11612,,Southern Africa,2001,0.381
+11896,,Southern Africa,2002,0.613
+12180,,Southern Africa,2003,0.993
+12464,,Southern Africa,2004,0.791
+12748,,Southern Africa,2005,1.118
+13032,,Southern Africa,2006,0.083
+13316,,Southern Africa,2007,0.846
+13600,,Southern Africa,2008,0.659
+13884,,Southern Africa,2009,0.601
+14168,,Southern Africa,2010,1.295
+14452,,Southern Africa,2011,0.248
+14736,,Southern Africa,2012,0.522
+15020,,Southern Africa,2013,0.884
+15304,,Southern Africa,2014,0.611
+15588,,Southern Africa,2015,1.439
+15872,,Southern Africa,2016,1.647
+16156,,Southern Africa,2017,0.874
+16440,,Southern Africa,2018,1.159
+16724,,Southern Africa,2019,1.911
+253,,Western Africa,1961,-0.289
+537,,Western Africa,1962,-0.12
+821,,Western Africa,1963,0.22
+1105,,Western Africa,1964,-0.159
+1389,,Western Africa,1965,-0.203
+1673,,Western Africa,1966,0.005
+1957,,Western Africa,1967,-0.241
+2241,,Western Africa,1968,-0.167
+2525,,Western Africa,1969,0.56
+2809,,Western Africa,1970,0.33
+3093,,Western Africa,1971,-0.116
+3377,,Western Africa,1972,0.166
+3661,,Western Africa,1973,0.566
+3945,,Western Africa,1974,-0.206
+4229,,Western Africa,1975,-0.333
+4513,,Western Africa,1976,-0.179
+4797,,Western Africa,1977,0.233
+5081,,Western Africa,1978,0.25
+5365,,Western Africa,1979,0.666
+5649,,Western Africa,1980,0.67
+5933,,Western Africa,1981,0.337
+6217,,Western Africa,1982,0.319
+6501,,Western Africa,1983,0.667
+6785,,Western Africa,1984,0.603
+7069,,Western Africa,1985,0.403
+7353,,Western Africa,1986,0.397
+7637,,Western Africa,1987,0.982
+7921,,Western Africa,1988,0.679
+8205,,Western Africa,1989,0.05
+8489,,Western Africa,1990,0.793
+8773,,Western Africa,1991,0.712
+9057,,Western Africa,1992,0.194
+9341,,Western Africa,1993,0.712
+9625,,Western Africa,1994,0.412
+9909,,Western Africa,1995,0.66
+10193,,Western Africa,1996,1.078
+10477,,Western Africa,1997,0.84
+10761,,Western Africa,1998,1.185
+11045,,Western Africa,1999,0.6
+11329,,Western Africa,2000,0.767
+11613,,Western Africa,2001,0.655
+11897,,Western Africa,2002,1.011
+12181,,Western Africa,2003,1.063
+12465,,Western Africa,2004,0.993
+12749,,Western Africa,2005,1.289
+13033,,Western Africa,2006,1.235
+13317,,Western Africa,2007,0.994
+13601,,Western Africa,2008,0.764
+13885,,Western Africa,2009,1.131
+14169,,Western Africa,2010,1.624
+14453,,Western Africa,2011,1.181
+14737,,Western Africa,2012,0.672
+15021,,Western Africa,2013,1.067
+15305,,Western Africa,2014,1.073
+15589,,Western Africa,2015,1.191
+15873,,Western Africa,2016,1.322
+16157,,Western Africa,2017,1.441
+16441,,Western Africa,2018,1.142
+16725,,Western Africa,2019,1.266
+254,X21,Americas,1961,0.052
+538,X21,Americas,1962,-0.084
+822,X21,Americas,1963,0.253
+1106,X21,Americas,1964,-0.251
+1390,X21,Americas,1965,-0.304
+1674,X21,Americas,1966,-0.101
+1958,X21,Americas,1967,-0.107
+2242,X21,Americas,1968,0.006
+2526,X21,Americas,1969,0.11
+2810,X21,Americas,1970,0.159
+3094,X21,Americas,1971,-0.24
+3378,X21,Americas,1972,-0.448
+3662,X21,Americas,1973,0.173
+3946,X21,Americas,1974,-0.286
+4230,X21,Americas,1975,-0.125
+4514,X21,Americas,1976,-0.133
+4798,X21,Americas,1977,0.499
+5082,X21,Americas,1978,-0.064
+5366,X21,Americas,1979,-0.06
+5650,X21,Americas,1980,0.509
+5934,X21,Americas,1981,0.698
+6218,X21,Americas,1982,-0.084
+6502,X21,Americas,1983,0.455
+6786,X21,Americas,1984,0.08
+7070,X21,Americas,1985,-0.002
+7354,X21,Americas,1986,0.297
+7638,X21,Americas,1987,0.835
+7922,X21,Americas,1988,0.561
+8206,X21,Americas,1989,0.188
+8490,X21,Americas,1990,0.371
+8774,X21,Americas,1991,0.408
+9058,X21,Americas,1992,0.255
+9342,X21,Americas,1993,0.274
+9626,X21,Americas,1994,0.506
+9910,X21,Americas,1995,0.713
+10194,X21,Americas,1996,0.189
+10478,X21,Americas,1997,0.565
+10762,X21,Americas,1998,1.421
+11046,X21,Americas,1999,0.809
+11330,X21,Americas,2000,0.735
+11614,X21,Americas,2001,0.852
+11898,X21,Americas,2002,0.789
+12182,X21,Americas,2003,0.999
+12466,X21,Americas,2004,0.694
+12750,X21,Americas,2005,1.048
+13034,X21,Americas,2006,1.234
+13318,X21,Americas,2007,0.941
+13602,X21,Americas,2008,0.593
+13886,X21,Americas,2009,0.709
+14170,X21,Americas,2010,1.33
+14454,X21,Americas,2011,0.872
+14738,X21,Americas,2012,1.352
+15022,X21,Americas,2013,0.864
+15306,X21,Americas,2014,0.733
+15590,X21,Americas,2015,1.361
+15874,X21,Americas,2016,1.755
+16158,X21,Americas,2017,1.34
+16442,X21,Americas,2018,0.96
+16726,X21,Americas,2019,1.246
+255,,Northern America,1961,0.017
+539,,Northern America,1962,-0.058
+823,,Northern America,1963,0.372
+1107,,Northern America,1964,-0.285
+1391,,Northern America,1965,-0.594
+1675,,Northern America,1966,-0.185
+1959,,Northern America,1967,-0.195
+2243,,Northern America,1968,0.196
+2527,,Northern America,1969,-0.138
+2811,,Northern America,1970,0.194
+3095,,Northern America,1971,-0.227
+3379,,Northern America,1972,-1.028
+3663,,Northern America,1973,0.128
+3947,,Northern America,1974,-0.376
+4231,,Northern America,1975,-0.093
+4515,,Northern America,1976,-0.021
+4799,,Northern America,1977,0.746
+5083,,Northern America,1978,-0.29
+5367,,Northern America,1979,-0.243
+5651,,Northern America,1980,0.675
+5935,,Northern America,1981,1.193
+6219,,Northern America,1982,-0.508
+6503,,Northern America,1983,0.471
+6787,,Northern America,1984,0.038
+7071,,Northern America,1985,-0.144
+7355,,Northern America,1986,0.302
+7639,,Northern America,1987,1.11
+7923,,Northern America,1988,0.839
+8207,,Northern America,1989,0.147
+8491,,Northern America,1990,0.363
+8775,,Northern America,1991,0.419
+9059,,Northern America,1992,0.226
+9343,,Northern America,1993,0.154
+9627,,Northern America,1994,0.451
+9911,,Northern America,1995,0.766
+10195,,Northern America,1996,-0.055
+10479,,Northern America,1997,0.403
+10763,,Northern America,1998,1.864
+11047,,Northern America,1999,1.219
+11331,,Northern America,2000,1.141
+11615,,Northern America,2001,1.102
+11899,,Northern America,2002,0.757
+12183,,Northern America,2003,1.147
+12467,,Northern America,2004,0.696
+12751,,Northern America,2005,1.235
+13035,,Northern America,2006,1.692
+13319,,Northern America,2007,1.237
+13603,,Northern America,2008,0.537
+13887,,Northern America,2009,0.473
+14171,,Northern America,2010,1.826
+14455,,Northern America,2011,1.002
+14739,,Northern America,2012,1.786
+15023,,Northern America,2013,0.902
+15307,,Northern America,2014,0.389
+15591,,Northern America,2015,1.33
+15875,,Northern America,2016,2.273
+16159,,Northern America,2017,1.426
+16443,,Northern America,2018,0.873
+16727,,Northern America,2019,1.179
+256,,Central America,1961,-0.139
+540,,Central America,1962,0.114
+824,,Central America,1963,0.154
+1108,,Central America,1964,-0.261
+1392,,Central America,1965,-0.076
+1676,,Central America,1966,-0.196
+1960,,Central America,1967,-0.148
+2244,,Central America,1968,-0.4
+2528,,Central America,1969,0.195
+2812,,Central America,1970,-0.261
+3096,,Central America,1971,-0.096
+3380,,Central America,1972,0.296
+3664,,Central America,1973,-0.044
+3948,,Central America,1974,-0.127
+4232,,Central America,1975,-0.245
+4516,,Central America,1976,-0.405
+4800,,Central America,1977,0.092
+5084,,Central America,1978,0.206
+5368,,Central America,1979,0.042
+5652,,Central America,1980,0.436
+5936,,Central America,1981,0.168
+6220,,Central America,1982,0.583
+6504,,Central America,1983,0.19
+6788,,Central America,1984,-0.049
+7072,,Central America,1985,0.104
+7356,,Central America,1986,0.268
+7640,,Central America,1987,-0.014
+7924,,Central America,1988,0.206
+8208,,Central America,1989,0.397
+8492,,Central America,1990,0.272
+8776,,Central America,1991,0.307
+9060,,Central America,1992,0.151
+9344,,Central America,1993,0.334
+9628,,Central America,1994,0.689
+9912,,Central America,1995,0.77
+10196,,Central America,1996,0.459
+10480,,Central America,1997,0.544
+10764,,Central America,1998,0.783
+11048,,Central America,1999,0.544
+11332,,Central America,2000,0.522
+11616,,Central America,2001,0.516
+11900,,Central America,2002,0.689
+12184,,Central America,2003,0.823
+12468,,Central America,2004,0.358
+12752,,Central America,2005,0.761
+13036,,Central America,2006,0.808
+13320,,Central America,2007,0.531
+13604,,Central America,2008,0.522
+13888,,Central America,2009,1.028
+14172,,Central America,2010,0.393
+14456,,Central America,2011,0.935
+14740,,Central America,2012,0.827
+15024,,Central America,2013,0.772
+15308,,Central America,2014,0.824
+15592,,Central America,2015,1.094
+15876,,Central America,2016,1.284
+16160,,Central America,2017,1.425
+16444,,Central America,2018,1.121
+16728,,Central America,2019,1.307
+258,,South America,1961,0.116
+542,,South America,1962,-0.139
+826,,South America,1963,0.139
+1110,,South America,1964,-0.217
+1394,,South America,1965,-0.015
+1678,,South America,1966,0.007
+1962,,South America,1967,-0.001
+2246,,South America,1968,-0.147
+2530,,South America,1969,0.374
+2814,,South America,1970,0.184
+3098,,South America,1971,-0.277
+3382,,South America,1972,0.085
+3666,,South America,1973,0.251
+3950,,South America,1974,-0.209
+4234,,South America,1975,-0.149
+4518,,South America,1976,-0.217
+4802,,South America,1977,0.285
+5086,,South America,1978,0.148
+5370,,South America,1979,0.125
+5654,,South America,1980,0.335
+5938,,South America,1981,0.228
+6222,,South America,1982,0.289
+6506,,South America,1983,0.476
+6790,,South America,1984,0.144
+7074,,South America,1985,0.14
+7358,,South America,1986,0.296
+7642,,South America,1987,0.649
+7926,,South America,1988,0.3
+8210,,South America,1989,0.203
+8494,,South America,1990,0.389
+8778,,South America,1991,0.408
+9062,,South America,1992,0.299
+9346,,South America,1993,0.396
+9630,,South America,1994,0.536
+9914,,South America,1995,0.642
+10198,,South America,1996,0.418
+10482,,South America,1997,0.744
+10766,,South America,1998,1.017
+11050,,South America,1999,0.387
+11334,,South America,2000,0.312
+11618,,South America,2001,0.623
+11902,,South America,2002,0.837
+12186,,South America,2003,0.856
+12470,,South America,2004,0.738
+12754,,South America,2005,0.883
+13038,,South America,2006,0.786
+13322,,South America,2007,0.666
+13606,,South America,2008,0.666
+13890,,South America,2009,0.933
+14174,,South America,2010,0.906
+14458,,South America,2011,0.721
+14742,,South America,2012,0.943
+15026,,South America,2013,0.834
+15310,,South America,2014,1.105
+15594,,South America,2015,1.435
+15878,,South America,2016,1.242
+16162,,South America,2017,1.232
+16446,,South America,2018,1.034
+16730,,South America,2019,1.31
+259,,Asia,1961,0.049
+543,,Asia,1962,-0.008
+827,,Asia,1963,0.266
+1111,,Asia,1964,-0.166
+1395,,Asia,1965,-0.033
+1679,,Asia,1966,0.326
+1963,,Asia,1967,-0.308
+2247,,Asia,1968,-0.337
+2531,,Asia,1969,-0.017
+2815,,Asia,1970,0.073
+3099,,Asia,1971,-0.122
+3383,,Asia,1972,-0.164
+3667,,Asia,1973,0.251
+3951,,Asia,1974,-0.132
+4235,,Asia,1975,0.018
+4519,,Asia,1976,-0.328
+4803,,Asia,1977,0.101
+5087,,Asia,1978,0.162
+5371,,Asia,1979,0.448
+5655,,Asia,1980,0.28
+5939,,Asia,1981,0.207
+6223,,Asia,1982,0.109
+6507,,Asia,1983,-0.013
+6791,,Asia,1984,-0.118
+7075,,Asia,1985,0.016
+7359,,Asia,1986,0.056
+7643,,Asia,1987,0.406
+7927,,Asia,1988,0.423
+8211,,Asia,1989,0.259
+8495,,Asia,1990,0.527
+8779,,Asia,1991,0.39
+9063,,Asia,1992,-0.059
+9347,,Asia,1993,0.073
+9631,,Asia,1994,0.522
+9915,,Asia,1995,0.616
+10199,,Asia,1996,0.173
+10483,,Asia,1997,0.614
+10767,,Asia,1998,1.047
+11051,,Asia,1999,1.091
+11335,,Asia,2000,0.68
+11619,,Asia,2001,1.019
+11903,,Asia,2002,1.16
+12187,,Asia,2003,0.644
+12471,,Asia,2004,1.088
+12755,,Asia,2005,0.862
+13039,,Asia,2006,1.101
+13323,,Asia,2007,1.182
+13607,,Asia,2008,0.873
+13891,,Asia,2009,1.075
+14175,,Asia,2010,1.251
+14459,,Asia,2011,0.701
+14743,,Asia,2012,0.693
+15027,,Asia,2013,1.054
+15311,,Asia,2014,0.909
+15595,,Asia,2015,1.284
+15879,,Asia,2016,1.457
+16163,,Asia,2017,1.464
+16447,,Asia,2018,1.343
+16731,,Asia,2019,1.369
+261,,Eastern Asia,1961,0.27
+545,,Eastern Asia,1962,-0.124
+829,,Eastern Asia,1963,0.386
+1113,,Eastern Asia,1964,-0.026
+1397,,Eastern Asia,1965,0.159
+1681,,Eastern Asia,1966,0.202
+1965,,Eastern Asia,1967,-0.282
+2249,,Eastern Asia,1968,-0.468
+2533,,Eastern Asia,1969,-0.299
+2817,,Eastern Asia,1970,-0.313
+3101,,Eastern Asia,1971,0.01
+3385,,Eastern Asia,1972,0.048
+3669,,Eastern Asia,1973,0.451
+3953,,Eastern Asia,1974,-0.007
+4237,,Eastern Asia,1975,0.308
+4521,,Eastern Asia,1976,-0.37
+4805,,Eastern Asia,1977,-0.038
+5089,,Eastern Asia,1978,0.338
+5373,,Eastern Asia,1979,0.393
+5657,,Eastern Asia,1980,0.253
+5941,,Eastern Asia,1981,0.172
+6225,,Eastern Asia,1982,0.472
+6509,,Eastern Asia,1983,0.201
+6793,,Eastern Asia,1984,-0.183
+7077,,Eastern Asia,1985,-0.145
+7361,,Eastern Asia,1986,-0.015
+7645,,Eastern Asia,1987,0.396
+7929,,Eastern Asia,1988,0.415
+8213,,Eastern Asia,1989,0.565
+8497,,Eastern Asia,1990,0.958
+8781,,Eastern Asia,1991,0.598
+9065,,Eastern Asia,1992,0.234
+9349,,Eastern Asia,1993,0.292
+9633,,Eastern Asia,1994,0.826
+9917,,Eastern Asia,1995,0.655
+10201,,Eastern Asia,1996,0.217
+10485,,Eastern Asia,1997,0.885
+10769,,Eastern Asia,1998,1.389
+11053,,Eastern Asia,1999,1.291
+11337,,Eastern Asia,2000,0.628
+11621,,Eastern Asia,2001,1.1
+11905,,Eastern Asia,2002,1.196
+12189,,Eastern Asia,2003,0.764
+12473,,Eastern Asia,2004,1.201
+12757,,Eastern Asia,2005,1.022
+13041,,Eastern Asia,2006,1.192
+13325,,Eastern Asia,2007,1.676
+13609,,Eastern Asia,2008,1.172
+13893,,Eastern Asia,2009,1.323
+14177,,Eastern Asia,2010,0.868
+14461,,Eastern Asia,2011,0.775
+14745,,Eastern Asia,2012,0.563
+15029,,Eastern Asia,2013,1.048
+15313,,Eastern Asia,2014,1.166
+15597,,Eastern Asia,2015,1.385
+15881,,Eastern Asia,2016,1.339
+16165,,Eastern Asia,2017,1.681
+16449,,Eastern Asia,2018,1.483
+16733,,Eastern Asia,2019,1.485
+262,,Southern Asia,1961,-0.16
+546,,Southern Asia,1962,-0.24
+830,,Southern Asia,1963,0.272
+1114,,Southern Asia,1964,-0.285
+1398,,Southern Asia,1965,-0.174
+1682,,Southern Asia,1966,0.336
+1966,,Southern Asia,1967,-0.256
+2250,,Southern Asia,1968,-0.283
+2534,,Southern Asia,1969,0.045
+2818,,Southern Asia,1970,0.418
+3102,,Southern Asia,1971,-0.148
+3386,,Southern Asia,1972,-0.395
+3670,,Southern Asia,1973,0.162
+3954,,Southern Asia,1974,-0.231
+4238,,Southern Asia,1975,-0.321
+4522,,Southern Asia,1976,-0.214
+4806,,Southern Asia,1977,0.256
+5090,,Southern Asia,1978,-0.007
+5374,,Southern Asia,1979,0.355
+5658,,Southern Asia,1980,0.435
+5942,,Southern Asia,1981,0.264
+6226,,Southern Asia,1982,-0.152
+6510,,Southern Asia,1983,-0.175
+6794,,Southern Asia,1984,-0.072
+7078,,Southern Asia,1985,0.175
+7362,,Southern Asia,1986,0.057
+7646,,Southern Asia,1987,0.439
+7930,,Southern Asia,1988,0.57
+8214,,Southern Asia,1989,-0.042
+8498,,Southern Asia,1990,0.219
+8782,,Southern Asia,1991,0.095
+9066,,Southern Asia,1992,-0.314
+9350,,Southern Asia,1993,0.09
+9634,,Southern Asia,1994,0.265
+9918,,Southern Asia,1995,0.266
+10202,,Southern Asia,1996,0.142
+10486,,Southern Asia,1997,0.062
+10770,,Southern Asia,1998,0.665
+11054,,Southern Asia,1999,0.832
+11338,,Southern Asia,2000,0.608
+11622,,Southern Asia,2001,0.801
+11906,,Southern Asia,2002,1.028
+12190,,Southern Asia,2003,0.638
+12474,,Southern Asia,2004,0.853
+12758,,Southern Asia,2005,0.52
+13042,,Southern Asia,2006,1.038
+13326,,Southern Asia,2007,0.605
+13610,,Southern Asia,2008,0.456
+13894,,Southern Asia,2009,1.027
+14178,,Southern Asia,2010,1.384
+14462,,Southern Asia,2011,0.679
+14746,,Southern Asia,2012,0.49
+15030,,Southern Asia,2013,0.774
+15314,,Southern Asia,2014,0.581
+15598,,Southern Asia,2015,0.942
+15882,,Southern Asia,2016,1.223
+16166,,Southern Asia,2017,1.197
+16450,,Southern Asia,2018,1.241
+16734,,Southern Asia,2019,0.936
+263,,South-Eastern Asia,1961,-0.052
+547,,South-Eastern Asia,1962,-0.089
+831,,South-Eastern Asia,1963,-0.211
+1115,,South-Eastern Asia,1964,0.003
+1399,,South-Eastern Asia,1965,-0.238
+1683,,South-Eastern Asia,1966,0.235
+1967,,South-Eastern Asia,1967,-0.11
+2251,,South-Eastern Asia,1968,-0.083
+2535,,South-Eastern Asia,1969,0.271
+2819,,South-Eastern Asia,1970,0.077
+3103,,South-Eastern Asia,1971,-0.29
+3387,,South-Eastern Asia,1972,-0.003
+3671,,South-Eastern Asia,1973,0.323
+3955,,South-Eastern Asia,1974,-0.233
+4239,,South-Eastern Asia,1975,0.018
+4523,,South-Eastern Asia,1976,-0.213
+4807,,South-Eastern Asia,1977,0.064
+5091,,South-Eastern Asia,1978,0.151
+5375,,South-Eastern Asia,1979,0.34
+5659,,South-Eastern Asia,1980,0.279
+5943,,South-Eastern Asia,1981,0.241
+6227,,South-Eastern Asia,1982,0.04
+6511,,South-Eastern Asia,1983,0.354
+6795,,South-Eastern Asia,1984,-0.04
+7079,,South-Eastern Asia,1985,0.164
+7363,,South-Eastern Asia,1986,0.087
+7647,,South-Eastern Asia,1987,0.584
+7931,,South-Eastern Asia,1988,0.367
+8215,,South-Eastern Asia,1989,0.154
+8499,,South-Eastern Asia,1990,0.285
+8783,,South-Eastern Asia,1991,0.397
+9067,,South-Eastern Asia,1992,0.265
+9351,,South-Eastern Asia,1993,0.218
+9635,,South-Eastern Asia,1994,0.317
+9919,,South-Eastern Asia,1995,0.446
+10203,,South-Eastern Asia,1996,0.291
+10487,,South-Eastern Asia,1997,0.369
+10771,,South-Eastern Asia,1998,1.148
+11055,,South-Eastern Asia,1999,0.445
+11339,,South-Eastern Asia,2000,0.21
+11623,,South-Eastern Asia,2001,0.575
+11907,,South-Eastern Asia,2002,0.61
+12191,,South-Eastern Asia,2003,0.68
+12475,,South-Eastern Asia,2004,0.523
+12759,,South-Eastern Asia,2005,0.757
+13043,,South-Eastern Asia,2006,0.576
+13327,,South-Eastern Asia,2007,0.496
+13611,,South-Eastern Asia,2008,0.324
+13895,,South-Eastern Asia,2009,0.616
+14179,,South-Eastern Asia,2010,0.968
+14463,,South-Eastern Asia,2011,0.328
+14747,,South-Eastern Asia,2012,0.663
+15031,,South-Eastern Asia,2013,0.889
+15315,,South-Eastern Asia,2014,0.736
+15599,,South-Eastern Asia,2015,0.984
+15883,,South-Eastern Asia,2016,1.387
+16167,,South-Eastern Asia,2017,1.03
+16451,,South-Eastern Asia,2018,0.868
+16735,,South-Eastern Asia,2019,1.301
+264,,Western Asia,1961,-0.1
+548,,Western Asia,1962,0.705
+832,,Western Asia,1963,0.412
+1116,,Western Asia,1964,-0.508
+1400,,Western Asia,1965,-0.112
+1684,,Western Asia,1966,0.71
+1968,,Western Asia,1967,-0.641
+2252,,Western Asia,1968,-0.328
+2536,,Western Asia,1969,0.328
+2820,,Western Asia,1970,0.534
+3104,,Western Asia,1971,-0.253
+3388,,Western Asia,1972,-0.515
+3672,,Western Asia,1973,-0.195
+3956,,Western Asia,1974,-0.202
+4240,,Western Asia,1975,-0.212
+4524,,Western Asia,1976,-0.501
+4808,,Western Asia,1977,0.256
+5092,,Western Asia,1978,-0.023
+5376,,Western Asia,1979,0.826
+5660,,Western Asia,1980,0.117
+5944,,Western Asia,1981,0.176
+6228,,Western Asia,1982,-0.355
+6512,,Western Asia,1983,-0.665
+6796,,Western Asia,1984,-0.097
+7080,,Western Asia,1985,0.042
+7364,,Western Asia,1986,0.201
+7648,,Western Asia,1987,0.212
+7932,,Western Asia,1988,0.278
+8216,,Western Asia,1989,0.029
+8500,,Western Asia,1990,0.126
+8784,,Western Asia,1991,0.285
+9068,,Western Asia,1992,-1.029
+9352,,Western Asia,1993,-0.354
+9636,,Western Asia,1994,0.764
+9920,,Western Asia,1995,0.191
+10204,,Western Asia,1996,0.471
+10488,,Western Asia,1997,0.028
+10772,,Western Asia,1998,1.046
+11056,,Western Asia,1999,1.394
+11340,,Western Asia,2000,0.72
+11624,,Western Asia,2001,1.043
+11908,,Western Asia,2002,0.998
+12192,,Western Asia,2003,0.754
+12476,,Western Asia,2004,0.881
+12760,,Western Asia,2005,0.525
+13044,,Western Asia,2006,1.134
+13328,,Western Asia,2007,0.778
+13612,,Western Asia,2008,0.875
+13896,,Western Asia,2009,0.883
+14180,,Western Asia,2010,2.194
+14464,,Western Asia,2011,0.766
+14748,,Western Asia,2012,1.143
+15032,,Western Asia,2013,1.183
+15316,,Western Asia,2014,1.183
+15600,,Western Asia,2015,1.615
+15884,,Western Asia,2016,1.538
+16168,,Western Asia,2017,1.493
+16452,,Western Asia,2018,2.05
+16736,,Western Asia,2019,1.619
+265,,Europe,1961,0.874
+549,,Europe,1962,0.3
+833,,Europe,1963,0.103
+1117,,Europe,1964,-0.523
+1401,,Europe,1965,-0.43
+1685,,Europe,1966,0.724
+1969,,Europe,1967,0.174
+2253,,Europe,1968,0.048
+2537,,Europe,1969,-1.01
+2821,,Europe,1970,0.189
+3105,,Europe,1971,0.264
+3389,,Europe,1972,-0.148
+3673,,Europe,1973,0.173
+3957,,Europe,1974,0.02
+4241,,Europe,1975,0.838
+4525,,Europe,1976,-0.559
+4809,,Europe,1977,0.189
+5093,,Europe,1978,-0.166
+5377,,Europe,1979,0.138
+5661,,Europe,1980,-0.068
+5945,,Europe,1981,0.662
+6229,,Europe,1982,0.111
+6513,,Europe,1983,0.934
+6797,,Europe,1984,0.271
+7081,,Europe,1985,-0.605
+7365,,Europe,1986,0.259
+7649,,Europe,1987,-0.562
+7933,,Europe,1988,0.494
+8217,,Europe,1989,1.035
+8501,,Europe,1990,1.257
+8785,,Europe,1991,0.597
+9069,,Europe,1992,0.472
+9353,,Europe,1993,0.75
+9637,,Europe,1994,0.698
+9921,,Europe,1995,1.83
+10205,,Europe,1996,0.57
+10489,,Europe,1997,1.096
+10773,,Europe,1998,0.187
+11057,,Europe,1999,0.588
+11341,,Europe,2000,1.342
+11625,,Europe,2001,0.953
+11909,,Europe,2002,1.505
+12193,,Europe,2003,0.972
+12477,,Europe,2004,1.282
+12761,,Europe,2005,1.537
+13045,,Europe,2006,0.678
+13329,,Europe,2007,2.31
+13613,,Europe,2008,2.024
+13897,,Europe,2009,1.239
+14181,,Europe,2010,0.817
+14465,,Europe,2011,1.548
+14749,,Europe,2012,1.789
+15033,,Europe,2013,1.118
+15317,,Europe,2014,1.807
+15601,,Europe,2015,2.106
+15885,,Europe,2016,2.286
+16169,,Europe,2017,1.959
+16453,,Europe,2018,2.009
+16737,,Europe,2019,2.116
+266,,Eastern Europe,1961,0.85
+550,,Eastern Europe,1962,0.405
+834,,Eastern Europe,1963,0.209
+1118,,Eastern Europe,1964,-0.638
+1402,,Eastern Europe,1965,-0.429
+1686,,Eastern Europe,1966,0.894
+1970,,Eastern Europe,1967,0.123
+2254,,Eastern Europe,1968,0.109
+2538,,Eastern Europe,1969,-1.15
+2822,,Eastern Europe,1970,0.291
+3106,,Eastern Europe,1971,0.342
+3390,,Eastern Europe,1972,-0.189
+3674,,Eastern Europe,1973,0.15
+3958,,Eastern Europe,1974,-0.018
+4242,,Eastern Europe,1975,0.864
+4526,,Eastern Europe,1976,-0.645
+4810,,Eastern Europe,1977,0.234
+5094,,Eastern Europe,1978,-0.157
+5378,,Eastern Europe,1979,0.238
+5662,,Eastern Europe,1980,-0.041
+5946,,Eastern Europe,1981,0.784
+6230,,Eastern Europe,1982,0.082
+6514,,Eastern Europe,1983,0.99
+6798,,Eastern Europe,1984,0.301
+7082,,Eastern Europe,1985,-0.638
+7366,,Eastern Europe,1986,0.315
+7650,,Eastern Europe,1987,-0.602
+7934,,Eastern Europe,1988,0.469
+8218,,Eastern Europe,1989,1.0
+8502,,Eastern Europe,1990,1.244
+8786,,Eastern Europe,1991,0.627
+9070,,Eastern Europe,1992,0.397
+9354,,Eastern Europe,1993,0.838
+9638,,Eastern Europe,1994,0.651
+9922,,Eastern Europe,1995,1.995
+10206,,Eastern Europe,1996,0.693
+10490,,Eastern Europe,1997,1.148
+10774,,Eastern Europe,1998,0.049
+11058,,Eastern Europe,1999,0.475
+11342,,Eastern Europe,2000,1.346
+11626,,Eastern Europe,2001,0.89
+11910,,Eastern Europe,2002,1.584
+12194,,Eastern Europe,2003,0.915
+12478,,Eastern Europe,2004,1.346
+12762,,Eastern Europe,2005,1.626
+13046,,Eastern Europe,2006,0.556
+13330,,Eastern Europe,2007,2.471
+13614,,Eastern Europe,2008,2.173
+13898,,Eastern Europe,2009,1.224
+14182,,Eastern Europe,2010,0.91
+14466,,Eastern Europe,2011,1.613
+14750,,Eastern Europe,2012,1.913
+15034,,Eastern Europe,2013,1.174
+15318,,Eastern Europe,2014,1.738
+15602,,Eastern Europe,2015,2.209
+15886,,Eastern Europe,2016,2.412
+16170,,Eastern Europe,2017,2.042
+16454,,Eastern Europe,2018,2.066
+16738,,Eastern Europe,2019,2.221
+267,,Northern Europe,1961,1.271
+551,,Northern Europe,1962,-0.616
+835,,Northern Europe,1963,-0.438
+1119,,Northern Europe,1964,0.329
+1403,,Northern Europe,1965,-0.314
+1687,,Northern Europe,1966,-1.285
+1971,,Northern Europe,1967,0.599
+2255,,Northern Europe,1968,-0.854
+2539,,Northern Europe,1969,-0.302
+2823,,Northern Europe,1970,-0.68
+3107,,Northern Europe,1971,-0.046
+3391,,Northern Europe,1972,0.668
+3675,,Northern Europe,1973,0.823
+3959,,Northern Europe,1974,0.745
+4243,,Northern Europe,1975,1.2
+4527,,Northern Europe,1976,-0.059
+4811,,Northern Europe,1977,-0.385
+5095,,Northern Europe,1978,-0.13
+5379,,Northern Europe,1979,-0.972
+5663,,Northern Europe,1980,-0.308
+5947,,Northern Europe,1981,-0.244
+6231,,Northern Europe,1982,-0.081
+6515,,Northern Europe,1983,0.636
+6799,,Northern Europe,1984,0.524
+7083,,Northern Europe,1985,-0.787
+7367,,Northern Europe,1986,-0.418
+7651,,Northern Europe,1987,-0.906
+7935,,Northern Europe,1988,0.501
+8219,,Northern Europe,1989,1.657
+8503,,Northern Europe,1990,1.323
+8787,,Northern Europe,1991,0.846
+9071,,Northern Europe,1992,1.077
+9355,,Northern Europe,1993,0.575
+9639,,Northern Europe,1994,0.237
+9923,,Northern Europe,1995,1.194
+10207,,Northern Europe,1996,-0.077
+10491,,Northern Europe,1997,0.817
+10775,,Northern Europe,1998,0.482
+11059,,Northern Europe,1999,1.222
+11343,,Northern Europe,2000,1.482
+11627,,Northern Europe,2001,0.995
+11911,,Northern Europe,2002,1.327
+12195,,Northern Europe,2003,0.943
+12479,,Northern Europe,2004,1.177
+12763,,Northern Europe,2005,1.629
+13047,,Northern Europe,2006,1.328
+13331,,Northern Europe,2007,1.767
+13615,,Northern Europe,2008,1.698
+13899,,Northern Europe,2009,1.36
+14183,,Northern Europe,2010,0.02
+14467,,Northern Europe,2011,1.187
+14751,,Northern Europe,2012,1.15
+15035,,Northern Europe,2013,0.866
+15319,,Northern Europe,2014,2.346
+15603,,Northern Europe,2015,1.764
+15887,,Northern Europe,2016,1.737
+16171,,Northern Europe,2017,1.533
+16455,,Northern Europe,2018,1.651
+16739,,Northern Europe,2019,1.462
+268,,Southern Europe,1961,0.768
+552,,Southern Europe,1962,0.262
+836,,Southern Europe,1963,-0.188
+1120,,Southern Europe,1964,0.127
+1404,,Southern Europe,1965,-0.332
+1688,,Southern Europe,1966,0.468
+1972,,Southern Europe,1967,0.149
+2256,,Southern Europe,1968,0.09
+2540,,Southern Europe,1969,-0.221
+2824,,Southern Europe,1970,-0.026
+3108,,Southern Europe,1971,-0.451
+3392,,Southern Europe,1972,-0.422
+3676,,Southern Europe,1973,-0.166
+3960,,Southern Europe,1974,-0.258
+4244,,Southern Europe,1975,-0.006
+4528,,Southern Europe,1976,-0.467
+4812,,Southern Europe,1977,0.148
+5096,,Southern Europe,1978,-0.314
+5380,,Southern Europe,1979,0.164
+5664,,Southern Europe,1980,-0.136
+5948,,Southern Europe,1981,0.039
+6232,,Southern Europe,1982,0.446
+6516,,Southern Europe,1983,0.358
+6800,,Southern Europe,1984,-0.248
+7084,,Southern Europe,1985,0.145
+7368,,Southern Europe,1986,0.331
+7652,,Southern Europe,1987,0.297
+7936,,Southern Europe,1988,0.66
+8220,,Southern Europe,1989,0.631
+8504,,Southern Europe,1990,1.164
+8788,,Southern Europe,1991,0.07
+9072,,Southern Europe,1992,0.331
+9356,,Southern Europe,1993,0.089
+9640,,Southern Europe,1994,1.258
+9924,,Southern Europe,1995,0.813
+10208,,Southern Europe,1996,0.351
+10492,,Southern Europe,1997,0.905
+10776,,Southern Europe,1998,1.039
+11060,,Southern Europe,1999,0.779
+11344,,Southern Europe,2000,1.016
+11628,,Southern Europe,2001,1.438
+11912,,Southern Europe,2002,0.829
+12196,,Southern Europe,2003,1.313
+12480,,Southern Europe,2004,0.777
+12764,,Southern Europe,2005,0.593
+13048,,Southern Europe,2006,1.04
+13332,,Southern Europe,2007,1.232
+13616,,Southern Europe,2008,1.011
+13900,,Southern Europe,2009,1.266
+14184,,Southern Europe,2010,0.986
+14468,,Southern Europe,2011,1.266
+14752,,Southern Europe,2012,1.314
+15036,,Southern Europe,2013,1.077
+15320,,Southern Europe,2014,1.582
+15604,,Southern Europe,2015,1.567
+15888,,Southern Europe,2016,1.704
+16172,,Southern Europe,2017,1.645
+16456,,Southern Europe,2018,1.6
+16740,,Southern Europe,2019,1.627
+269,,Western Europe,1961,0.908
+553,,Western Europe,1962,-0.509
+837,,Western Europe,1963,-0.991
+1121,,Western Europe,1964,-0.133
+1405,,Western Europe,1965,-0.72
+1689,,Western Europe,1966,0.427
+1973,,Western Europe,1967,0.645
+2257,,Western Europe,1968,0.046
+2541,,Western Europe,1969,-0.04
+2825,,Western Europe,1970,-0.415
+3109,,Western Europe,1971,-0.079
+3393,,Western Europe,1972,-0.175
+3677,,Western Europe,1973,0.097
+3961,,Western Europe,1974,0.098
+4245,,Western Europe,1975,0.744
+4529,,Western Europe,1976,0.406
+4813,,Western Europe,1977,0.149
+5097,,Western Europe,1978,-0.229
+5381,,Western Europe,1979,-0.369
+5665,,Western Europe,1980,-0.202
+5949,,Western Europe,1981,0.177
+6233,,Western Europe,1982,0.623
+6517,,Western Europe,1983,0.867
+6801,,Western Europe,1984,-0.113
+7085,,Western Europe,1985,-0.545
+7369,,Western Europe,1986,0.011
+7653,,Western Europe,1987,-0.238
+7937,,Western Europe,1988,0.814
+8221,,Western Europe,1989,1.333
+8505,,Western Europe,1990,1.536
+8789,,Western Europe,1991,0.244
+9073,,Western Europe,1992,0.911
+9357,,Western Europe,1993,0.328
+9641,,Western Europe,1994,1.595
+9925,,Western Europe,1995,1.275
+10209,,Western Europe,1996,-0.206
+10493,,Western Europe,1997,0.904
+10777,,Western Europe,1998,1.045
+11061,,Western Europe,1999,1.245
+11345,,Western Europe,2000,1.443
+11629,,Western Europe,2001,1.365
+11913,,Western Europe,2002,1.267
+12197,,Western Europe,2003,1.573
+12481,,Western Europe,2004,0.984
+12765,,Western Europe,2005,1.0
+13049,,Western Europe,2006,1.264
+13333,,Western Europe,2007,1.735
+13617,,Western Europe,2008,1.241
+13901,,Western Europe,2009,1.257
+14185,,Western Europe,2010,0.328
+14469,,Western Europe,2011,1.358
+14753,,Western Europe,2012,1.3
+15037,,Western Europe,2013,0.675
+15321,,Western Europe,2014,2.25
+15605,,Western Europe,2015,1.649
+15889,,Western Europe,2016,1.867
+16173,,Western Europe,2017,1.721
+16457,,Western Europe,2018,2.202
+16741,,Western Europe,2019,2.137
+270,,Oceania,1961,0.116
+554,,Oceania,1962,0.14
+838,,Oceania,1963,-0.118
+1122,,Oceania,1964,-0.03
+1406,,Oceania,1965,0.067
+1690,,Oceania,1966,-0.231
+1974,,Oceania,1967,-0.104
+2258,,Oceania,1968,-0.195
+2542,,Oceania,1969,0.096
+2826,,Oceania,1970,0.032
+3110,,Oceania,1971,-0.016
+3394,,Oceania,1972,0.072
+3678,,Oceania,1973,0.795
+3962,,Oceania,1974,-0.297
+4246,,Oceania,1975,0.077
+4530,,Oceania,1976,-0.484
+4814,,Oceania,1977,0.156
+5098,,Oceania,1978,0.095
+5382,,Oceania,1979,0.351
+5666,,Oceania,1980,0.792
+5950,,Oceania,1981,0.444
+6234,,Oceania,1982,0.135
+6518,,Oceania,1983,0.559
+6802,,Oceania,1984,-0.151
+7086,,Oceania,1985,0.292
+7370,,Oceania,1986,0.327
+7654,,Oceania,1987,0.306
+7938,,Oceania,1988,0.875
+8222,,Oceania,1989,0.143
+8506,,Oceania,1990,0.488
+8790,,Oceania,1991,0.716
+9074,,Oceania,1992,0.202
+9358,,Oceania,1993,0.378
+9642,,Oceania,1994,0.163
+9926,,Oceania,1995,0.367
+10210,,Oceania,1996,0.518
+10494,,Oceania,1997,0.289
+10778,,Oceania,1998,1.038
+11062,,Oceania,1999,0.547
+11346,,Oceania,2000,0.143
+11630,,Oceania,2001,0.342
+11914,,Oceania,2002,0.703
+12198,,Oceania,2003,0.771
+12482,,Oceania,2004,0.632
+12766,,Oceania,2005,1.091
+13050,,Oceania,2006,0.614
+13334,,Oceania,2007,0.824
+13618,,Oceania,2008,0.543
+13902,,Oceania,2009,0.9
+14186,,Oceania,2010,0.666
+14470,,Oceania,2011,0.212
+14754,,Oceania,2012,0.276
+15038,,Oceania,2013,1.396
+15322,,Oceania,2014,1.083
+15606,,Oceania,2015,0.997
+15890,,Oceania,2016,1.163
+16174,,Oceania,2017,1.11
+16458,,Oceania,2018,1.096
+16742,,Oceania,2019,1.37
