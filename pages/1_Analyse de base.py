@@ -57,7 +57,7 @@ st.plotly_chart(fig, use_container_width=False, sharing="streamlit")
 fig = go.Figure()
 fig = px.bar(df_glob_month, x="month", y='Anomaly', animation_frame="Year",animation_group="month" ,range_y=[-2,2], 
              color='Anomaly',color_continuous_scale='RdYlBu_r' , orientation="v",color_continuous_midpoint=0, 
-             range_color=[df_glob_month["Anomaly"].min(), df_glob_month["Anomaly"].max()],labels={"Anomaly": "Anomalies <br>en °C"
+             range_color=[df_glob_month["Anomaly"].min(), df_glob_month["Anomaly"].max()],labels={"Anomaly": "Anomalies <br>en °C"}
              )
 fig.update_xaxes(
         tickangle = 45,
