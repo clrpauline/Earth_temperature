@@ -37,8 +37,10 @@ st.markdown("""
 La courbe représentant les anomalies de température mondiales est croissante avec un plateau, entre 1951 et 1980 expliqué par les moyennes prises sur cette période de référence pour construire les anomalies.
 
 On observe que la pente de la courbe est plus importante entre 1980 et 2020 qu’entre 1900 et 1940, signifiant une accélération du changement climatique
-""")
 
+Nous allons ensuite visualiser l'évolution de ces anomalies en fonction des mois de l'année. 
+""")
+st.subheader("Analyse des anomalies de température par mois depuis 1880")
 df_glob_month=pd.read_csv('ressources/df_glob_month.csv')
 df_glob_month2=df_glob_month.loc[df_glob_month['year']!=2022]
 fig = px.bar_polar(df_glob_month2, r="Anomaly", theta="month", color="Anomaly", animation_frame="year",animation_group="month",
@@ -55,11 +57,11 @@ st.plotly_chart(fig, use_container_width=False, sharing="streamlit")
 fig = go.Figure()
 fig = px.bar(df_glob_month, x="month", y='Anomaly', animation_frame="Year",animation_group="month" ,range_y=[-2,2], 
              color='Anomaly',color_continuous_scale='RdYlBu_r' , orientation="v",color_continuous_midpoint=0, 
-             range_color=[df_glob_month["Anomaly"].min(), df_glob_month["Anomaly"].max()]
+             range_color=[df_glob_month["Anomaly"].min(), df_glob_month["Anomaly"].max()],labels={"Anomaly": "Anomalies <br>en °C"
              )
 fig.update_xaxes(
         tickangle = 45,
         title_text = None)
 
-fig.update_layout(title_text="World global temperature anomaly from 1880 to 2021 <br><sup> Period Reference : mean 1951-1980")
+fig.update_layout(title_text="Anomalies de température mondiales de 1880 à2021 <br><sup> Période de référence : 1951-1980")
 st.plotly_chart(fig, use_container_width=False, sharing="streamlit")
