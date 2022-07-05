@@ -39,28 +39,19 @@ La courbe représentant les anomalies de température mondiales est croissante a
 On observe que la pente de la courbe est plus importante entre 1980 et 2020 qu’entre 1900 et 1940, signifiant une accélération du changement climatique
 """)
 
-
-df_zone=pd.read_csv('ressources/df_zone.csv')
-fig = px.bar_polar(df_zone, r="Anomalies", theta="Country Name", color="Anomalies", animation_frame="year",
-                   animation_group="Country Name" , color_continuous_scale= 'RdYlBu_r', color_continuous_midpoint=0, 
-                    range_color=[df_zone["Anomalies"].min(), df_zone["Anomalies"].max()],labels={"Anomalies": "Anomaly<br>in °C"}
+df_glob_month=pd.read_csv('ressources/df_glob_month.csv')
+df_glob_month2=df_glob_month.loc[df_glob_month['year']!=2022]
+fig = px.bar_polar(df_glob_month2, r="Anomaly", theta="month", color="Anomaly", animation_frame="year",animation_group="month",
+                   color_continuous_scale= 'RdYlBu_r', color_continuous_midpoint=0, 
+                    range_color=[df_glob_month["Anomaly"].min(), df_glob_month["Anomaly"].max()],
+                   range_r=[df_glob_month["Anomaly"].min(), df_glob_month["Anomaly"].max()],
+                   labels={"Anomaly": "Anomalies <br>en °C"}
                    )
-fig.update_layout(title_text="Anomaly per zone from 1961 to 2019 <br><sup> Period Reference : mean 1951-1980")
+fig.update_layout(title_text="Anomalies de température mondiales de 1880 à2021 <br><sup> Période de référence : 1951-1980")
 
 
 fig.update_polars(angularaxis_dtick=1, 
                   angularaxis_exponentformat="power")
-
 st.plotly_chart(fig, use_container_width=False, sharing="streamlit")
 
-fig = go.Figure()
-fig = px.bar(df_zone, x="Country Name", y='Anomalies', animation_frame="year",animation_group="Country Name" ,range_y=[-2,3], 
-             color='Anomalies',color_continuous_scale='RdYlBu_r' , orientation="v",color_continuous_midpoint=0, 
-             range_color=[df_zone["Anomalies"].min(), df_zone["Anomalies"].max()],labels={"Anomalies": "Anomaly<br>in °C"}
-             )
-fig.update_xaxes(
-        tickangle = 45,
-        title_text = None)
 
-fig.update_layout(title_text="Anomaly per zone from 1961 to 2019 <br><sup> Period Reference : mean 1951-1980")
-st.plotly_chart(fig, use_container_width=False, sharing="streamlit")
