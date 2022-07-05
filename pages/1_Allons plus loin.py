@@ -15,7 +15,7 @@ st.write("Graph additionnels kaggle: Boxplot, Relplot, polarplot...")
 df_country = pd.read_csv("ressources/df_country_kaggle.csv")
 df_zone = pd.read_csv("ressources/df_zone_kaggle.csv")
 
-col1, col2, col3 = st.columns(2)
+col1, col2 = st.columns(2)
 
 with col1:
     st.header("DataFrame par Pays") 
