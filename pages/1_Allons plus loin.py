@@ -11,5 +11,6 @@ st.title("Comparaison avec d'autres données")
 st.write("Introduction du dataframe Kaggle")
 st.write("Graph additionnels kaggle: Boxplot, Relplot, polarplot...")
 
+df_country = pd.read_csv("ressources/df_country_kaggle.csv")
 
-st.dataframe("ressources/df_country_kaggle.csv")
+st.dataframe(df_country)
