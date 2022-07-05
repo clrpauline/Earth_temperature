@@ -21,6 +21,7 @@ with col1:
     st.header(##"DataFrame par Pays") 
     st.dataframe(df_country ,1000, 500)
             
+
 with col2:
     st.header(##"DataFrame par Zone")    
     st.dataframe(df_zone, 1000, 500)
