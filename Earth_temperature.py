@@ -12,4 +12,4 @@ st.set_page_config(
     page_title="Earth Temperature",
     page_icon="👋",
 )
-st.title("Earth Temperature: Etude du réchauffement climatique de 1880 à 2100")
+st.title("Etude du réchauffement climatique de 1880 à 2100")
