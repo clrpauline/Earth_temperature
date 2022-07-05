@@ -11,7 +11,7 @@ st.set_page_config(
     page_icon="🌍",
 )
 
-st.sidebar.markdown("# Analyse Macro du dérèglement climatique 🌍")
+
 
 st.write("# Analyse Macro du dérèglement climatique 🌍")
 
@@ -27,7 +27,7 @@ Les données étudiées sont ainsi des anomalies de température mesurées par r
 """
 )
 
-df=pd.read_csv('ZonAnn.Ts+dSST.csv')
+df=pd.read_csv('ressources/ZonAnn.Ts+dSST.csv')
 fig = px.bar(df, x='Year', y='Glob', color='Glob',color_continuous_scale='RdYlBu_r', labels={"Glob": "Anomaly<br>in °C"})
 fig.update_layout(title_text="Temperature Anomaly from 1880 to 2021<br><sup> Period Reference : mean 1951-1980")
 st.plotly_chart(fig, use_container_width=False, sharing="streamlit")
@@ -39,7 +39,7 @@ On observe que la pente de la courbe est plus importante entre 1980 et 2020 qu�
 """)
 
 
-df_zone=pd.read_csv('df_zone.csv')
+df_zone=pd.read_csv('("ressources/df_zone_kaggle.csv')
 fig = px.bar_polar(df_zone, r="Anomalies", theta="Country Name", color="Anomalies", animation_frame="year",
                    animation_group="Country Name" , color_continuous_scale= 'RdYlBu_r', color_continuous_midpoint=0, 
                     range_color=[df_zone["Anomalies"].min(), df_zone["Anomalies"].max()],labels={"Anomalies": "Anomaly<br>in °C"}
