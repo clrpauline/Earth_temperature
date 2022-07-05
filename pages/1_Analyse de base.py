@@ -48,10 +48,18 @@ fig = px.bar_polar(df_glob_month2, r="Anomaly", theta="month", color="Anomaly", 
                    labels={"Anomaly": "Anomalies <br>en °C"}
                    )
 fig.update_layout(title_text="Anomalies de température mondiales de 1880 à2021 <br><sup> Période de référence : 1951-1980")
-
-
 fig.update_polars(angularaxis_dtick=1, 
                   angularaxis_exponentformat="power")
 st.plotly_chart(fig, use_container_width=False, sharing="streamlit")
 
+fig = go.Figure()
+fig = px.bar(df_glob_month, x="month", y='Anomaly', animation_frame="Year",animation_group="month" ,range_y=[-2,2], 
+             color='Anomaly',color_continuous_scale='RdYlBu_r' , orientation="v",color_continuous_midpoint=0, 
+             range_color=[df_glob_month["Anomaly"].min(), df_glob_month["Anomaly"].max()]
+             )
+fig.update_xaxes(
+        tickangle = 45,
+        title_text = None)
 
+fig.update_layout(title_text="World global temperature anomaly from 1880 to 2021 <br><sup> Period Reference : mean 1951-1980")
+st.plotly_chart(fig, use_container_width=False, sharing="streamlit")
