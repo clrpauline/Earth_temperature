@@ -8,6 +8,7 @@ import plotly
 import streamlit as st
 
 
+
 st.set_page_config(
     page_title="Earth Temperature",
     page_icon="🌍",
