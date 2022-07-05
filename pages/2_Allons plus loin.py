@@ -35,3 +35,29 @@ with col2:
     st.dataframe(df_zone, 1000, 500)
 
 
+    
+df_zone=pd.read_csv('ressources/df_zone.csv')
+fig = px.bar_polar(df_zone, r="Anomalies", theta="Country Name", color="Anomalies", animation_frame="year",
+                   animation_group="Country Name" , color_continuous_scale= 'RdYlBu_r', color_continuous_midpoint=0, 
+                    range_color=[df_zone["Anomalies"].min(), df_zone["Anomalies"].max()],labels={"Anomalies": "Anomaly<br>in °C"}
+                   )
+fig.update_layout(title_text="Anomaly per zone from 1961 to 2019 <br><sup> Period Reference : mean 1951-1980")
+
+
+fig.update_polars(angularaxis_dtick=1, 
+                  angularaxis_exponentformat="power")
+
+st.plotly_chart(fig, use_container_width=False, sharing="streamlit")
+
+fig = go.Figure()
+fig = px.bar(df_zone, x="Country Name", y='Anomalies', animation_frame="year",animation_group="Country Name" ,range_y=[-2,3], 
+             color='Anomalies',color_continuous_scale='RdYlBu_r' , orientation="v",color_continuous_midpoint=0, 
+             range_color=[df_zone["Anomalies"].min(), df_zone["Anomalies"].max()],labels={"Anomalies": "Anomaly<br>in °C"}
+             )
+fig.update_xaxes(
+        tickangle = 45,
+        title_text = None)
+
+fig.update_layout(title_text="Anomaly per zone from 1961 to 2019 <br><sup> Period Reference : mean 1951-1980")
+st.plotly_chart(fig, use_container_width=False, sharing="streamlit")
+
