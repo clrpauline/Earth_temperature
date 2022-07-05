@@ -7,6 +7,10 @@ import plotly.graph_objects as go
 import plotly
 import streamlit as st
 
+st.set_page_config(
+    page_title="Allons plus loin",
+    page_icon="🌍",
+)
 st.title("Comparaison avec d'autres données")
 st.write("Introduction du dataframe Kaggle")
 st.write("Graph additionnels kaggle: Boxplot, Relplot, polarplot...")
