@@ -7,5 +7,52 @@ import plotly.graph_objects as go
 import plotly
 import streamlit as st
 
-st.title ('Analyse et projections du dérèglement climatique global')
+#création du menu sidebar:
+with st.sidebar:
+    selected = option_menu(menu_title="Menu", 
+               options=["Introduction","Datasets de base","Autres données","Projections", "Bonus"])
+    
+#affichage option de menu Dataset de base:    
+if selected == "Introduction":
+        st.title("Analyse et projections du dérèglement climatique global")
+
+    
+    
+    
+    
+#affichage option de menu Dataset de base:    
+if selected == "Datasets de base":
+        st.title("Datasets de base")
+        st.markdown("N
+        dfg= dfg.astype("float")
+        st.dataframe(dfg)
+        
+        
+      
+                    
+                    
+                    
+#affichage option de menu Autres données:   
+if selected == "Autres données":
+        st.title("Autres données")    
+        st.dataframe(dfg)
+        
+        
+      
+                    
+                    
+                    
+#affichage option de menu Projections:           
+if selected == "Projections":
+        st.title("Projections")
+                 
+                 
+                 
+      
+                    
+                    
+                    
+#affichage option de menu Bonuss:                  
+if selected == "Bonus":
+        st.title("Bonus")
 
