@@ -1,0 +1,232 @@
+,index,Country,Annual,DJF,MAM,JJA,SON,Seuil
+0,0,Aruba,282.17,,,,,Invivable
+1,0,Afghanistan,23.59,,,,,Vivable
+2,0,Angola,11.91,2.5,3.34,0.37,4.11,Vivable
+3,0,Anguilla,188.98,9.63,9.63,83.68,84.75,Conditions Difficiles
+4,0,Albania,2.78,0.0,0.0,2.69,0.07,Vivable
+5,0,Andorra,0.64,0.0,0.0,0.64,0.0,Vivable
+6,0,Netherlands Antilles,276.15,43.69,52.65,91.33,90.08,Invivable
+7,0,United Arab Emirates,45.33,0.02,27.04,-4.74,26.55,Vivable
+8,0,Argentina,19.85,14.1,3.31,0.0,2.28,Vivable
+9,0,Armenia,0.06,0.0,0.0,0.06,0.0,Vivable
+10,0,American Samoa,270.29,87.05,88.07,40.38,54.68,Invivable
+11,0,Antigua and Barbuda,190.26,9.74,10.49,84.1,84.92,Conditions Difficiles
+12,0,Australia,52.92,33.77,10.57,0.2,9.37,Vivable
+13,0,Austria,0.28,0.0,0.0,0.28,0.0,Vivable
+14,0,Azerbaijan,38.52,,,,,Vivable
+15,0,Burundi,0.0,0.0,0.0,0.0,0.0,Vivable
+16,0,Belgium,0.3,0.0,0.0,0.3,0.0,Vivable
+17,0,Benin,209.29,15.43,54.94,81.41,68.97,Invivable
+18,0,Burkina Faso,139.38,1.4,39.78,53.39,52.01,Conditions Difficiles
+19,0,Bangladesh,35.73,0.22,32.29,-19.93,29.61,Vivable
+20,0,Bulgaria,3.96,0.0,0.0,3.91,0.0,Vivable
+21,0,Bahrain,-1.79,0.13,23.37,-40.99,7.53,Vivable
+22,0,"Bahamas, The",156.04,1.96,7.02,82.9,63.05,Conditions Difficiles
+23,0,Bosnia and Herzegovina,1.24,0.0,0.0,1.23,0.0,Vivable
+24,0,Belarus,2.41,0.0,0.0,2.4,0.0,Vivable
+25,0,Belize,193.66,5.8,51.35,82.54,58.17,Conditions Difficiles
+26,0,Bermuda,40.33,0.0,0.0,29.23,9.4,Vivable
+27,0,Bolivia,126.67,48.2,34.57,9.07,35.78,Conditions Difficiles
+28,0,Brazil,190.69,59.7,49.43,27.63,55.56,Conditions Difficiles
+29,0,Barbados,228.24,20.91,28.53,89.11,88.91,Invivable
+30,0,Brunei,237.25,51.1,62.53,65.57,62.3,Invivable
+31,0,Bhutan,18.78,0.0,0.95,16.4,2.04,Vivable
+32,0,Botswana,18.51,7.88,0.39,0.0,7.18,Vivable
+33,0,Central African Republic,110.2,3.22,50.07,34.07,23.06,Conditions Difficiles
+34,0,Canada,0.1,0.0,0.0,0.1,0.0,Vivable
+35,0,Cocos (Keeling) Islands,175.08,66.94,86.73,29.98,8.68,Conditions Difficiles
+36,0,Switzerland,0.01,0.0,0.0,0.01,0.0,Vivable
+37,0,Chile,0.0,0.0,0.0,0.0,0.0,Vivable
+38,0,China,21.59,0.0,2.46,16.59,3.11,Vivable
+39,0,Cote d'Ivoire,256.19,35.59,79.41,72.87,73.13,Invivable
+40,0,Cameroon,100.08,7.85,44.09,26.6,22.06,Conditions Difficiles
+41,0,Congo (Democratic Republic of the),124.75,23.87,43.86,25.19,37.27,Conditions Difficiles
+42,0,Congo (Republic of the),125.64,24.76,52.12,22.24,32.97,Conditions Difficiles
+43,0,Cook Islands,61.52,32.74,30.75,0.0,0.0,Vivable
+44,0,Colombia,215.5,51.11,57.08,55.72,58.71,Invivable
+45,0,Comoros,181.06,85.97,81.42,2.25,15.73,Conditions Difficiles
+46,0,Cape Verde,16.13,0.0,0.0,4.79,12.21,Vivable
+47,0,Costa Rica,151.72,16.26,42.07,50.93,49.75,Conditions Difficiles
+48,0,Cuba,171.45,1.32,15.29,88.2,67.86,Conditions Difficiles
+49,0,Christmas Island,217.98,80.92,88.59,31.61,28.18,Invivable
+50,0,Cayman Islands,258.92,25.79,47.65,90.55,89.03,Invivable
+51,0,Cyprus,52.48,0.0,0.0,42.59,7.88,Vivable
+52,0,Czech Republic,0.39,0.0,0.0,0.39,0.0,Vivable
+53,0,Germany,0.43,0.0,0.0,0.43,0.0,Vivable
+54,0,Djibouti,137.54,2.17,45.36,46.3,42.88,Conditions Difficiles
+55,0,Dominica,98.08,0.94,2.22,39.99,47.26,Vivable
+56,0,Denmark,0.0,0.0,0.0,0.0,0.0,Vivable
+57,0,Dominican Republic,110.42,2.49,7.89,52.15,49.65,Conditions Difficiles
+58,0,Algeria,72.94,0.0,5.19,55.0,11.97,Vivable
+59,0,Ecuador,98.81,26.17,29.84,24.08,27.89,Vivable
+60,0,Egypt,73.87,0.0,3.2,58.04,12.4,Vivable
+61,0,Eritrea,106.4,2.57,29.93,42.47,31.53,Conditions Difficiles
+62,0,Western Sahara,58.58,0.0,2.16,38.46,15.8,Vivable
+63,0,Spain,2.75,0.0,0.0,2.65,0.11,Vivable
+64,0,Estonia,0.2,0.0,0.0,0.2,0.0,Vivable
+65,0,Ethiopia,33.6,1.03,12.0,13.85,8.02,Vivable
+66,0,Finland,0.08,0.0,0.0,0.08,0.0,Vivable
+67,0,Fiji,93.4,45.07,45.48,0.78,0.91,Vivable
+68,0,Falkland Islands (Islas Malvinas),0.0,0.0,0.0,0.0,0.0,Vivable
+69,0,France,1.02,0.0,0.0,1.01,0.01,Vivable
+70,0,Faroe Islands,0.0,0.0,0.0,0.0,0.0,Vivable
+71,0,Federated States of Micronesia,348.39,86.18,88.15,91.37,88.66,Invivable
+72,0,Gabon,162.5,39.89,64.28,27.53,40.76,Conditions Difficiles
+73,0,United Kingdom,0.0,0.0,0.0,0.0,0.0,Vivable
+74,0,Georgia,1.92,0.0,0.0,1.9,0.0,Vivable
+75,0,Ghana,254.82,36.7,66.69,82.0,79.6,Invivable
+76,0,Gibraltar,36.47,0.0,0.0,30.55,3.65,Vivable
+77,0,Guinea,179.24,4.65,67.12,58.29,47.04,Conditions Difficiles
+78,0,Guadeloupe,176.05,5.5,9.33,76.91,80.29,Conditions Difficiles
+79,0,"Gambia, The",187.67,1.02,53.46,77.13,59.61,Conditions Difficiles
+80,0,Guinea-Bissau,228.38,3.71,69.54,86.82,70.06,Invivable
+81,0,Equatorial Guinea,119.41,24.85,62.01,19.59,23.77,Conditions Difficiles
+82,0,Greece,11.42,0.0,0.0,11.01,0.38,Vivable
+83,0,Grenada,255.89,25.53,47.05,91.26,89.83,Invivable
+84,0,Greenland,0.0,0.0,0.0,0.0,0.0,Vivable
+85,0,Guatemala,116.24,4.14,34.48,48.78,32.17,Conditions Difficiles
+86,0,French Guiana,214.5,20.92,46.11,63.21,79.76,Invivable
+87,0,Guam,311.25,65.05,74.56,91.18,89.8,Invivable
+88,0,Guyana,245.64,37.59,66.09,71.88,80.67,Invivable
+89,0,Honduras,89.29,7.46,24.5,32.24,28.23,Vivable
+90,0,Croatia,2.77,0.0,0.0,2.75,0.02,Vivable
+91,0,Haiti,134.65,3.81,13.61,63.31,56.08,Conditions Difficiles
+92,0,Hungary,4.57,0.0,0.0,4.56,0.0,Vivable
+93,0,Indonesia,248.45,62.77,70.22,57.21,61.83,Invivable
+94,0,India,78.91,1.52,34.87,17.0,31.46,Vivable
+95,0,British Indian Ocean Territory,314.35,87.47,91.95,66.45,69.38,Invivable
+96,0,Ireland,0.0,0.0,0.0,0.0,0.0,Vivable
+97,0,Iran,34.12,0.0,2.86,27.13,4.41,Vivable
+98,0,Iraq,68.64,0.0,6.28,47.93,16.64,Vivable
+99,0,Iceland,0.0,0.0,0.0,0.0,0.0,Vivable
+100,0,Israel,67.49,0.0,0.35,55.54,11.66,Vivable
+101,0,Italy,9.02,0.0,0.0,8.55,0.37,Vivable
+102,0,Jamaica,136.14,2.59,5.63,65.8,59.88,Conditions Difficiles
+103,0,Jordan,31.48,0.0,0.15,29.13,2.47,Vivable
+104,0,Japan,12.18,0.0,0.05,10.85,1.46,Vivable
+105,0,Kazakhstan,8.86,0.0,0.04,8.68,0.03,Vivable
+106,0,Kenya,78.36,18.92,34.16,10.06,19.42,Vivable
+107,0,Kyrgyz Republic,0.07,0.0,0.0,0.07,0.0,Vivable
+108,0,Cambodia,195.65,17.33,48.67,70.46,65.21,Conditions Difficiles
+109,0,Kiribati,331.09,84.95,87.36,81.48,79.39,Invivable
+110,0,St. Kitts and Nevis,179.88,7.08,7.8,79.95,82.15,Conditions Difficiles
+111,0,"Korea, Republic of",10.23,0.0,0.0,9.62,0.44,Vivable
+112,0,Kuwait,66.43,0.0,16.9,21.21,33.7,Vivable
+113,0,Laos,124.91,0.97,37.34,61.14,28.14,Conditions Difficiles
+114,0,Lebanon,17.26,0.0,0.02,13.35,3.29,Vivable
+115,0,Liberia,250.62,51.55,88.75,52.76,65.28,Invivable
+116,0,Libya,65.12,0.0,2.52,54.19,6.38,Vivable
+117,0,St. Lucia,196.7,10.3,17.2,83.1,84.9,Conditions Difficiles
+118,0,Liechtenstein,0.0,0.0,0.0,0.0,0.0,Vivable
+119,0,Sri Lanka,241.98,41.38,63.12,71.21,71.7,Invivable
+120,0,Lesotho,0.0,0.0,0.0,0.0,0.0,Vivable
+121,0,Lithuania,0.87,0.0,0.0,0.87,0.0,Vivable
+122,0,Luxembourg,0.36,0.0,0.0,0.36,0.0,Vivable
+123,0,Latvia,0.47,0.0,0.0,0.47,0.0,Vivable
+124,0,"Macao SAR, China",141.79,0.0,30.73,74.78,41.9,Conditions Difficiles
+125,0,Morocco,17.17,0.0,0.05,15.42,1.62,Vivable
+126,0,Monaco,0.0,0.0,0.0,0.0,0.0,Vivable
+127,0,Moldova,8.55,0.0,0.0,8.47,0.0,Vivable
+128,0,Madagascar,42.48,24.09,12.3,0.04,5.76,Vivable
+129,0,Maldives,345.43,81.7,88.93,91.43,88.05,Invivable
+130,0,Mexico,54.85,0.57,10.5,29.01,15.4,Vivable
+131,0,Marshall Islands,351.08,87.61,87.88,91.6,89.88,Invivable
+132,0,Macedonia,0.24,0.0,0.0,0.24,0.0,Vivable
+133,0,Mali,107.21,0.19,31.69,41.03,38.61,Conditions Difficiles
+134,0,Malta,51.85,0.0,0.0,44.03,8.79,Vivable
+135,0,Myanmar (Burma),107.83,1.92,30.94,48.64,29.84,Conditions Difficiles
+136,0,Republic of Montenegro,4.16,0.0,0.0,4.09,0.05,Vivable
+137,0,Mongolia,0.33,0.0,0.0,0.33,0.0,Vivable
+138,0,Northern Mariana Islands,285.52,53.25,62.84,89.77,88.29,Invivable
+139,0,Mozambique,82.88,46.88,16.83,0.04,20.06,Vivable
+140,0,Mauritania,92.16,0.02,22.18,40.11,33.74,Vivable
+141,0,Montserrat,188.03,9.15,10.33,83.25,84.43,Conditions Difficiles
+142,0,Martinique,84.08,1.26,2.37,32.35,40.25,Vivable
+143,0,Mauritius,63.74,41.45,29.54,0.0,0.0,Vivable
+144,0,Malawi,24.64,15.66,2.18,0.0,6.71,Vivable
+145,0,Malaysia,199.74,31.21,56.65,62.3,55.6,Conditions Difficiles
+146,0,Mayotte,200.58,89.35,85.75,4.07,26.7,Invivable
+147,0,Namibia,4.23,1.68,0.08,0.0,1.29,Vivable
+148,0,New Caledonia,23.55,13.17,10.18,0.0,0.0,Vivable
+149,0,Niger,104.76,0.03,21.5,55.15,28.82,Conditions Difficiles
+150,0,Norfolk Island,0.0,0.0,0.0,0.0,0.0,Vivable
+151,0,Nigeria,190.77,12.61,57.12,70.94,55.41,Conditions Difficiles
+152,0,Nicaragua,155.94,12.84,41.31,54.97,51.35,Conditions Difficiles
+153,0,Niue,105.28,50.29,54.08,0.43,0.65,Conditions Difficiles
+154,0,Netherlands,0.15,0.0,0.0,0.15,0.0,Vivable
+155,0,Norway,0.0,0.0,0.0,0.0,0.0,Vivable
+156,0,Nepal,26.42,0.0,6.61,14.59,6.36,Vivable
+157,0,Nauru,350.28,87.48,88.02,88.95,84.16,Invivable
+158,0,New Zealand,0.0,0.0,0.0,0.0,0.0,Vivable
+159,0,Oman,104.83,0.02,20.4,57.93,27.92,Conditions Difficiles
+160,0,Pakistan,27.35,0.0,14.68,1.67,11.8,Vivable
+161,0,Panama,213.93,22.69,54.71,68.86,69.1,Invivable
+162,0,Pitcairn Islands,19.7,8.1,11.78,0.0,0.0,Vivable
+163,0,Peru,124.27,36.2,32.74,23.92,36.44,Conditions Difficiles
+164,0,Philippines,223.12,30.24,54.54,73.44,67.25,Invivable
+165,0,Palau,355.71,87.16,89.06,91.9,90.89,Invivable
+166,0,Papua New Guinea,178.87,54.51,53.77,30.59,40.73,Conditions Difficiles
+167,0,Poland,1.36,0.0,0.0,1.36,0.0,Vivable
+168,0,Puerto Rico,144.7,2.4,3.98,66.62,66.18,Conditions Difficiles
+169,0,"Korea, Democratic People's Republic of",7.03,0.0,0.0,6.91,0.12,Vivable
+170,0,Portugal,1.44,0.0,0.0,1.42,0.01,Vivable
+171,0,Paraguay,122.89,62.37,26.74,0.51,30.51,Conditions Difficiles
+172,0,West Bank and Gaza,69.95,0.0,0.13,58.12,11.69,Vivable
+173,0,French Polynesia,141.95,51.31,58.75,16.13,14.07,Conditions Difficiles
+174,0,Qatar,23.69,0.08,24.98,-23.04,18.45,Vivable
+175,0,Reunion,11.62,7.5,3.49,0.0,0.0,Vivable
+176,0,Romania,4.66,0.0,0.0,4.6,0.0,Vivable
+177,0,Russia,0.99,0.0,0.0,0.98,0.0,Vivable
+178,0,Rwanda,0.0,0.0,0.0,0.0,0.0,Vivable
+179,0,Saudi Arabia,87.79,0.07,13.01,56.2,21.33,Vivable
+180,0,Sudan,135.06,0.25,25.14,73.94,36.79,Conditions Difficiles
+181,0,Senegal,155.15,0.75,45.16,62.83,50.43,Conditions Difficiles
+182,0,Singapore,349.58,81.07,88.85,91.43,90.65,Invivable
+183,0,St. Helena,18.0,6.78,11.13,0.11,0.0,Vivable
+184,0,Svalbard,0.0,0.0,0.0,0.0,0.0,Vivable
+185,0,Solomon Islands,236.92,77.15,80.14,39.91,46.37,Invivable
+186,0,Sierra Leone,257.14,41.45,87.3,72.05,70.83,Invivable
+187,0,El Salvador,72.6,6.17,21.5,26.21,21.81,Vivable
+188,0,San Marino,0.37,0.0,0.0,0.36,0.0,Vivable
+189,0,Somalia,166.35,23.45,54.79,48.02,47.44,Conditions Difficiles
+190,0,Republic of Serbia,4.06,0.0,0.0,4.03,0.0,Vivable
+191,0,South Sudan,190.3,11.76,58.9,69.79,54.95,Conditions Difficiles
+192,0,Sao Tome and Principe,149.82,38.18,80.75,17.68,19.95,Conditions Difficiles
+193,0,Suriname,206.66,24.61,50.55,57.92,78.24,Invivable
+194,0,Slovakia,1.06,0.0,0.0,1.06,0.0,Vivable
+195,0,Slovenia,0.49,0.0,0.0,0.48,0.0,Vivable
+196,0,Sweden,0.0,0.0,0.0,0.0,0.0,Vivable
+197,0,Eswatini,23.18,15.98,3.45,0.0,5.08,Vivable
+198,0,Seychelles,269.5,86.4,90.09,39.34,58.84,Invivable
+199,0,Syria,43.62,0.0,0.24,40.81,2.75,Vivable
+200,0,Turks and Caicos Islands,192.03,6.73,13.93,89.3,81.32,Conditions Difficiles
+201,0,Chad,124.59,0.37,29.01,64.66,33.16,Conditions Difficiles
+202,0,Togo,234.2,25.45,68.29,76.39,73.68,Invivable
+203,0,Thailand,152.45,11.94,38.4,56.06,50.66,Conditions Difficiles
+204,0,Tajikistan,5.3,0.0,0.12,5.13,0.03,Vivable
+205,0,Tokelau,352.8,84.07,89.85,91.13,90.5,Invivable
+206,0,Turkmenistan,52.79,0.0,1.56,48.68,1.55,Vivable
+207,0,Timor Leste,143.45,73.26,51.42,1.82,21.71,Conditions Difficiles
+208,0,Tonga,85.47,40.78,42.15,0.87,1.11,Vivable
+209,0,Trinidad and Tobago,250.86,22.11,48.45,90.49,87.45,Invivable
+210,0,Tunisia,61.16,0.0,1.14,51.95,7.65,Vivable
+211,0,Turkey,7.17,0.0,0.02,6.77,0.3,Vivable
+212,0,Tuvalu,356.4,88.12,91.56,89.87,89.6,Invivable
+213,0,"Tanzania, United Republic of",23.77,11.33,8.59,0.2,3.8,Vivable
+214,0,Uganda,12.86,0.94,7.62,1.63,1.8,Vivable
+215,0,Ukraine,5.54,0.0,0.0,5.5,0.0,Vivable
+216,0,Uruguay,17.98,14.31,2.19,0.0,0.54,Vivable
+217,0,United States,18.7,0.0,0.4,15.97,2.36,Vivable
+218,0,Uzbekistan,33.42,0.0,0.63,32.31,0.17,Vivable
+219,0,St. Vincent and the Grenadines,252.7,27.49,39.33,90.9,89.88,Invivable
+220,0,Venezuela,196.96,32.48,50.37,56.1,62.35,Conditions Difficiles
+221,0,British Virgin Islands,196.43,11.58,11.9,85.05,85.9,Conditions Difficiles
+222,0,Virgin Islands,196.43,11.58,11.9,85.05,85.9,Conditions Difficiles
+223,0,Vietnam,118.35,7.39,38.08,40.24,37.55,Conditions Difficiles
+224,0,Vanuatu,92.23,43.95,44.23,0.7,0.9,Vivable
+225,0,Wallis and Futuna,289.01,87.24,89.92,52.78,62.47,Invivable
+226,0,Samoa,290.8,84.78,86.45,55.04,66.97,Invivable
+227,0,Yemen,54.68,0.79,9.93,32.55,11.6,Vivable
+228,0,South Africa,3.3,2.22,0.33,0.0,0.83,Vivable
+229,0,Zambia,12.96,3.91,0.56,0.0,6.33,Vivable
+230,0,Zimbabwe,21.47,12.11,1.46,0.0,7.71,Vivable
