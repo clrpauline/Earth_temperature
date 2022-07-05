@@ -20,12 +20,12 @@ df_zone.rename(columns={'Country Code': 'Code'}, inplace=True)
 col1, col2 = st.columns(2)
 
 with col1:
-    st.write("DataFrame par Pays") 
+    st.subheader("DataFrame par Pays") 
     st.dataframe(df_country ,1000, 500)
             
 
 with col2:
-    st.write("DataFrame par Zone")    
+    st.subheader("DataFrame par Zone")    
     st.dataframe(df_zone, 1000, 500)
 
 
