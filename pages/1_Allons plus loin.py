@@ -12,7 +12,7 @@ st.write("Introduction du dataframe Kaggle")
 st.write("Graph additionnels kaggle: Boxplot, Relplot, polarplot...")
 
 #Chargement des dataframes Kaggle:
-df_country = pd.read_csv("ressources/df_country_kaggle.csv")
+df_country = pd.read_csv("ressources/df_country_kaggle.csv", width=700, height=768)
 df_zone = pd.read_csv("ressources/df_zone_kaggle.csv")
 
 st.dataframe(df_country)
