@@ -26,7 +26,7 @@ Les données étudiées sont ainsi des anomalies de température mesurées par r
 
 df=pd.read_csv('ressources/ZonAnn.Ts+dSST.csv')
 st.subheader("Les données de bases de cette analyse")
-st.dataframe(df, height=150)
+st.dataframe(df, height=250)
 
 st.subheader("Visualisations graphiques")
 fig = px.bar(df, x='Year', y='Glob', color='Glob',color_continuous_scale='RdYlBu_r', labels={"Glob": "Anomaly<br>in °C"})
