@@ -10,3 +10,6 @@ import streamlit as st
 st.title("Comparaison avec d'autres données")
 st.write("Introduction du dataframe Kaggle")
 st.write("Graph additionnels kaggle: Boxplot, Relplot, polarplot...")
+
+
+st.dataframe("df_country_kaggle.csv")
