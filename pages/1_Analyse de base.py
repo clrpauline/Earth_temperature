@@ -27,6 +27,8 @@ Les données étudiées sont ainsi des anomalies de température mesurées par r
 df=pd.read_csv('ressources/ZonAnn.Ts+dSST.csv')
 st.subheader("Les données de bases de cette analyse")
 st.dataframe(df)
+
+st.subheader("Visualisations graphiques")
 fig = px.bar(df, x='Year', y='Glob', color='Glob',color_continuous_scale='RdYlBu_r', labels={"Glob": "Anomaly<br>in °C"})
 fig.update_layout(title_text="Temperature Anomaly from 1880 to 2021<br><sup> Period Reference : mean 1951-1980")
 st.plotly_chart(fig, use_container_width=False, sharing="streamlit")
