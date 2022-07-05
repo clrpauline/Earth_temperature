@@ -1,0 +1,1653 @@
+Country Code,Country Name,year,tem_change
+X01,World,1961,0.207
+X01,World,1962,0.034
+X01,World,1963,0.159
+X01,World,1964,-0.253
+X01,World,1965,-0.226
+X01,World,1966,0.201
+X01,World,1967,-0.114
+X01,World,1968,-0.12
+X01,World,1969,-0.09
+X01,World,1970,0.153
+X01,World,1971,-0.092
+X01,World,1972,-0.195
+X01,World,1973,0.275
+X01,World,1974,-0.181
+X01,World,1975,0.09
+X01,World,1976,-0.311
+X01,World,1977,0.271
+X01,World,1978,0.004
+X01,World,1979,0.225
+X01,World,1980,0.33
+X01,World,1981,0.439
+X01,World,1982,0.078
+X01,World,1983,0.452
+X01,World,1984,0.12
+X01,World,1985,-0.034
+X01,World,1986,0.238
+X01,World,1987,0.391
+X01,World,1988,0.549
+X01,World,1989,0.326
+X01,World,1990,0.636
+X01,World,1991,0.458
+X01,World,1992,0.183
+X01,World,1993,0.346
+X01,World,1994,0.501
+X01,World,1995,0.831
+X01,World,1996,0.354
+X01,World,1997,0.656
+X01,World,1998,0.992
+X01,World,1999,0.788
+X01,World,2000,0.735
+X01,World,2001,0.836
+X01,World,2002,1.018
+X01,World,2003,0.896
+X01,World,2004,0.914
+X01,World,2005,1.103
+X01,World,2006,1.001
+X01,World,2007,1.198
+X01,World,2008,0.938
+X01,World,2009,0.967
+X01,World,2010,1.228
+X01,World,2011,0.923
+X01,World,2012,1.081
+X01,World,2013,1.021
+X01,World,2014,1.052
+X01,World,2015,1.419
+X01,World,2016,1.674
+X01,World,2017,1.44
+X01,World,2018,1.301
+X01,World,2019,1.473
+X06,Africa,1961,-0.017
+X06,Africa,1962,-0.04
+X06,Africa,1963,0.064
+X06,Africa,1964,-0.153
+X06,Africa,1965,-0.197
+X06,Africa,1966,0.138
+X06,Africa,1967,-0.209
+X06,Africa,1968,-0.218
+X06,Africa,1969,0.354
+X06,Africa,1970,0.221
+X06,Africa,1971,-0.208
+X06,Africa,1972,-0.002
+X06,Africa,1973,0.377
+X06,Africa,1974,-0.237
+X06,Africa,1975,-0.23
+X06,Africa,1976,-0.26
+X06,Africa,1977,0.232
+X06,Africa,1978,0.077
+X06,Africa,1979,0.444
+X06,Africa,1980,0.366
+X06,Africa,1981,0.104
+X06,Africa,1982,0.217
+X06,Africa,1983,0.408
+X06,Africa,1984,0.333
+X06,Africa,1985,0.301
+X06,Africa,1986,0.283
+X06,Africa,1987,0.671
+X06,Africa,1988,0.608
+X06,Africa,1989,-0.019
+X06,Africa,1990,0.574
+X06,Africa,1991,0.386
+X06,Africa,1992,0.112
+X06,Africa,1993,0.407
+X06,Africa,1994,0.418
+X06,Africa,1995,0.58
+X06,Africa,1996,0.551
+X06,Africa,1997,0.588
+X06,Africa,1998,0.961
+X06,Africa,1999,0.666
+X06,Africa,2000,0.496
+X06,Africa,2001,0.677
+X06,Africa,2002,0.894
+X06,Africa,2003,0.999
+X06,Africa,2004,0.825
+X06,Africa,2005,1.1
+X06,Africa,2006,0.94
+X06,Africa,2007,0.818
+X06,Africa,2008,0.754
+X06,Africa,2009,1.011
+X06,Africa,2010,1.541
+X06,Africa,2011,0.949
+X06,Africa,2012,0.781
+X06,Africa,2013,1.014
+X06,Africa,2014,1.036
+X06,Africa,2015,1.208
+X06,Africa,2016,1.442
+X06,Africa,2017,1.224
+X06,Africa,2018,1.222
+X06,Africa,2019,1.415
+,Eastern Africa,1961,0.252
+,Eastern Africa,1962,-0.12
+,Eastern Africa,1963,-0.212
+,Eastern Africa,1964,-0.273
+,Eastern Africa,1965,-0.374
+,Eastern Africa,1966,0.124
+,Eastern Africa,1967,-0.042
+,Eastern Africa,1968,-0.38
+,Eastern Africa,1969,0.253
+,Eastern Africa,1970,0.26
+,Eastern Africa,1971,-0.238
+,Eastern Africa,1972,-0.025
+,Eastern Africa,1973,0.382
+,Eastern Africa,1974,-0.236
+,Eastern Africa,1975,-0.124
+,Eastern Africa,1976,-0.064
+,Eastern Africa,1977,0.31
+,Eastern Africa,1978,0.155
+,Eastern Africa,1979,0.174
+,Eastern Africa,1980,0.391
+,Eastern Africa,1981,0.066
+,Eastern Africa,1982,0.218
+,Eastern Africa,1983,0.612
+,Eastern Africa,1984,0.248
+,Eastern Africa,1985,0.131
+,Eastern Africa,1986,0.12
+,Eastern Africa,1987,0.658
+,Eastern Africa,1988,0.667
+,Eastern Africa,1989,0.033
+,Eastern Africa,1990,0.372
+,Eastern Africa,1991,0.315
+,Eastern Africa,1992,0.492
+,Eastern Africa,1993,0.182
+,Eastern Africa,1994,0.393
+,Eastern Africa,1995,0.607
+,Eastern Africa,1996,0.461
+,Eastern Africa,1997,0.543
+,Eastern Africa,1998,0.741
+,Eastern Africa,1999,0.268
+,Eastern Africa,2000,0.432
+,Eastern Africa,2001,0.547
+,Eastern Africa,2002,0.772
+,Eastern Africa,2003,0.874
+,Eastern Africa,2004,0.596
+,Eastern Africa,2005,1.051
+,Eastern Africa,2006,0.792
+,Eastern Africa,2007,0.76
+,Eastern Africa,2008,0.613
+,Eastern Africa,2009,0.986
+,Eastern Africa,2010,1.233
+,Eastern Africa,2011,0.983
+,Eastern Africa,2012,0.99
+,Eastern Africa,2013,0.96
+,Eastern Africa,2014,0.971
+,Eastern Africa,2015,1.353
+,Eastern Africa,2016,1.338
+,Eastern Africa,2017,1.304
+,Eastern Africa,2018,0.983
+,Eastern Africa,2019,1.515
+,Middle Africa,1961,-0.1
+,Middle Africa,1962,-0.176
+,Middle Africa,1963,0.038
+,Middle Africa,1964,-0.16
+,Middle Africa,1965,-0.154
+,Middle Africa,1966,0.088
+,Middle Africa,1967,-0.172
+,Middle Africa,1968,-0.16
+,Middle Africa,1969,0.231
+,Middle Africa,1970,0.21
+,Middle Africa,1971,-0.141
+,Middle Africa,1972,0.059
+,Middle Africa,1973,0.523
+,Middle Africa,1974,-0.09
+,Middle Africa,1975,-0.107
+,Middle Africa,1976,-0.133
+,Middle Africa,1977,0.195
+,Middle Africa,1978,0.045
+,Middle Africa,1979,0.382
+,Middle Africa,1980,0.314
+,Middle Africa,1981,0.033
+,Middle Africa,1982,0.124
+,Middle Africa,1983,0.3
+,Middle Africa,1984,0.304
+,Middle Africa,1985,0.203
+,Middle Africa,1986,0.277
+,Middle Africa,1987,0.467
+,Middle Africa,1988,0.334
+,Middle Africa,1989,-0.203
+,Middle Africa,1990,0.334
+,Middle Africa,1991,0.317
+,Middle Africa,1992,-0.183
+,Middle Africa,1993,0.178
+,Middle Africa,1994,0.324
+,Middle Africa,1995,0.43
+,Middle Africa,1996,0.231
+,Middle Africa,1997,0.443
+,Middle Africa,1998,0.993
+,Middle Africa,1999,0.454
+,Middle Africa,2000,0.393
+,Middle Africa,2001,0.271
+,Middle Africa,2002,0.725
+,Middle Africa,2003,0.817
+,Middle Africa,2004,0.699
+,Middle Africa,2005,0.994
+,Middle Africa,2006,0.875
+,Middle Africa,2007,0.658
+,Middle Africa,2008,0.547
+,Middle Africa,2009,0.895
+,Middle Africa,2010,1.191
+,Middle Africa,2011,0.758
+,Middle Africa,2012,0.504
+,Middle Africa,2013,0.863
+,Middle Africa,2014,0.799
+,Middle Africa,2015,1.095
+,Middle Africa,2016,1.325
+,Middle Africa,2017,1.097
+,Middle Africa,2018,1.279
+,Middle Africa,2019,1.476
+,Northern Africa,1961,-0.03
+,Northern Africa,1962,0.129
+,Northern Africa,1963,0.192
+,Northern Africa,1964,-0.083
+,Northern Africa,1965,-0.153
+,Northern Africa,1966,0.25
+,Northern Africa,1967,-0.35
+,Northern Africa,1968,-0.163
+,Northern Africa,1969,0.406
+,Northern Africa,1970,0.048
+,Northern Africa,1971,-0.329
+,Northern Africa,1972,-0.146
+,Northern Africa,1973,0.091
+,Northern Africa,1974,-0.29
+,Northern Africa,1975,-0.359
+,Northern Africa,1976,-0.458
+,Northern Africa,1977,0.221
+,Northern Africa,1978,-0.045
+,Northern Africa,1979,0.561
+,Northern Africa,1980,0.242
+,Northern Africa,1981,0.138
+,Northern Africa,1982,0.195
+,Northern Africa,1983,0.046
+,Northern Africa,1984,0.153
+,Northern Africa,1985,0.363
+,Northern Africa,1986,0.314
+,Northern Africa,1987,0.545
+,Northern Africa,1988,0.826
+,Northern Africa,1989,0.1
+,Northern Africa,1990,0.765
+,Northern Africa,1991,0.303
+,Northern Africa,1992,-0.211
+,Northern Africa,1993,0.417
+,Northern Africa,1994,0.595
+,Northern Africa,1995,0.527
+,Northern Africa,1996,0.68
+,Northern Africa,1997,0.68
+,Northern Africa,1998,0.915
+,Northern Africa,1999,1.081
+,Northern Africa,2000,0.579
+,Northern Africa,2001,1.197
+,Northern Africa,2002,1.119
+,Northern Africa,2003,1.187
+,Northern Africa,2004,0.984
+,Northern Africa,2005,1.075
+,Northern Africa,2006,1.155
+,Northern Africa,2007,0.85
+,Northern Africa,2008,1.041
+,Northern Africa,2009,1.16
+,Northern Africa,2010,2.057
+,Northern Africa,2011,1.197
+,Northern Africa,2012,1.094
+,Northern Africa,2013,1.24
+,Northern Africa,2014,1.515
+,Northern Africa,2015,1.097
+,Northern Africa,2016,1.712
+,Northern Africa,2017,1.212
+,Northern Africa,2018,1.519
+,Northern Africa,2019,1.175
+,Southern Africa,1961,0.212
+,Southern Africa,1962,0.13
+,Southern Africa,1963,0.013
+,Southern Africa,1964,-0.058
+,Southern Africa,1965,-0.01
+,Southern Africa,1966,0.248
+,Southern Africa,1967,-0.179
+,Southern Africa,1968,-0.27
+,Southern Africa,1969,0.254
+,Southern Africa,1970,0.457
+,Southern Africa,1971,-0.129
+,Southern Africa,1972,-0.029
+,Southern Africa,1973,0.484
+,Southern Africa,1974,-0.508
+,Southern Africa,1975,-0.134
+,Southern Africa,1976,-0.598
+,Southern Africa,1977,0.171
+,Southern Africa,1978,-0.035
+,Southern Africa,1979,0.351
+,Southern Africa,1980,0.127
+,Southern Africa,1981,-0.276
+,Southern Africa,1982,0.275
+,Southern Africa,1983,0.747
+,Southern Africa,1984,0.556
+,Southern Africa,1985,0.508
+,Southern Africa,1986,0.329
+,Southern Africa,1987,0.895
+,Southern Africa,1988,0.286
+,Southern Africa,1989,-0.226
+,Southern Africa,1990,0.53
+,Southern Africa,1991,0.238
+,Southern Africa,1992,0.777
+,Southern Africa,1993,0.76
+,Southern Africa,1994,0.154
+,Southern Africa,1995,0.881
+,Southern Africa,1996,-0.065
+,Southern Africa,1997,0.161
+,Southern Africa,1998,1.036
+,Southern Africa,1999,0.955
+,Southern Africa,2000,0.024
+,Southern Africa,2001,0.381
+,Southern Africa,2002,0.613
+,Southern Africa,2003,0.993
+,Southern Africa,2004,0.791
+,Southern Africa,2005,1.118
+,Southern Africa,2006,0.083
+,Southern Africa,2007,0.846
+,Southern Africa,2008,0.659
+,Southern Africa,2009,0.601
+,Southern Africa,2010,1.295
+,Southern Africa,2011,0.248
+,Southern Africa,2012,0.522
+,Southern Africa,2013,0.884
+,Southern Africa,2014,0.611
+,Southern Africa,2015,1.439
+,Southern Africa,2016,1.647
+,Southern Africa,2017,0.874
+,Southern Africa,2018,1.159
+,Southern Africa,2019,1.911
+,Western Africa,1961,-0.289
+,Western Africa,1962,-0.12
+,Western Africa,1963,0.22
+,Western Africa,1964,-0.159
+,Western Africa,1965,-0.203
+,Western Africa,1966,0.005
+,Western Africa,1967,-0.241
+,Western Africa,1968,-0.167
+,Western Africa,1969,0.56
+,Western Africa,1970,0.33
+,Western Africa,1971,-0.116
+,Western Africa,1972,0.166
+,Western Africa,1973,0.566
+,Western Africa,1974,-0.206
+,Western Africa,1975,-0.333
+,Western Africa,1976,-0.179
+,Western Africa,1977,0.233
+,Western Africa,1978,0.25
+,Western Africa,1979,0.666
+,Western Africa,1980,0.67
+,Western Africa,1981,0.337
+,Western Africa,1982,0.319
+,Western Africa,1983,0.667
+,Western Africa,1984,0.603
+,Western Africa,1985,0.403
+,Western Africa,1986,0.397
+,Western Africa,1987,0.982
+,Western Africa,1988,0.679
+,Western Africa,1989,0.05
+,Western Africa,1990,0.793
+,Western Africa,1991,0.712
+,Western Africa,1992,0.194
+,Western Africa,1993,0.712
+,Western Africa,1994,0.412
+,Western Africa,1995,0.66
+,Western Africa,1996,1.078
+,Western Africa,1997,0.84
+,Western Africa,1998,1.185
+,Western Africa,1999,0.6
+,Western Africa,2000,0.767
+,Western Africa,2001,0.655
+,Western Africa,2002,1.011
+,Western Africa,2003,1.063
+,Western Africa,2004,0.993
+,Western Africa,2005,1.289
+,Western Africa,2006,1.235
+,Western Africa,2007,0.994
+,Western Africa,2008,0.764
+,Western Africa,2009,1.131
+,Western Africa,2010,1.624
+,Western Africa,2011,1.181
+,Western Africa,2012,0.672
+,Western Africa,2013,1.067
+,Western Africa,2014,1.073
+,Western Africa,2015,1.191
+,Western Africa,2016,1.322
+,Western Africa,2017,1.441
+,Western Africa,2018,1.142
+,Western Africa,2019,1.266
+X21,Americas,1961,0.052
+X21,Americas,1962,-0.084
+X21,Americas,1963,0.253
+X21,Americas,1964,-0.251
+X21,Americas,1965,-0.304
+X21,Americas,1966,-0.101
+X21,Americas,1967,-0.107
+X21,Americas,1968,0.006
+X21,Americas,1969,0.11
+X21,Americas,1970,0.159
+X21,Americas,1971,-0.24
+X21,Americas,1972,-0.448
+X21,Americas,1973,0.173
+X21,Americas,1974,-0.286
+X21,Americas,1975,-0.125
+X21,Americas,1976,-0.133
+X21,Americas,1977,0.499
+X21,Americas,1978,-0.064
+X21,Americas,1979,-0.06
+X21,Americas,1980,0.509
+X21,Americas,1981,0.698
+X21,Americas,1982,-0.084
+X21,Americas,1983,0.455
+X21,Americas,1984,0.08
+X21,Americas,1985,-0.002
+X21,Americas,1986,0.297
+X21,Americas,1987,0.835
+X21,Americas,1988,0.561
+X21,Americas,1989,0.188
+X21,Americas,1990,0.371
+X21,Americas,1991,0.408
+X21,Americas,1992,0.255
+X21,Americas,1993,0.274
+X21,Americas,1994,0.506
+X21,Americas,1995,0.713
+X21,Americas,1996,0.189
+X21,Americas,1997,0.565
+X21,Americas,1998,1.421
+X21,Americas,1999,0.809
+X21,Americas,2000,0.735
+X21,Americas,2001,0.852
+X21,Americas,2002,0.789
+X21,Americas,2003,0.999
+X21,Americas,2004,0.694
+X21,Americas,2005,1.048
+X21,Americas,2006,1.234
+X21,Americas,2007,0.941
+X21,Americas,2008,0.593
+X21,Americas,2009,0.709
+X21,Americas,2010,1.33
+X21,Americas,2011,0.872
+X21,Americas,2012,1.352
+X21,Americas,2013,0.864
+X21,Americas,2014,0.733
+X21,Americas,2015,1.361
+X21,Americas,2016,1.755
+X21,Americas,2017,1.34
+X21,Americas,2018,0.96
+X21,Americas,2019,1.246
+,Northern America,1961,0.017
+,Northern America,1962,-0.058
+,Northern America,1963,0.372
+,Northern America,1964,-0.285
+,Northern America,1965,-0.594
+,Northern America,1966,-0.185
+,Northern America,1967,-0.195
+,Northern America,1968,0.196
+,Northern America,1969,-0.138
+,Northern America,1970,0.194
+,Northern America,1971,-0.227
+,Northern America,1972,-1.028
+,Northern America,1973,0.128
+,Northern America,1974,-0.376
+,Northern America,1975,-0.093
+,Northern America,1976,-0.021
+,Northern America,1977,0.746
+,Northern America,1978,-0.29
+,Northern America,1979,-0.243
+,Northern America,1980,0.675
+,Northern America,1981,1.193
+,Northern America,1982,-0.508
+,Northern America,1983,0.471
+,Northern America,1984,0.038
+,Northern America,1985,-0.144
+,Northern America,1986,0.302
+,Northern America,1987,1.11
+,Northern America,1988,0.839
+,Northern America,1989,0.147
+,Northern America,1990,0.363
+,Northern America,1991,0.419
+,Northern America,1992,0.226
+,Northern America,1993,0.154
+,Northern America,1994,0.451
+,Northern America,1995,0.766
+,Northern America,1996,-0.055
+,Northern America,1997,0.403
+,Northern America,1998,1.864
+,Northern America,1999,1.219
+,Northern America,2000,1.141
+,Northern America,2001,1.102
+,Northern America,2002,0.757
+,Northern America,2003,1.147
+,Northern America,2004,0.696
+,Northern America,2005,1.235
+,Northern America,2006,1.692
+,Northern America,2007,1.237
+,Northern America,2008,0.537
+,Northern America,2009,0.473
+,Northern America,2010,1.826
+,Northern America,2011,1.002
+,Northern America,2012,1.786
+,Northern America,2013,0.902
+,Northern America,2014,0.389
+,Northern America,2015,1.33
+,Northern America,2016,2.273
+,Northern America,2017,1.426
+,Northern America,2018,0.873
+,Northern America,2019,1.179
+,Central America,1961,-0.139
+,Central America,1962,0.114
+,Central America,1963,0.154
+,Central America,1964,-0.261
+,Central America,1965,-0.076
+,Central America,1966,-0.196
+,Central America,1967,-0.148
+,Central America,1968,-0.4
+,Central America,1969,0.195
+,Central America,1970,-0.261
+,Central America,1971,-0.096
+,Central America,1972,0.296
+,Central America,1973,-0.044
+,Central America,1974,-0.127
+,Central America,1975,-0.245
+,Central America,1976,-0.405
+,Central America,1977,0.092
+,Central America,1978,0.206
+,Central America,1979,0.042
+,Central America,1980,0.436
+,Central America,1981,0.168
+,Central America,1982,0.583
+,Central America,1983,0.19
+,Central America,1984,-0.049
+,Central America,1985,0.104
+,Central America,1986,0.268
+,Central America,1987,-0.014
+,Central America,1988,0.206
+,Central America,1989,0.397
+,Central America,1990,0.272
+,Central America,1991,0.307
+,Central America,1992,0.151
+,Central America,1993,0.334
+,Central America,1994,0.689
+,Central America,1995,0.77
+,Central America,1996,0.459
+,Central America,1997,0.544
+,Central America,1998,0.783
+,Central America,1999,0.544
+,Central America,2000,0.522
+,Central America,2001,0.516
+,Central America,2002,0.689
+,Central America,2003,0.823
+,Central America,2004,0.358
+,Central America,2005,0.761
+,Central America,2006,0.808
+,Central America,2007,0.531
+,Central America,2008,0.522
+,Central America,2009,1.028
+,Central America,2010,0.393
+,Central America,2011,0.935
+,Central America,2012,0.827
+,Central America,2013,0.772
+,Central America,2014,0.824
+,Central America,2015,1.094
+,Central America,2016,1.284
+,Central America,2017,1.425
+,Central America,2018,1.121
+,Central America,2019,1.307
+,Caribbean,1961,-0.004
+,Caribbean,1962,-0.027
+,Caribbean,1963,-0.091
+,Caribbean,1964,0.107
+,Caribbean,1965,-0.142
+,Caribbean,1966,-0.179
+,Caribbean,1967,-0.242
+,Caribbean,1968,-0.281
+,Caribbean,1969,0.119
+,Caribbean,1970,-0.244
+,Caribbean,1971,-0.133
+,Caribbean,1972,0.177
+,Caribbean,1973,0.337
+,Caribbean,1974,-0.144
+,Caribbean,1975,0.247
+,Caribbean,1976,-0.32
+,Caribbean,1977,0.161
+,Caribbean,1978,0.101
+,Caribbean,1979,0.198
+,Caribbean,1980,0.508
+,Caribbean,1981,0.189
+,Caribbean,1982,0.418
+,Caribbean,1983,0.387
+,Caribbean,1984,0.212
+,Caribbean,1985,0.118
+,Caribbean,1986,0.243
+,Caribbean,1987,0.691
+,Caribbean,1988,0.568
+,Caribbean,1989,0.454
+,Caribbean,1990,0.683
+,Caribbean,1991,0.655
+,Caribbean,1992,0.487
+,Caribbean,1993,0.471
+,Caribbean,1994,0.885
+,Caribbean,1995,0.914
+,Caribbean,1996,0.5
+,Caribbean,1997,0.958
+,Caribbean,1998,1.205
+,Caribbean,1999,0.788
+,Caribbean,2000,0.561
+,Caribbean,2001,0.571
+,Caribbean,2002,0.907
+,Caribbean,2003,1.094
+,Caribbean,2004,0.782
+,Caribbean,2005,0.728
+,Caribbean,2006,0.868
+,Caribbean,2007,0.955
+,Caribbean,2008,0.534
+,Caribbean,2009,0.659
+,Caribbean,2010,0.867
+,Caribbean,2011,0.542
+,Caribbean,2012,0.647
+,Caribbean,2013,0.874
+,Caribbean,2014,0.993
+,Caribbean,2015,1.234
+,Caribbean,2016,1.225
+,Caribbean,2017,1.224
+,Caribbean,2018,1.13
+,Caribbean,2019,1.467
+,South America,1961,0.116
+,South America,1962,-0.139
+,South America,1963,0.139
+,South America,1964,-0.217
+,South America,1965,-0.015
+,South America,1966,0.007
+,South America,1967,-0.001
+,South America,1968,-0.147
+,South America,1969,0.374
+,South America,1970,0.184
+,South America,1971,-0.277
+,South America,1972,0.085
+,South America,1973,0.251
+,South America,1974,-0.209
+,South America,1975,-0.149
+,South America,1976,-0.217
+,South America,1977,0.285
+,South America,1978,0.148
+,South America,1979,0.125
+,South America,1980,0.335
+,South America,1981,0.228
+,South America,1982,0.289
+,South America,1983,0.476
+,South America,1984,0.144
+,South America,1985,0.14
+,South America,1986,0.296
+,South America,1987,0.649
+,South America,1988,0.3
+,South America,1989,0.203
+,South America,1990,0.389
+,South America,1991,0.408
+,South America,1992,0.299
+,South America,1993,0.396
+,South America,1994,0.536
+,South America,1995,0.642
+,South America,1996,0.418
+,South America,1997,0.744
+,South America,1998,1.017
+,South America,1999,0.387
+,South America,2000,0.312
+,South America,2001,0.623
+,South America,2002,0.837
+,South America,2003,0.856
+,South America,2004,0.738
+,South America,2005,0.883
+,South America,2006,0.786
+,South America,2007,0.666
+,South America,2008,0.666
+,South America,2009,0.933
+,South America,2010,0.906
+,South America,2011,0.721
+,South America,2012,0.943
+,South America,2013,0.834
+,South America,2014,1.105
+,South America,2015,1.435
+,South America,2016,1.242
+,South America,2017,1.232
+,South America,2018,1.034
+,South America,2019,1.31
+,Asia,1961,0.049
+,Asia,1962,-0.008
+,Asia,1963,0.266
+,Asia,1964,-0.166
+,Asia,1965,-0.033
+,Asia,1966,0.326
+,Asia,1967,-0.308
+,Asia,1968,-0.337
+,Asia,1969,-0.017
+,Asia,1970,0.073
+,Asia,1971,-0.122
+,Asia,1972,-0.164
+,Asia,1973,0.251
+,Asia,1974,-0.132
+,Asia,1975,0.018
+,Asia,1976,-0.328
+,Asia,1977,0.101
+,Asia,1978,0.162
+,Asia,1979,0.448
+,Asia,1980,0.28
+,Asia,1981,0.207
+,Asia,1982,0.109
+,Asia,1983,-0.013
+,Asia,1984,-0.118
+,Asia,1985,0.016
+,Asia,1986,0.056
+,Asia,1987,0.406
+,Asia,1988,0.423
+,Asia,1989,0.259
+,Asia,1990,0.527
+,Asia,1991,0.39
+,Asia,1992,-0.059
+,Asia,1993,0.073
+,Asia,1994,0.522
+,Asia,1995,0.616
+,Asia,1996,0.173
+,Asia,1997,0.614
+,Asia,1998,1.047
+,Asia,1999,1.091
+,Asia,2000,0.68
+,Asia,2001,1.019
+,Asia,2002,1.16
+,Asia,2003,0.644
+,Asia,2004,1.088
+,Asia,2005,0.862
+,Asia,2006,1.101
+,Asia,2007,1.182
+,Asia,2008,0.873
+,Asia,2009,1.075
+,Asia,2010,1.251
+,Asia,2011,0.701
+,Asia,2012,0.693
+,Asia,2013,1.054
+,Asia,2014,0.909
+,Asia,2015,1.284
+,Asia,2016,1.457
+,Asia,2017,1.464
+,Asia,2018,1.343
+,Asia,2019,1.369
+,Eastern Asia,1961,0.27
+,Eastern Asia,1962,-0.124
+,Eastern Asia,1963,0.386
+,Eastern Asia,1964,-0.026
+,Eastern Asia,1965,0.159
+,Eastern Asia,1966,0.202
+,Eastern Asia,1967,-0.282
+,Eastern Asia,1968,-0.468
+,Eastern Asia,1969,-0.299
+,Eastern Asia,1970,-0.313
+,Eastern Asia,1971,0.01
+,Eastern Asia,1972,0.048
+,Eastern Asia,1973,0.451
+,Eastern Asia,1974,-0.007
+,Eastern Asia,1975,0.308
+,Eastern Asia,1976,-0.37
+,Eastern Asia,1977,-0.038
+,Eastern Asia,1978,0.338
+,Eastern Asia,1979,0.393
+,Eastern Asia,1980,0.253
+,Eastern Asia,1981,0.172
+,Eastern Asia,1982,0.472
+,Eastern Asia,1983,0.201
+,Eastern Asia,1984,-0.183
+,Eastern Asia,1985,-0.145
+,Eastern Asia,1986,-0.015
+,Eastern Asia,1987,0.396
+,Eastern Asia,1988,0.415
+,Eastern Asia,1989,0.565
+,Eastern Asia,1990,0.958
+,Eastern Asia,1991,0.598
+,Eastern Asia,1992,0.234
+,Eastern Asia,1993,0.292
+,Eastern Asia,1994,0.826
+,Eastern Asia,1995,0.655
+,Eastern Asia,1996,0.217
+,Eastern Asia,1997,0.885
+,Eastern Asia,1998,1.389
+,Eastern Asia,1999,1.291
+,Eastern Asia,2000,0.628
+,Eastern Asia,2001,1.1
+,Eastern Asia,2002,1.196
+,Eastern Asia,2003,0.764
+,Eastern Asia,2004,1.201
+,Eastern Asia,2005,1.022
+,Eastern Asia,2006,1.192
+,Eastern Asia,2007,1.676
+,Eastern Asia,2008,1.172
+,Eastern Asia,2009,1.323
+,Eastern Asia,2010,0.868
+,Eastern Asia,2011,0.775
+,Eastern Asia,2012,0.563
+,Eastern Asia,2013,1.048
+,Eastern Asia,2014,1.166
+,Eastern Asia,2015,1.385
+,Eastern Asia,2016,1.339
+,Eastern Asia,2017,1.681
+,Eastern Asia,2018,1.483
+,Eastern Asia,2019,1.485
+,Southern Asia,1961,-0.16
+,Southern Asia,1962,-0.24
+,Southern Asia,1963,0.272
+,Southern Asia,1964,-0.285
+,Southern Asia,1965,-0.174
+,Southern Asia,1966,0.336
+,Southern Asia,1967,-0.256
+,Southern Asia,1968,-0.283
+,Southern Asia,1969,0.045
+,Southern Asia,1970,0.418
+,Southern Asia,1971,-0.148
+,Southern Asia,1972,-0.395
+,Southern Asia,1973,0.162
+,Southern Asia,1974,-0.231
+,Southern Asia,1975,-0.321
+,Southern Asia,1976,-0.214
+,Southern Asia,1977,0.256
+,Southern Asia,1978,-0.007
+,Southern Asia,1979,0.355
+,Southern Asia,1980,0.435
+,Southern Asia,1981,0.264
+,Southern Asia,1982,-0.152
+,Southern Asia,1983,-0.175
+,Southern Asia,1984,-0.072
+,Southern Asia,1985,0.175
+,Southern Asia,1986,0.057
+,Southern Asia,1987,0.439
+,Southern Asia,1988,0.57
+,Southern Asia,1989,-0.042
+,Southern Asia,1990,0.219
+,Southern Asia,1991,0.095
+,Southern Asia,1992,-0.314
+,Southern Asia,1993,0.09
+,Southern Asia,1994,0.265
+,Southern Asia,1995,0.266
+,Southern Asia,1996,0.142
+,Southern Asia,1997,0.062
+,Southern Asia,1998,0.665
+,Southern Asia,1999,0.832
+,Southern Asia,2000,0.608
+,Southern Asia,2001,0.801
+,Southern Asia,2002,1.028
+,Southern Asia,2003,0.638
+,Southern Asia,2004,0.853
+,Southern Asia,2005,0.52
+,Southern Asia,2006,1.038
+,Southern Asia,2007,0.605
+,Southern Asia,2008,0.456
+,Southern Asia,2009,1.027
+,Southern Asia,2010,1.384
+,Southern Asia,2011,0.679
+,Southern Asia,2012,0.49
+,Southern Asia,2013,0.774
+,Southern Asia,2014,0.581
+,Southern Asia,2015,0.942
+,Southern Asia,2016,1.223
+,Southern Asia,2017,1.197
+,Southern Asia,2018,1.241
+,Southern Asia,2019,0.936
+,South-Eastern Asia,1961,-0.052
+,South-Eastern Asia,1962,-0.089
+,South-Eastern Asia,1963,-0.211
+,South-Eastern Asia,1964,0.003
+,South-Eastern Asia,1965,-0.238
+,South-Eastern Asia,1966,0.235
+,South-Eastern Asia,1967,-0.11
+,South-Eastern Asia,1968,-0.083
+,South-Eastern Asia,1969,0.271
+,South-Eastern Asia,1970,0.077
+,South-Eastern Asia,1971,-0.29
+,South-Eastern Asia,1972,-0.003
+,South-Eastern Asia,1973,0.323
+,South-Eastern Asia,1974,-0.233
+,South-Eastern Asia,1975,0.018
+,South-Eastern Asia,1976,-0.213
+,South-Eastern Asia,1977,0.064
+,South-Eastern Asia,1978,0.151
+,South-Eastern Asia,1979,0.34
+,South-Eastern Asia,1980,0.279
+,South-Eastern Asia,1981,0.241
+,South-Eastern Asia,1982,0.04
+,South-Eastern Asia,1983,0.354
+,South-Eastern Asia,1984,-0.04
+,South-Eastern Asia,1985,0.164
+,South-Eastern Asia,1986,0.087
+,South-Eastern Asia,1987,0.584
+,South-Eastern Asia,1988,0.367
+,South-Eastern Asia,1989,0.154
+,South-Eastern Asia,1990,0.285
+,South-Eastern Asia,1991,0.397
+,South-Eastern Asia,1992,0.265
+,South-Eastern Asia,1993,0.218
+,South-Eastern Asia,1994,0.317
+,South-Eastern Asia,1995,0.446
+,South-Eastern Asia,1996,0.291
+,South-Eastern Asia,1997,0.369
+,South-Eastern Asia,1998,1.148
+,South-Eastern Asia,1999,0.445
+,South-Eastern Asia,2000,0.21
+,South-Eastern Asia,2001,0.575
+,South-Eastern Asia,2002,0.61
+,South-Eastern Asia,2003,0.68
+,South-Eastern Asia,2004,0.523
+,South-Eastern Asia,2005,0.757
+,South-Eastern Asia,2006,0.576
+,South-Eastern Asia,2007,0.496
+,South-Eastern Asia,2008,0.324
+,South-Eastern Asia,2009,0.616
+,South-Eastern Asia,2010,0.968
+,South-Eastern Asia,2011,0.328
+,South-Eastern Asia,2012,0.663
+,South-Eastern Asia,2013,0.889
+,South-Eastern Asia,2014,0.736
+,South-Eastern Asia,2015,0.984
+,South-Eastern Asia,2016,1.387
+,South-Eastern Asia,2017,1.03
+,South-Eastern Asia,2018,0.868
+,South-Eastern Asia,2019,1.301
+,Western Asia,1961,-0.1
+,Western Asia,1962,0.705
+,Western Asia,1963,0.412
+,Western Asia,1964,-0.508
+,Western Asia,1965,-0.112
+,Western Asia,1966,0.71
+,Western Asia,1967,-0.641
+,Western Asia,1968,-0.328
+,Western Asia,1969,0.328
+,Western Asia,1970,0.534
+,Western Asia,1971,-0.253
+,Western Asia,1972,-0.515
+,Western Asia,1973,-0.195
+,Western Asia,1974,-0.202
+,Western Asia,1975,-0.212
+,Western Asia,1976,-0.501
+,Western Asia,1977,0.256
+,Western Asia,1978,-0.023
+,Western Asia,1979,0.826
+,Western Asia,1980,0.117
+,Western Asia,1981,0.176
+,Western Asia,1982,-0.355
+,Western Asia,1983,-0.665
+,Western Asia,1984,-0.097
+,Western Asia,1985,0.042
+,Western Asia,1986,0.201
+,Western Asia,1987,0.212
+,Western Asia,1988,0.278
+,Western Asia,1989,0.029
+,Western Asia,1990,0.126
+,Western Asia,1991,0.285
+,Western Asia,1992,-1.029
+,Western Asia,1993,-0.354
+,Western Asia,1994,0.764
+,Western Asia,1995,0.191
+,Western Asia,1996,0.471
+,Western Asia,1997,0.028
+,Western Asia,1998,1.046
+,Western Asia,1999,1.394
+,Western Asia,2000,0.72
+,Western Asia,2001,1.043
+,Western Asia,2002,0.998
+,Western Asia,2003,0.754
+,Western Asia,2004,0.881
+,Western Asia,2005,0.525
+,Western Asia,2006,1.134
+,Western Asia,2007,0.778
+,Western Asia,2008,0.875
+,Western Asia,2009,0.883
+,Western Asia,2010,2.194
+,Western Asia,2011,0.766
+,Western Asia,2012,1.143
+,Western Asia,2013,1.183
+,Western Asia,2014,1.183
+,Western Asia,2015,1.615
+,Western Asia,2016,1.538
+,Western Asia,2017,1.493
+,Western Asia,2018,2.05
+,Western Asia,2019,1.619
+,Europe,1961,0.874
+,Europe,1962,0.3
+,Europe,1963,0.103
+,Europe,1964,-0.523
+,Europe,1965,-0.43
+,Europe,1966,0.724
+,Europe,1967,0.174
+,Europe,1968,0.048
+,Europe,1969,-1.01
+,Europe,1970,0.189
+,Europe,1971,0.264
+,Europe,1972,-0.148
+,Europe,1973,0.173
+,Europe,1974,0.02
+,Europe,1975,0.838
+,Europe,1976,-0.559
+,Europe,1977,0.189
+,Europe,1978,-0.166
+,Europe,1979,0.138
+,Europe,1980,-0.068
+,Europe,1981,0.662
+,Europe,1982,0.111
+,Europe,1983,0.934
+,Europe,1984,0.271
+,Europe,1985,-0.605
+,Europe,1986,0.259
+,Europe,1987,-0.562
+,Europe,1988,0.494
+,Europe,1989,1.035
+,Europe,1990,1.257
+,Europe,1991,0.597
+,Europe,1992,0.472
+,Europe,1993,0.75
+,Europe,1994,0.698
+,Europe,1995,1.83
+,Europe,1996,0.57
+,Europe,1997,1.096
+,Europe,1998,0.187
+,Europe,1999,0.588
+,Europe,2000,1.342
+,Europe,2001,0.953
+,Europe,2002,1.505
+,Europe,2003,0.972
+,Europe,2004,1.282
+,Europe,2005,1.537
+,Europe,2006,0.678
+,Europe,2007,2.31
+,Europe,2008,2.024
+,Europe,2009,1.239
+,Europe,2010,0.817
+,Europe,2011,1.548
+,Europe,2012,1.789
+,Europe,2013,1.118
+,Europe,2014,1.807
+,Europe,2015,2.106
+,Europe,2016,2.286
+,Europe,2017,1.959
+,Europe,2018,2.009
+,Europe,2019,2.116
+,Eastern Europe,1961,0.85
+,Eastern Europe,1962,0.405
+,Eastern Europe,1963,0.209
+,Eastern Europe,1964,-0.638
+,Eastern Europe,1965,-0.429
+,Eastern Europe,1966,0.894
+,Eastern Europe,1967,0.123
+,Eastern Europe,1968,0.109
+,Eastern Europe,1969,-1.15
+,Eastern Europe,1970,0.291
+,Eastern Europe,1971,0.342
+,Eastern Europe,1972,-0.189
+,Eastern Europe,1973,0.15
+,Eastern Europe,1974,-0.018
+,Eastern Europe,1975,0.864
+,Eastern Europe,1976,-0.645
+,Eastern Europe,1977,0.234
+,Eastern Europe,1978,-0.157
+,Eastern Europe,1979,0.238
+,Eastern Europe,1980,-0.041
+,Eastern Europe,1981,0.784
+,Eastern Europe,1982,0.082
+,Eastern Europe,1983,0.99
+,Eastern Europe,1984,0.301
+,Eastern Europe,1985,-0.638
+,Eastern Europe,1986,0.315
+,Eastern Europe,1987,-0.602
+,Eastern Europe,1988,0.469
+,Eastern Europe,1989,1.0
+,Eastern Europe,1990,1.244
+,Eastern Europe,1991,0.627
+,Eastern Europe,1992,0.397
+,Eastern Europe,1993,0.838
+,Eastern Europe,1994,0.651
+,Eastern Europe,1995,1.995
+,Eastern Europe,1996,0.693
+,Eastern Europe,1997,1.148
+,Eastern Europe,1998,0.049
+,Eastern Europe,1999,0.475
+,Eastern Europe,2000,1.346
+,Eastern Europe,2001,0.89
+,Eastern Europe,2002,1.584
+,Eastern Europe,2003,0.915
+,Eastern Europe,2004,1.346
+,Eastern Europe,2005,1.626
+,Eastern Europe,2006,0.556
+,Eastern Europe,2007,2.471
+,Eastern Europe,2008,2.173
+,Eastern Europe,2009,1.224
+,Eastern Europe,2010,0.91
+,Eastern Europe,2011,1.613
+,Eastern Europe,2012,1.913
+,Eastern Europe,2013,1.174
+,Eastern Europe,2014,1.738
+,Eastern Europe,2015,2.209
+,Eastern Europe,2016,2.412
+,Eastern Europe,2017,2.042
+,Eastern Europe,2018,2.066
+,Eastern Europe,2019,2.221
+,Northern Europe,1961,1.271
+,Northern Europe,1962,-0.616
+,Northern Europe,1963,-0.438
+,Northern Europe,1964,0.329
+,Northern Europe,1965,-0.314
+,Northern Europe,1966,-1.285
+,Northern Europe,1967,0.599
+,Northern Europe,1968,-0.854
+,Northern Europe,1969,-0.302
+,Northern Europe,1970,-0.68
+,Northern Europe,1971,-0.046
+,Northern Europe,1972,0.668
+,Northern Europe,1973,0.823
+,Northern Europe,1974,0.745
+,Northern Europe,1975,1.2
+,Northern Europe,1976,-0.059
+,Northern Europe,1977,-0.385
+,Northern Europe,1978,-0.13
+,Northern Europe,1979,-0.972
+,Northern Europe,1980,-0.308
+,Northern Europe,1981,-0.244
+,Northern Europe,1982,-0.081
+,Northern Europe,1983,0.636
+,Northern Europe,1984,0.524
+,Northern Europe,1985,-0.787
+,Northern Europe,1986,-0.418
+,Northern Europe,1987,-0.906
+,Northern Europe,1988,0.501
+,Northern Europe,1989,1.657
+,Northern Europe,1990,1.323
+,Northern Europe,1991,0.846
+,Northern Europe,1992,1.077
+,Northern Europe,1993,0.575
+,Northern Europe,1994,0.237
+,Northern Europe,1995,1.194
+,Northern Europe,1996,-0.077
+,Northern Europe,1997,0.817
+,Northern Europe,1998,0.482
+,Northern Europe,1999,1.222
+,Northern Europe,2000,1.482
+,Northern Europe,2001,0.995
+,Northern Europe,2002,1.327
+,Northern Europe,2003,0.943
+,Northern Europe,2004,1.177
+,Northern Europe,2005,1.629
+,Northern Europe,2006,1.328
+,Northern Europe,2007,1.767
+,Northern Europe,2008,1.698
+,Northern Europe,2009,1.36
+,Northern Europe,2010,0.02
+,Northern Europe,2011,1.187
+,Northern Europe,2012,1.15
+,Northern Europe,2013,0.866
+,Northern Europe,2014,2.346
+,Northern Europe,2015,1.764
+,Northern Europe,2016,1.737
+,Northern Europe,2017,1.533
+,Northern Europe,2018,1.651
+,Northern Europe,2019,1.462
+,Southern Europe,1961,0.768
+,Southern Europe,1962,0.262
+,Southern Europe,1963,-0.188
+,Southern Europe,1964,0.127
+,Southern Europe,1965,-0.332
+,Southern Europe,1966,0.468
+,Southern Europe,1967,0.149
+,Southern Europe,1968,0.09
+,Southern Europe,1969,-0.221
+,Southern Europe,1970,-0.026
+,Southern Europe,1971,-0.451
+,Southern Europe,1972,-0.422
+,Southern Europe,1973,-0.166
+,Southern Europe,1974,-0.258
+,Southern Europe,1975,-0.006
+,Southern Europe,1976,-0.467
+,Southern Europe,1977,0.148
+,Southern Europe,1978,-0.314
+,Southern Europe,1979,0.164
+,Southern Europe,1980,-0.136
+,Southern Europe,1981,0.039
+,Southern Europe,1982,0.446
+,Southern Europe,1983,0.358
+,Southern Europe,1984,-0.248
+,Southern Europe,1985,0.145
+,Southern Europe,1986,0.331
+,Southern Europe,1987,0.297
+,Southern Europe,1988,0.66
+,Southern Europe,1989,0.631
+,Southern Europe,1990,1.164
+,Southern Europe,1991,0.07
+,Southern Europe,1992,0.331
+,Southern Europe,1993,0.089
+,Southern Europe,1994,1.258
+,Southern Europe,1995,0.813
+,Southern Europe,1996,0.351
+,Southern Europe,1997,0.905
+,Southern Europe,1998,1.039
+,Southern Europe,1999,0.779
+,Southern Europe,2000,1.016
+,Southern Europe,2001,1.438
+,Southern Europe,2002,0.829
+,Southern Europe,2003,1.313
+,Southern Europe,2004,0.777
+,Southern Europe,2005,0.593
+,Southern Europe,2006,1.04
+,Southern Europe,2007,1.232
+,Southern Europe,2008,1.011
+,Southern Europe,2009,1.266
+,Southern Europe,2010,0.986
+,Southern Europe,2011,1.266
+,Southern Europe,2012,1.314
+,Southern Europe,2013,1.077
+,Southern Europe,2014,1.582
+,Southern Europe,2015,1.567
+,Southern Europe,2016,1.704
+,Southern Europe,2017,1.645
+,Southern Europe,2018,1.6
+,Southern Europe,2019,1.627
+,Western Europe,1961,0.908
+,Western Europe,1962,-0.509
+,Western Europe,1963,-0.991
+,Western Europe,1964,-0.133
+,Western Europe,1965,-0.72
+,Western Europe,1966,0.427
+,Western Europe,1967,0.645
+,Western Europe,1968,0.046
+,Western Europe,1969,-0.04
+,Western Europe,1970,-0.415
+,Western Europe,1971,-0.079
+,Western Europe,1972,-0.175
+,Western Europe,1973,0.097
+,Western Europe,1974,0.098
+,Western Europe,1975,0.744
+,Western Europe,1976,0.406
+,Western Europe,1977,0.149
+,Western Europe,1978,-0.229
+,Western Europe,1979,-0.369
+,Western Europe,1980,-0.202
+,Western Europe,1981,0.177
+,Western Europe,1982,0.623
+,Western Europe,1983,0.867
+,Western Europe,1984,-0.113
+,Western Europe,1985,-0.545
+,Western Europe,1986,0.011
+,Western Europe,1987,-0.238
+,Western Europe,1988,0.814
+,Western Europe,1989,1.333
+,Western Europe,1990,1.536
+,Western Europe,1991,0.244
+,Western Europe,1992,0.911
+,Western Europe,1993,0.328
+,Western Europe,1994,1.595
+,Western Europe,1995,1.275
+,Western Europe,1996,-0.206
+,Western Europe,1997,0.904
+,Western Europe,1998,1.045
+,Western Europe,1999,1.245
+,Western Europe,2000,1.443
+,Western Europe,2001,1.365
+,Western Europe,2002,1.267
+,Western Europe,2003,1.573
+,Western Europe,2004,0.984
+,Western Europe,2005,1.0
+,Western Europe,2006,1.264
+,Western Europe,2007,1.735
+,Western Europe,2008,1.241
+,Western Europe,2009,1.257
+,Western Europe,2010,0.328
+,Western Europe,2011,1.358
+,Western Europe,2012,1.3
+,Western Europe,2013,0.675
+,Western Europe,2014,2.25
+,Western Europe,2015,1.649
+,Western Europe,2016,1.867
+,Western Europe,2017,1.721
+,Western Europe,2018,2.202
+,Western Europe,2019,2.137
+,Oceania,1961,0.116
+,Oceania,1962,0.14
+,Oceania,1963,-0.118
+,Oceania,1964,-0.03
+,Oceania,1965,0.067
+,Oceania,1966,-0.231
+,Oceania,1967,-0.104
+,Oceania,1968,-0.195
+,Oceania,1969,0.096
+,Oceania,1970,0.032
+,Oceania,1971,-0.016
+,Oceania,1972,0.072
+,Oceania,1973,0.795
+,Oceania,1974,-0.297
+,Oceania,1975,0.077
+,Oceania,1976,-0.484
+,Oceania,1977,0.156
+,Oceania,1978,0.095
+,Oceania,1979,0.351
+,Oceania,1980,0.792
+,Oceania,1981,0.444
+,Oceania,1982,0.135
+,Oceania,1983,0.559
+,Oceania,1984,-0.151
+,Oceania,1985,0.292
+,Oceania,1986,0.327
+,Oceania,1987,0.306
+,Oceania,1988,0.875
+,Oceania,1989,0.143
+,Oceania,1990,0.488
+,Oceania,1991,0.716
+,Oceania,1992,0.202
+,Oceania,1993,0.378
+,Oceania,1994,0.163
+,Oceania,1995,0.367
+,Oceania,1996,0.518
+,Oceania,1997,0.289
+,Oceania,1998,1.038
+,Oceania,1999,0.547
+,Oceania,2000,0.143
+,Oceania,2001,0.342
+,Oceania,2002,0.703
+,Oceania,2003,0.771
+,Oceania,2004,0.632
+,Oceania,2005,1.091
+,Oceania,2006,0.614
+,Oceania,2007,0.824
+,Oceania,2008,0.543
+,Oceania,2009,0.9
+,Oceania,2010,0.666
+,Oceania,2011,0.212
+,Oceania,2012,0.276
+,Oceania,2013,1.396
+,Oceania,2014,1.083
+,Oceania,2015,0.997
+,Oceania,2016,1.163
+,Oceania,2017,1.11
+,Oceania,2018,1.096
+,Oceania,2019,1.37
+,Australia and New Zealand,1961,0.136
+,Australia and New Zealand,1962,0.139
+,Australia and New Zealand,1963,-0.122
+,Australia and New Zealand,1964,-0.036
+,Australia and New Zealand,1965,0.108
+,Australia and New Zealand,1966,-0.237
+,Australia and New Zealand,1967,-0.095
+,Australia and New Zealand,1968,-0.202
+,Australia and New Zealand,1969,0.096
+,Australia and New Zealand,1970,0.022
+,Australia and New Zealand,1971,-0.016
+,Australia and New Zealand,1972,0.099
+,Australia and New Zealand,1973,0.835
+,Australia and New Zealand,1974,-0.322
+,Australia and New Zealand,1975,0.078
+,Australia and New Zealand,1976,-0.501
+,Australia and New Zealand,1977,0.17
+,Australia and New Zealand,1978,0.088
+,Australia and New Zealand,1979,0.366
+,Australia and New Zealand,1980,0.833
+,Australia and New Zealand,1981,0.455
+,Australia and New Zealand,1982,0.15
+,Australia and New Zealand,1983,0.574
+,Australia and New Zealand,1984,-0.18
+,Australia and New Zealand,1985,0.297
+,Australia and New Zealand,1986,0.329
+,Australia and New Zealand,1987,0.306
+,Australia and New Zealand,1988,0.893
+,Australia and New Zealand,1989,0.131
+,Australia and New Zealand,1990,0.499
+,Australia and New Zealand,1991,0.752
+,Australia and New Zealand,1992,0.184
+,Australia and New Zealand,1993,0.389
+,Australia and New Zealand,1994,0.158
+,Australia and New Zealand,1995,0.34
+,Australia and New Zealand,1996,0.514
+,Australia and New Zealand,1997,0.303
+,Australia and New Zealand,1998,1.021
+,Australia and New Zealand,1999,0.559
+,Australia and New Zealand,2000,0.128
+,Australia and New Zealand,2001,0.329
+,Australia and New Zealand,2002,0.697
+,Australia and New Zealand,2003,0.772
+,Australia and New Zealand,2004,0.65
+,Australia and New Zealand,2005,1.121
+,Australia and New Zealand,2006,0.635
+,Australia and New Zealand,2007,0.844
+,Australia and New Zealand,2008,0.553
+,Australia and New Zealand,2009,0.938
+,Australia and New Zealand,2010,0.642
+,Australia and New Zealand,2011,0.192
+,Australia and New Zealand,2012,0.268
+,Australia and New Zealand,2013,1.435
+,Australia and New Zealand,2014,1.119
+,Australia and New Zealand,2015,1.035
+,Australia and New Zealand,2016,1.144
+,Australia and New Zealand,2017,1.101
+,Australia and New Zealand,2018,1.114
+,Australia and New Zealand,2019,1.413
+,Melanesia,1961,-0.184
+,Melanesia,1962,0.153
+,Melanesia,1963,-0.073
+,Melanesia,1964,0.066
+,Melanesia,1965,-0.538
+,Melanesia,1966,-0.137
+,Melanesia,1967,-0.236
+,Melanesia,1968,-0.094
+,Melanesia,1969,0.102
+,Melanesia,1970,0.185
+,Melanesia,1971,-0.017
+,Melanesia,1972,-0.335
+,Melanesia,1973,0.215
+,Melanesia,1974,0.068
+,Melanesia,1975,0.067
+,Melanesia,1976,-0.238
+,Melanesia,1977,-0.064
+,Melanesia,1978,0.193
+,Melanesia,1979,0.129
+,Melanesia,1980,0.205
+,Melanesia,1981,0.298
+,Melanesia,1982,-0.083
+,Melanesia,1983,0.341
+,Melanesia,1984,0.262
+,Melanesia,1985,0.218
+,Melanesia,1986,0.299
+,Melanesia,1987,0.308
+,Melanesia,1988,0.625
+,Melanesia,1989,0.319
+,Melanesia,1990,0.327
+,Melanesia,1991,0.196
+,Melanesia,1992,0.461
+,Melanesia,1993,0.228
+,Melanesia,1994,0.234
+,Melanesia,1995,0.761
+,Melanesia,1996,0.582
+,Melanesia,1997,0.091
+,Melanesia,1998,1.286
+,Melanesia,1999,0.379
+,Melanesia,2000,0.369
+,Melanesia,2001,0.535
+,Melanesia,2002,0.785
+,Melanesia,2003,0.751
+,Melanesia,2004,0.358
+,Melanesia,2005,0.66
+,Melanesia,2006,0.312
+,Melanesia,2007,0.535
+,Melanesia,2008,0.376
+,Melanesia,2009,0.35
+,Melanesia,2010,1.016
+,Melanesia,2011,0.498
+,Melanesia,2012,0.386
+,Melanesia,2013,0.83
+,Melanesia,2014,0.556
+,Melanesia,2015,0.447
+,Melanesia,2016,1.435
+,Melanesia,2017,1.255
+,Melanesia,2018,0.834
+,Melanesia,2019,0.739
+,Micronesia,1961,0.002
+,Micronesia,1962,-0.031
+,Micronesia,1963,0.058
+,Micronesia,1964,-0.11
+,Micronesia,1965,-0.253
+,Micronesia,1966,0.044
+,Micronesia,1967,-0.061
+,Micronesia,1968,-0.024
+,Micronesia,1969,0.076
+,Micronesia,1970,0.108
+,Micronesia,1971,-0.294
+,Micronesia,1972,-0.186
+,Micronesia,1973,0.056
+,Micronesia,1974,-0.125
+,Micronesia,1975,-0.275
+,Micronesia,1976,-0.289
+,Micronesia,1977,0.059
+,Micronesia,1978,0.121
+,Micronesia,1979,0.151
+,Micronesia,1980,0.2
+,Micronesia,1981,0.196
+,Micronesia,1982,0.136
+,Micronesia,1983,0.176
+,Micronesia,1984,0.05
+,Micronesia,1985,0.013
+,Micronesia,1986,0.253
+,Micronesia,1987,0.172
+,Micronesia,1988,0.234
+,Micronesia,1989,0.025
+,Micronesia,1990,0.301
+,Micronesia,1991,0.14
+,Micronesia,1992,0.152
+,Micronesia,1993,-0.068
+,Micronesia,1994,0.186
+,Micronesia,1995,0.373
+,Micronesia,1996,0.345
+,Micronesia,1997,0.151
+,Micronesia,1998,0.499
+,Micronesia,1999,0.061
+,Micronesia,2000,0.196
+,Micronesia,2001,0.359
+,Micronesia,2002,0.369
+,Micronesia,2003,0.393
+,Micronesia,2004,0.402
+,Micronesia,2005,0.294
+,Micronesia,2006,0.493
+,Micronesia,2007,0.504
+,Micronesia,2008,0.222
+,Micronesia,2009,0.58
+,Micronesia,2010,0.513
+,Micronesia,2011,0.429
+,Micronesia,2012,0.619
+,Micronesia,2013,0.727
+,Micronesia,2014,0.737
+,Micronesia,2015,0.838
+,Micronesia,2016,1.124
+,Micronesia,2017,1.016
+,Micronesia,2018,0.903
+,Micronesia,2019,0.907
+,Polynesia,1961,0.083
+,Polynesia,1962,-0.143
+,Polynesia,1963,-0.07
+,Polynesia,1964,-0.076
+,Polynesia,1965,-0.303
+,Polynesia,1966,-0.017
+,Polynesia,1967,-0.337
+,Polynesia,1968,-0.385
+,Polynesia,1969,0.162
+,Polynesia,1970,0.218
+,Polynesia,1971,-0.238
+,Polynesia,1972,0.092
+,Polynesia,1973,0.369
+,Polynesia,1974,-0.208
+,Polynesia,1975,-0.102
+,Polynesia,1976,-0.161
+,Polynesia,1977,0.216
+,Polynesia,1978,0.066
+,Polynesia,1979,0.213
+,Polynesia,1980,0.281
+,Polynesia,1981,0.121
+,Polynesia,1982,0.267
+,Polynesia,1983,0.253
+,Polynesia,1984,0.329
+,Polynesia,1985,0.173
+,Polynesia,1986,0.25
+,Polynesia,1987,0.289
+,Polynesia,1988,0.467
+,Polynesia,1989,0.178
+,Polynesia,1990,0.437
+,Polynesia,1991,0.503
+,Polynesia,1992,0.467
+,Polynesia,1993,0.185
+,Polynesia,1994,0.369
+,Polynesia,1995,0.663
+,Polynesia,1996,0.459
+,Polynesia,1997,0.349
+,Polynesia,1998,0.615
+,Polynesia,1999,0.414
+,Polynesia,2000,0.51
+,Polynesia,2001,0.732
+,Polynesia,2002,0.99
+,Polynesia,2003,0.749
+,Polynesia,2004,0.482
+,Polynesia,2005,0.782
+,Polynesia,2006,0.707
+,Polynesia,2007,0.994
+,Polynesia,2008,0.506
+,Polynesia,2009,0.766
+,Polynesia,2010,0.946
+,Polynesia,2011,0.505
+,Polynesia,2012,0.807
+,Polynesia,2013,0.832
+,Polynesia,2014,0.815
+,Polynesia,2015,0.796
+,Polynesia,2016,1.299
+,Polynesia,2017,1.101
+,Polynesia,2018,0.856
+,Polynesia,2019,1.157
+,European Union,1961,1.039
+,European Union,1962,-0.241
+,European Union,1963,-0.576
+,European Union,1964,-0.032
+,European Union,1965,-0.518
+,European Union,1966,0.022
+,European Union,1967,0.53
+,European Union,1968,-0.129
+,European Union,1969,-0.244
+,European Union,1970,-0.399
+,European Union,1971,-0.166
+,European Union,1972,0.041
+,European Union,1973,0.249
+,European Union,1974,0.172
+,European Union,1975,0.77
+,European Union,1976,-0.137
+,European Union,1977,0.038
+,European Union,1978,-0.255
+,European Union,1979,-0.361
+,European Union,1980,-0.3
+,European Union,1981,0.087
+,European Union,1982,0.297
+,European Union,1983,0.735
+,European Union,1984,0.075
+,European Union,1985,-0.528
+,European Union,1986,-0.001
+,European Union,1987,-0.416
+,European Union,1988,0.632
+,European Union,1989,1.262
+,European Union,1990,1.36
+,European Union,1991,0.36
+,European Union,1992,0.79
+,European Union,1993,0.254
+,European Union,1994,1.104
+,European Union,1995,1.116
+,European Union,1996,-0.092
+,European Union,1997,0.719
+,European Union,1998,0.87
+,European Union,1999,1.074
+,European Union,2000,1.399
+,European Union,2001,1.315
+,European Union,2002,1.203
+,European Union,2003,1.061
+,European Union,2004,0.92
+,European Union,2005,1.03
+,European Union,2006,1.126
+,European Union,2007,1.683
+,European Union,2008,1.388
+,European Union,2009,1.326
+,European Union,2010,0.488
+,European Union,2011,1.143
+,European Union,2012,1.315
+,European Union,2013,0.901
+,European Union,2014,2.057
+,European Union,2015,1.727
+,European Union,2016,1.814
+,European Union,2017,1.569
+,European Union,2018,1.933
+,European Union,2019,1.884
