@@ -35,7 +35,7 @@ with col2:
     st.dataframe(df_zone, 1000, 250)
 
 
-    
+st.subheader("Visualisation des données")    
 df_zone=pd.read_csv('ressources/df_zone.csv')
 fig = px.bar_polar(df_zone, r="Anomalies", theta="Country Name", color="Anomalies", animation_frame="year",
                    animation_group="Country Name" , color_continuous_scale= 'RdYlBu_r', color_continuous_midpoint=0, 
