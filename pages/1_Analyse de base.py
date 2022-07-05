@@ -14,7 +14,7 @@ st.set_page_config(
 
 
 st.write("# Analyse Macro du dérèglement climatique 🌍")
-
+df=pd.read_csv('ressources/ZonAnn.Ts+dSST.csv')
 st.dataframe(df)
 
 st.markdown(
