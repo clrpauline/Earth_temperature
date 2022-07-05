@@ -7,4 +7,4 @@ import plotly.graph_objects as go
 import plotly
 import streamlit as st
 
-st.title("Datasets de base")
+st.title("Comparaison avec d'autres données")
