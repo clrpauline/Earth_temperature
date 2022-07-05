@@ -23,7 +23,6 @@ if selected == "Introduction":
 #affichage option de menu Dataset de base:    
 if selected == "Datasets de base":
         st.title("Datasets de base")
-        st.markdown("N
         dfg= dfg.astype("float")
         st.dataframe(dfg)
         
