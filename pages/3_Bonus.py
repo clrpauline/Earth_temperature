@@ -8,4 +8,5 @@ import plotly
 import streamlit as st
 
 st.title("Bonus")
-
+st.write("Bubble heatmap Guillaume")
+st.write("Autres visualisations que vous souhaitez proposer?")
