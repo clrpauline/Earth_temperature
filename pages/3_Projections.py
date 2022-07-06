@@ -30,7 +30,7 @@ C1, C2 = st. columns(2)
 
 fig1 = px.choropleth(df26, locations="Country", color="Seuil",range_color=[0,200],
                   color_discrete_sequence=["green","orange","red"],
-                   locationmode='country names',color_continuous_midpoint=0
+                   locationmode='country names',color_continuous_midpoint=0,
                     labels={'Annual':'Nb de jour >35°C'})
 st.plotly_chart(fig1)
 
