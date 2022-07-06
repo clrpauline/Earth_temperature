@@ -46,7 +46,7 @@ fig4 = px.choropleth(df85, locations="Country", color="Seuil",range_color=[0,200
 
 Choix_selectbox=[" ","RCP2,6: Scénario optimiste","RCP4,5: Scénario moyen bas","RCP6: Scénario moyen haut","RCP8,5: Scénario pessimiste"]
 st.write("Les scénarios RCP sont des prédictions complexes sur l'évolution de notre climat jusqu'à la fin du siècle. Elles prennent en compte enormément de paramètres comme les emissions de différents gaz à effet de serre, l'activité volcanique, l'impact du solaire... Nous vous proposons de choisir entre les 4 choix possibles qui ont été évalué par les scientifiques:")
-results = st.multiselect("Quel scénario voulez vous afficher sous forme de map?", options=Choix_selectbox)
+results = st.selectbox("Quel scénario voulez vous afficher sous forme de map?", options=Choix_selectbox)
 
 if results == "RCP2,6: Scénario optimiste":
     st.plotly_chart(fig1)
