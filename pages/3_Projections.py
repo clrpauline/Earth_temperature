@@ -46,4 +46,4 @@ fig4 = px.choropleth(df85, locations="Country", color="Seuil",range_color=[0,200
 
 Choix_selectbox=["RCP2,6","RCP4,5","RCP6","RCP8,5"]
 
-st.selectbox("Quel scénatio voulez vous afficher sous forme de map?", option=Choix_selectbox
+st.selectbox("Quel scénatio voulez vous afficher sous forme de map?", option=Choix_selectbox)
