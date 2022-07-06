@@ -44,18 +44,6 @@ fig4 = px.choropleth(df85, locations="Country", color="Seuil",range_color=[0,200
                   color_discrete_sequence=["red","green","orange"],
                    locationmode='country names',color_continuous_midpoint=0)
 
+Choix_selectbox=["RCP2,6","RCP4,5","RCP6","RCP8,5"]
 
-col1, col2 = st.columns(2)
-
-with col1:
-    st.write("Invivabilité des pays avec le scénario RCP2,6")
-    st.plotly_chart(fig1)
-    st.write("Invivabilité des pays avec le scénario RCP6")
-    st.plotly_chart(fig3)
-    
-with col1:
-    st.write("Invivabilité des pays avec le scénario RCP2,6")
-    st.plotly_chart(fig2)
-    st.write("Invivabilité des pays avec le scénario RCP6")
-    st.plotly_chart(fig4)
-    
+st.selectbox("Quel scénatio voulez vous afficher sous forme de map?", option=Choix_selectbox
