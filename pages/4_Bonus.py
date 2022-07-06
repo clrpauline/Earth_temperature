@@ -53,4 +53,4 @@ upper = Span(dimension = 'width',   # orientation de l'asymptote
 line_plot.add_layout(upper)
 line_plot.legend.click_policy = 'hide'
 
-st.pyplot(line_plot)
+st.write(line_plot)
