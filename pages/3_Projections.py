@@ -15,3 +15,19 @@ st.set_page_config(
 st.title("Projections pour la fin du siècle")
 st.write("Cartes de projections des anomalies")
 st.write("Cartes de projections des pays invivables")
+
+
+
+st.subheader("Projection de l'invivabilité des pays d'ici 2100")
+
+df26=pd.read_csv("ressources/Dataframe_HI_2_6.csv")
+
+C1, C2 = st. columns(2)
+
+with C1:
+    title="Invivabilité des pays avec le scénario RCP 2.6",
+    fig = px.choropleth(df26, locations="Country", color=" ",range_color=[0,200],
+                  color_discrete_sequence=["green","orange","red"],
+                    title="Invivabilité des pays avec le scénario RCP 2.6",
+                    locationmode='country names',color_continuous_midpoint=0)
+    st.write(fig)
