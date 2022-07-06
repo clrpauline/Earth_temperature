@@ -25,7 +25,7 @@ col1, col2 = st.columns(2)
 
 with col1:
     st.subheader("Données par pays")
-    st.write("Un dataframe répertoriant l'ensemble des anomalies, dans tous les pays du monde, de 1961 à 2015")
+    st.write("Un dataframe répertoriant l'ensemble des anomalies, dans tous les pays, de 1961 à 2015")
     st.dataframe(df_country ,1000, 250)
             
 
