@@ -52,3 +52,7 @@ if results == "RCP2,6: Scénario optimiste":
     st.plotly_chart(fig1)
 elif results == "RCP4,5: Scénario moyen bas":
     st.plotly_chart(fig2)
+elif results == "RCP6: Scénario moyen haut":
+    st.plotly_chart(fig3)
+else:
+    st.plotly_chart(fig4)
