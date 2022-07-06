@@ -25,14 +25,11 @@ df45=pd.read_csv("ressources/DataFrame_HI_4_5.csv")
 df6=pd.read_csv("ressources/DataFrame_HI_6.csv")
 df85=pd.read_csv("ressources/Dataframe_HI_8_5.csv")
 
-C1, C2 = st. columns(2)
-
-
 fig1 = px.choropleth(df26, locations="Country", color="Seuil",range_color=[0,200],
                   color_discrete_sequence=["green","orange","red"],
                    locationmode='country names',color_continuous_midpoint=0,
                     labels={'Annual':'Nb de jour >35°C'})
-st.plotly_chart(fig1)
+
 
 fig2 = px.choropleth(df45, locations="Country", color="Seuil",range_color=[0,200],
                   color_discrete_sequence=["green","orange","red"],
@@ -42,9 +39,19 @@ st.plotly_chart(fig2)
 fig3 = px.choropleth(df6, locations="Country", color="Seuil",range_color=[0,200],
                   color_discrete_sequence=["green","orange","red"],
                    locationmode='country names',color_continuous_midpoint=0)
-st.plotly_chart(fig3)
+
 
 fig4 = px.choropleth(df85, locations="Country", color="Seuil",range_color=[0,200],
                   color_discrete_sequence=["red","green","orange"],
                    locationmode='country names',color_continuous_midpoint=0)
 st.plotly_chart(fig4)
+
+
+C1, C2 = st. columns(2)
+
+with C1:
+    st.write("Invivabilité des pays avec le scénario RCP2,6")
+    st.plotly_chart(fig1)
+    st.write("Invivabilité des pays avec le scénario RCP6")
+    st.plotly_chart(fig3)
+    
