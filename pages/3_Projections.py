@@ -29,4 +29,4 @@ fig = px.choropleth(df26, locations="Country", color=" ",range_color=[0,200],
                   color_discrete_sequence=["green","orange","red"],
                     title="Invivabilité des pays avec le scénario RCP 2.6",
                     locationmode='country names',color_continuous_midpoint=0)
-st.write(fig)
+st.plotly_chart(fig)
