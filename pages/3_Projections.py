@@ -45,5 +45,5 @@ fig4 = px.choropleth(df85, locations="Country", color="Seuil",range_color=[0,200
                    locationmode='country names',color_continuous_midpoint=0)
 
 Choix_selectbox=[" ","RCP2,6","RCP4,5","RCP6","RCP8,5"]
-
+st.write("Les scénarios RCP sont des prédictions complexes sur l'évolution de notre climat jusqu'à la fin du siècle. Elles prennent en compte enormément de paramètres comme les emissions de différents gaz à effet de serre, l'activité volcanique, l'impact du solaire... Nous vous proposons de choisir entre les 4 choix possibles qui ont été évalué par les scientifiques:")
 st.selectbox("Quel scénatio voulez vous afficher sous forme de map?", options=Choix_selectbox)
