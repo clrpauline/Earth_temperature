@@ -34,7 +34,6 @@ fig1 = px.choropleth(df26, locations="Country", color="Seuil",range_color=[0,200
 fig2 = px.choropleth(df45, locations="Country", color="Seuil",range_color=[0,200],
                   color_discrete_sequence=["green","orange","red"],
                    locationmode='country names',color_continuous_midpoint=0)
-st.plotly_chart(fig2)
 
 fig3 = px.choropleth(df6, locations="Country", color="Seuil",range_color=[0,200],
                   color_discrete_sequence=["green","orange","red"],
@@ -44,14 +43,19 @@ fig3 = px.choropleth(df6, locations="Country", color="Seuil",range_color=[0,200]
 fig4 = px.choropleth(df85, locations="Country", color="Seuil",range_color=[0,200],
                   color_discrete_sequence=["red","green","orange"],
                    locationmode='country names',color_continuous_midpoint=0)
-st.plotly_chart(fig4)
 
 
-C1, C2 = st.columns(2)
+col1, col2 = st.columns(2)
 
-with C1:
+with col1:
     st.write("Invivabilité des pays avec le scénario RCP2,6")
     st.plotly_chart(fig1)
     st.write("Invivabilité des pays avec le scénario RCP6")
     st.plotly_chart(fig3)
+    
+with col1:
+    st.write("Invivabilité des pays avec le scénario RCP2,6")
+    st.plotly_chart(fig2)
+    st.write("Invivabilité des pays avec le scénario RCP6")
+    st.plotly_chart(fig4)
     
