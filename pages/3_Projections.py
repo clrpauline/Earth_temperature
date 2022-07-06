@@ -23,7 +23,6 @@ df6=pd.read_csv("ressources/DataFrame_HI_6.csv")
 df85=pd.read_csv("ressources/Dataframe_HI_8_5.csv")
 
 fig1 = px.choropleth(df26, locations="Country", color="Seuil",range_color=[0,200],
-                     title="Invivabilité des pays avec le scénarion RCP2,6",
                   color_discrete_sequence=["green","orange","red"],
                    locationmode='country names',color_continuous_midpoint=0,
                     labels={'Annual':'Nb de jour >35°C'})
@@ -53,6 +52,7 @@ results = st.selectbox("Quel scénario voulez vous afficher sous forme de map?",
 
 if results == "RCP2,6: Scénario optimiste":
     st.subheader("Projection de l'invivabilité des pays d'ici 2100")
+    st.write("Avec le scénario RCP2,6")
     st.plotly_chart(fig1)
 elif results == "RCP4,5: Scénario moyen bas":
     st.subheader("Projection de l'invivabilité des pays d'ici 2100")
