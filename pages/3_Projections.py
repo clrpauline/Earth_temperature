@@ -35,15 +35,19 @@ fig1.update_layout(autosize=False,margin = dict(l=0,r=0,b=0,t=0,pad=4, autoexpan
 fig2 = px.choropleth(df45, locations="Country", color="Seuil",range_color=[0,200],
                   color_discrete_sequence=["green","orange","red"],
                    locationmode='country names',color_continuous_midpoint=0)
+fig2.update_layout(autosize=False,margin = dict(l=0,r=0,b=0,t=0,pad=4, autoexpand=True), width=800)
+
 
 fig3 = px.choropleth(df6, locations="Country", color="Seuil",range_color=[0,200],
                   color_discrete_sequence=["green","orange","red"],
                    locationmode='country names',color_continuous_midpoint=0)
-
+fi3.update_layout(autosize=False,margin = dict(l=0,r=0,b=0,t=0,pad=4, autoexpand=True), width=800)
 
 fig4 = px.choropleth(df85, locations="Country", color="Seuil",range_color=[0,200],
                   color_discrete_sequence=["red","green","orange"],
                    locationmode='country names',color_continuous_midpoint=0)
+fig4.update_layout(autosize=False,margin = dict(l=0,r=0,b=0,t=0,pad=4, autoexpand=True), width=800)
+
 
 Choix_selectbox=[" ","RCP2,6: Scénario optimiste","RCP4,5: Scénario moyen bas","RCP6: Scénario moyen haut","RCP8,5: Scénario pessimiste"]
 st.write("Les scénarios RCP sont des prédictions complexes sur l'évolution de notre climat jusqu'à la fin du siècle. Elles prennent en compte enormément de paramètres comme les emissions de différents gaz à effet de serre, l'activité volcanique, l'impact du solaire... Nous vous proposons de choisir entre les 4 choix possibles qui ont été évalué par les scientifiques:")
