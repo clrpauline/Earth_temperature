@@ -21,8 +21,8 @@ st.write("Cartes de projections des pays invivables")
 st.subheader("Projection de l'invivabilité des pays d'ici 2100")
 
 df26=pd.read_csv("ressources/Dataframe_HI_2_6.csv")
-df45=pd.read_csv("ressources/Dataframe_HI_4_5.csv")
-df6=pd.read_csv("ressources/Dataframe_HI_6.csv")
+df45=pd.read_csv("ressources/DataFrame_HI_4_5.csv")
+df6=pd.read_csv("ressources/DataFrame_HI_6.csv")
 df85=pd.read_csv("ressources/Dataframe_HI_8_5.csv")
 
 C1, C2 = st. columns(2)
