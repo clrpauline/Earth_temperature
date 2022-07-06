@@ -17,15 +17,13 @@ st.write("Cartes de projections des anomalies")
 st.write("Cartes de projections des pays invivables")
 
 
-
-st.subheader("Projection de l'invivabilité des pays d'ici 2100")
-
 df26=pd.read_csv("ressources/Dataframe_HI_2_6.csv")
 df45=pd.read_csv("ressources/DataFrame_HI_4_5.csv")
 df6=pd.read_csv("ressources/DataFrame_HI_6.csv")
 df85=pd.read_csv("ressources/Dataframe_HI_8_5.csv")
 
 fig1 = px.choropleth(df26, locations="Country", color="Seuil",range_color=[0,200],
+                     title="Invivabilité des pays avec le scénarion RCP2,6",
                   color_discrete_sequence=["green","orange","red"],
                    locationmode='country names',color_continuous_midpoint=0,
                     labels={'Annual':'Nb de jour >35°C'})
@@ -54,10 +52,14 @@ st.write("Les scénarios RCP sont des prédictions complexes sur l'évolution de
 results = st.selectbox("Quel scénario voulez vous afficher sous forme de map?", options=Choix_selectbox)
 
 if results == "RCP2,6: Scénario optimiste":
+    st.subheader("Projection de l'invivabilité des pays d'ici 2100")
     st.plotly_chart(fig1)
 elif results == "RCP4,5: Scénario moyen bas":
+    st.subheader("Projection de l'invivabilité des pays d'ici 2100")
     st.plotly_chart(fig2)
 elif results == "RCP6: Scénario moyen haut":
+    st.subheader("Projection de l'invivabilité des pays d'ici 2100")
     st.plotly_chart(fig3)
 elif results == "RCP8,5: Scénario pessimiste":
+    st.subheader("Projection de l'invivabilité des pays d'ici 2100")
     st.plotly_chart(fig4)
