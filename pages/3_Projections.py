@@ -25,7 +25,7 @@ df26=pd.read_csv("ressources/Dataframe_HI_2_6.csv")
 C1, C2 = st. columns(2)
 
 
-fig = px.choropleth(df26, locations="Country", color="Unnamed: 0",range_color=[0,200],
+fig = px.choropleth(df26, locations="Country", color="Seuil",range_color=[0,200],
                   color_discrete_sequence=["green","orange","red"],
                     title="Invivabilité des pays avec le scénario RCP 2.6",
                     locationmode='country names',color_continuous_midpoint=0)
