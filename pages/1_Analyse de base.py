@@ -15,6 +15,8 @@ st.set_page_config(
 
 st.write("# Analyse Macro du dérèglement climatique 🌍")
 
+st.write("# Hello 🌍")
+
 st.markdown(
     """
    :bulb: Une **anomalie de température** est l’écart entre la température mesurée par rapport à la température moyenne calculée sur une période d’au moins trente ans. Elle peut être positive ou négative et nous informe ainsi du réchauffement ou refroidissement d’une zone, d’un pays, d’une surface maritime ou même de l'entièreté du globe terrestre.
