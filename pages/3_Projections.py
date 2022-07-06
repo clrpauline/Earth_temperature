@@ -33,17 +33,17 @@ fig1 = px.choropleth(df26, locations="Country", color="Seuil",range_color=[0,200
                    locationmode='country names',color_continuous_midpoint=0)
 st.plotly_chart(fig1)
 
-fig2 = px.choropleth(df45, locations="Country", color="Unnamed: 0",range_color=[0,200],
+fig2 = px.choropleth(df45, locations="Country", color=" ",range_color=[0,200],
                   color_discrete_sequence=["green","orange","red"],
                    locationmode='country names',color_continuous_midpoint=0)
 st.plotly_chart(fig2)
 
-fig3 = px.choropleth(df6, locations="Country", color="Unnamed: 0",range_color=[0,200],
+fig3 = px.choropleth(df6, locations="Country", color=" ",range_color=[0,200],
                   color_discrete_sequence=["green","orange","red"],
                    locationmode='country names',color_continuous_midpoint=0)
 st.plotly_chart(fig3)
 
-fig4 = px.choropleth(df85, locations="Country", color="Unnamed: 0",range_color=[0,200],
+fig4 = px.choropleth(df85, locations="Country", color="Seuil",range_color=[0,200],
                   color_discrete_sequence=["green","orange","red"],
                    locationmode='country names',color_continuous_midpoint=0)
 st.plotly_chart(fig4)
