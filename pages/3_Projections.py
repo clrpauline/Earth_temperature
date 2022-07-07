@@ -119,7 +119,7 @@ elif results == "RCP6: Scénario moyen haut":
     st.write("Avec le scénario RCP6")
     st.plotly_chart(fig3)
     st.sidebar.title("Analyse RCP6")
-    st.sidebar.write("Salut")
+    st.sidebar.write("Dans ce scénario la tendance des deux premiers se confirme. La moyenne des anomalies tend à tripler par rapport à la période actuelle. Mêmes les zones de l'équateur et tropicales sud ont des anomalies qui dévient beaucoup des températures locales très chaudes. Les zones de conditions difficiles s'étendent dans les zones déjà affectées en RCP4,5. Des dizaines de pays sont maintenant touchés.")
     st.write("Notre classification de l'invivabilité des pays se base sur l'indice de chaleur qui est un calcul entre la température et l'humidité, voici les seuils retenus:")
     st.write("🟩Vivable: Moins de 100 jours >35°C par an")
     st.write("🟧Conditions difficiles: Entre 100 et 200 jours >35°C par an")
