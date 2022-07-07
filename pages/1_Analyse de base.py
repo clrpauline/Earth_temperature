@@ -93,7 +93,7 @@ if genre == 'Zones':
       Afin de valider ces observations graphiques, nous avons effectué un test ANOVA sur l’indépendance de la zone par rapport à l’anomalie de température (H0). 
       Le résultat obtenu nous permet ainsi de rejeter H0, validant le fait de la dépendance de la variation de l’anomalie avec les différentes zones (Tableau 2). 
       """)
-     image = Image.open('ANOVA8zones.png')
+     image = Image.open('ressources/ANOVA8zones.png')
      st.image(image, caption="Résultat de l'ANOVA entre l'anomalie de température et la variable latitudes") 
 
 if genre=='Saisons':
