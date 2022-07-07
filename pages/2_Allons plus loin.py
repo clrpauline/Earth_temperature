@@ -60,13 +60,3 @@ fig.update_xaxes(
 
 fig.update_layout(title_text="Anomaly per zone from 1961 to 2019 <br><sup> Period Reference : mean 1951-1980")
 st.plotly_chart(fig, use_container_width=False, sharing="streamlit")
-
-plt.figure(figsize=(30,30))
-sns.relplot(x="Country Name", y="tem_change", data=df_zone, hue="year", palette="YlOrBr")
-plt.title("Evolution des anomalies par zones et par décennies", size=12)
-plt.xticks(rotation=90, size=8)
-plt.xlabel('Zones', fontsize=12)
-plt.ylabel('Anomalies de température en °C', fontsize=12)
-sns.set(rc={'figure.figsize':(20,20)})
-
-st.write(plt)
