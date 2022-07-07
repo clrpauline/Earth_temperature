@@ -70,3 +70,30 @@ st.plotly_chart(fig, use_container_width=False, sharing="streamlit")
 st.markdown("""
 Pour mieux discerner l'évolution au fil des ans, nous examinons les saisons (printemps, été, automne, hiver), plutôt que les mois. 
 """)
+
+st.subheader("Analyse des anomalies de température par saison depuis 1880")
+
+#Importing the dataset
+df_NASA=pd.read_csv('ressources/GLB.Ts+dSST.csv', index_col="Year", header=1)
+
+#Treating the erroneous data:
+df_NASA= df_NASA.replace(to_replace='***', value=np.nan)
+df_NASA.iloc[:,4:]=df_NASA.iloc[:,4:].astype('float')
+df_NASA.info()
+
+#Creating a dataset to look at the four seasons: 
+df_glob_season = df_NASA[['DJF','MAM','JJA','SON']]
+
+#Visualizing the dataset:
+plt.figure(figsize=(16,10))
+plt.grid(True)
+plt.plot(globe, label='global mean', linewidth=5, color='r')
+plt.plot('DJF', '#26323890', data=seasons, label='winter')
+plt.plot('MAM', '#EC407A90', data=seasons, label='spring')
+plt.plot('JJA', '#FFEB3B90', data=seasons, label='summer')
+plt.plot('SON', '#7E57E290', data=seasons, label='autumn')
+plt.xlabel('Year')
+plt.ylabel('Temperature Anomalies (°C)')
+plt.title('Land-Surface Air & Sea-Surface Water anomalies (1880-2021), by seasons', fontsize=18)
+plt.legend()
+st.plotly_chart(use_container_width=False, sharing="streamlit")
