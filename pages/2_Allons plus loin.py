@@ -84,7 +84,7 @@ else :
      df_country['abs Anomalies']=df_country['Anomalies'].apply('abs')
      df_country.head()
      df_country2=df_country.drop('Country Code',axis=1)
-     df_country2=df_country2.dropna()
+     df_country2=df_country2.fillna(0)
 
      fig = px.scatter(df_country2,x="x", y="y", size="abs Anomalies", color="Anomalies",color_continuous_scale='RdYlBu_r',
                      hover_name="Country Name",animation_frame="year", animation_group='Country Name', size_max=60, text='Country Name',
