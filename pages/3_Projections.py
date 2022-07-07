@@ -79,6 +79,7 @@ results = st.selectbox("Quel scénario voulez vous afficher sous forme de cartes
 
 if results == "RCP2,6: Scénario optimiste":
     st.subheader("Projection des anomalies par pays en 2100")
+    st.sidebar.write("Salut")
     st.write("Avec le scénario RCP2,6")
     st.plotly_chart(fig5)
     st.subheader("Projection de l'invabilité des pays d'ici 2100")
