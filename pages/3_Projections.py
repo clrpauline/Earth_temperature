@@ -75,23 +75,23 @@ results = st.selectbox("Quel scénario voulez vous afficher sous forme de map?",
 if results == "RCP2,6: Scénario optimiste":
     st.subheader("Projection de l'invivabilité des pays d'ici 2100")
     st.write("Avec le scénario RCP2,6")
-    st.plotly_chart(fig1)
     st.plotly_chart(fig5)
+    st.plotly_chart(fig1)
 elif results == "RCP4,5: Scénario moyen bas":
     st.subheader("Projection de l'invivabilité des pays d'ici 2100")
     st.write("Avec le scénario RCP4,5")
-    st.plotly_chart(fig2)
-    st.plotly_chart(fig6)               
+    st.plotly_chart(fig6)
+    st.plotly_chart(fig2)               
 elif results == "RCP6: Scénario moyen haut":
     st.subheader("Projection de l'invivabilité des pays d'ici 2100")
     st.write("Avec le scénario RCP6")
-    st.plotly_chart(fig3)
     st.plotly_chart(fig7)
+    st.plotly_chart(fig3)
 elif results == "RCP8,5: Scénario pessimiste":
     st.subheader("Projection de l'invivabilité des pays d'ici 2100")
     st.write("Avec le scénario RCP8,5")
-    st.plotly_chart(fig4)
     st.plotly_chart(fig8)
+    st.plotly_chart(fig4)
     
     
    
