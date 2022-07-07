@@ -96,3 +96,11 @@ fig.update_polars(angularaxis_dtick=1,
                   angularaxis_exponentformat="power")
 #Get it online:
 st.plotly_chart(fig, use_container_width=False, sharing="streamlit")
+
+st.markdown("""
+Les saisons semblent évoluer de manière relativement égale, c'est-à-dire qu'il n'y a pas une seule saison qui connaît des anomalies particulièrement élevées ou faibles. 
+
+Il y a une exception : l'hiver, mais il ne présente des anomalies particulièrement élevées que dans les années les plus récentes. 
+
+Pour confirmer cette hypothèse, examinons deux tests ANOVA : 
+""")
