@@ -17,5 +17,5 @@ st.write("Bubble heatmap Guillaume")
 st.write("Autres visualisations que vous souhaitez proposer?")
 
 
-df = pd.read_csv("ressource/DFCO2_Anomaliez.csv")
+
 
