@@ -28,7 +28,7 @@ fig1 = px.choropleth(df26, locations="Country", color="Seuil",range_color=[0,200
                   color_discrete_sequence=["green","orange","red"],
                    locationmode='country names',color_continuous_midpoint=0,
                     labels={'Annual':'Nb de jour >35°C'})
-fig1.update_layout(autosize=False,margin = dict(l=0,r=0,b=0,t=0,pad=4, autoexpand=True), width=730, legend=dict(yanchor="bottom",y=0.1,xanchor="right",x=0.99))
+fig1.update_layout(autosize=False,margin = dict(l=0,r=0,b=0,t=0,pad=4, autoexpand=True), width=730, legend=dict(yanchor="bottom",y=0.1,xanchor="right",x=0.99, title="Criticité"))
 
 
 
