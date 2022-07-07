@@ -71,7 +71,7 @@ else :
             df_country.loc[df_country['Country Name']==i, 'x']=x[j]
             df_country.loc[df_country['Country Name']==i, 'y']=y[f]
             f+=1
-        if f==17:
+       if f==17:
             df_country.loc[df_country['Country Name']==i, 'x']=x[j]
             df_country.loc[df_country['Country Name']==i, 'y']=y[f]
             f=0
