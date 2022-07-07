@@ -145,9 +145,9 @@ if genre=='Saisons':
       Pour confirmer cette hypothèse, examinons deux tests ANOVA : 
       """)
      st.subheader("Test ANOVA sur season et anomalie : 1880-2021 (haut) et 1880-1920 (bas)")
-     st.image("ressources/ANOVA_seasons_1880-2021.jpg",width=200)
+     st.image("ressources/ANOVA_seasons_1880-2021.jpg",width=500)
      st.markdown(" ")
-     st.image("ressources/ANOVA_seasons_1880-1920.jpg")
+     st.image("ressources/ANOVA_seasons_1880-1920.jpg",width=500)
 
      st.markdown("""
       Ce test nous permet de conclure sur l'indépendance des saisons envers l’anomalie de température de nos jours, tandis qu’il semblerait que cela ai pu avoir un impact avant 1920. 
