@@ -42,6 +42,13 @@ zones=zones[zones['Zone']!='Global']
 #Calculating the mean anomaly for each zone each year
 zones['Anomaly']=(zones['Jan']+zones['Feb']+zones['Mar']+zones['Apr']+zones['May']+zones['Jun']+zones['Jul']+zones['Aug']+zones['Sep']+zones['Oct']+zones['Nov']+zones['Dec'])/12
 
+fig = px.bar(zones, x='Zone', y='Anomaly', color='Anomaly',color_continuous_scale='RdYlBu_r', labels={"Anomaly": "Anomaly<br>in °C"})
+fig.update_layout(title_text="Temperature Anomaly from 1880 to 2021<br><sup> Period Reference : mean 1951-1980")
+st.plotly_chart(fig, use_container_width=False, sharing="streamlit")
+
+
+
+
 fig = go.Figure()
 fig = px.bar(zones, x="Zone", y='Anomaly', animation_frame="Year",animation_group="Zone" ,range_y=[-2,2], 
              color='Anomaly',color_continuous_scale='RdYlBu_r' , orientation="v",color_continuous_midpoint=0, 
