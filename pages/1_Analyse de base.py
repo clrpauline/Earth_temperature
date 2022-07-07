@@ -94,5 +94,12 @@ Il y a une exception : l'hiver, mais il ne présente des anomalies particulière
 
 Pour confirmer cette hypothèse, examinons deux tests ANOVA : 
 """)
+st.subheader("Test ANOVA sur zone et anomalie : 1880-2021 (haut) et 1880-1920 (bas)")
 st.image("ressources/ANOVA_full.jpg")
+st.markdown(" ")
 st.image("ressources/ANOVA_recent.jpg")
+
+st.markdown("""
+Ce test nous permet de conclure sur l'indépendance des saisons envers l’anomalie de température de nos jours, tandis qu’il semblerait que cela ai pu avoir un impact avant 1920. 
+Cela semble logique au vu des observations climatiques : les saisons commencent à se déplacer, nous ne pouvons plus définir l’hiver et l’été par rapport à des mois de l’année.
+""")
