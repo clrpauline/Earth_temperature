@@ -86,6 +86,6 @@ df_NASA.iloc[:,1:]=df_NASA.iloc[:,1:].astype('float')
 df_glob_season = df_NASA[['J-D','DJF','MAM','JJA','SON']]
 
 #Visualizing the dataset:
-fig = px.bar(df_glob_season, x='Year', y='J-D', color='J-D',color_continuous_scale='RdYlBu_r', labels={"Glob": "Anomaly<br>in °C"})
+fig = px.bar(df_glob_season, x='Year', y='J-D', color='J-D',color_continuous_scale='RdYlBu_r', labels={"J-D": "Anomaly<br>in °C"})
 fig.update_layout(title_text="Temperature Anomaly per season from 1880 to 2021<br><sup> Period Reference : mean 1951-1980")
 st.plotly_chart(fig, use_container_width=False, sharing="streamlit")
