@@ -33,18 +33,18 @@ fig1.update_layout(autosize=False,margin = dict(l=0,r=0,b=0,t=0,pad=4, autoexpan
 fig2 = px.choropleth(df45, locations="Country", color="Seuil",range_color=[0,200],
                   color_discrete_sequence=["green","orange","red"],
                    locationmode='country names',color_continuous_midpoint=0)
-fig2.update_layout(autosize=False,margin = dict(l=0,r=0,b=0,t=0,pad=4, autoexpand=True), width=800)
+fig2.update_layout(autosize=False,margin = dict(l=0,r=0,b=0,t=0,pad=4, autoexpand=True), width=800, legend=dict(yanchor="top",y=0.99,xanchor="right",x=0.99))
 
 
 fig3 = px.choropleth(df6, locations="Country", color="Seuil",range_color=[0,200],
                   color_discrete_sequence=["green","orange","red"],
                    locationmode='country names',color_continuous_midpoint=0)
-fig3.update_layout(autosize=False,margin = dict(l=0,r=0,b=0,t=0,pad=4, autoexpand=True), width=800)
+fig3.update_layout(autosize=False,margin = dict(l=0,r=0,b=0,t=0,pad=4, autoexpand=True), width=800, legend=dict(yanchor="top",y=0.99,xanchor="right",x=0.99))
 
 fig4 = px.choropleth(df85, locations="Country", color="Seuil",range_color=[0,200],
                   color_discrete_sequence=["red","green","orange"],
                    locationmode='country names',color_continuous_midpoint=0)
-fig4.update_layout(autosize=False,margin = dict(l=0,r=0,b=0,t=0,pad=4, autoexpand=True), width=800)
+fig4.update_layout(autosize=False,margin = dict(l=0,r=0,b=0,t=0,pad=4, autoexpand=True), width=800, legend=dict(yanchor="top",y=0.99,xanchor="right",x=0.99))
 
 fig5 = px.choropleth(data, locations="Country", color = "RCP 2.6", range_color=[-8,8],
                     color_continuous_scale='turbo',locationmode='country names', 
@@ -68,7 +68,7 @@ fig8.update_layout(autosize=False,margin = dict(l=0,r=0,b=0,t=0,pad=4, autoexpan
 
 
 
-Choix_selectbox=[" ","RCP2,6: Scénario optimiste","RCP4,5: Scénario moyen bas","RCP6: Scénario moyen haut","RCP8,5: Scénario pessimiste"]
+Choix_selectbox=[" ","RCP2,6: Scénario optimiste","RCP4,5: Scénario moyen bas","RCP6: Scénario moyen haut","RCP8,5: Scénario pessimiste", "Tous les scénarios"]
 st.write("Les scénarios RCP sont des prédictions complexes sur l'évolution de notre climat jusqu'à la fin du siècle. Elles prennent en compte enormément de paramètres comme les emissions de différents gaz à effet de serre, l'activité volcanique, l'impact du solaire... Nous vous proposons de choisir entre les 4 choix possibles qui ont été évalué par les scientifiques:")
 results = st.selectbox("Quel scénario voulez vous afficher sous forme de map?", options=Choix_selectbox)
 
@@ -102,6 +102,16 @@ elif results == "RCP8,5: Scénario pessimiste":
     st.subheader("Projection de l'invivabilité des pays d'ici 2100")
     st.write("Avec le scénario RCP2,6")
     st.plotly_chart(fig4)
-    
+elif results == "Tous les scénarios":
+    st.subheader("Projection de l'invivabilité des pays d'ici 2100")
+    st.plotly_chart(fig1)
+    st.plotly_chart(fig2)
+    st.plotly_chart(fig3)
+    st.plotly_chart(fig4)
+    st.subheader("Projection des anomalies par pays en 2100")
+    st.plotly_chart(fig5)
+    st.plotly_chart(fig6)
+    st.plotly_chart(fig7)
+    st.plotly_chart(fig8)
     
    
