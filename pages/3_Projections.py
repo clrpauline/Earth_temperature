@@ -49,22 +49,22 @@ fig4.update_layout(autosize=False,margin = dict(l=0,r=0,b=0,t=0,pad=4, autoexpan
 fig5 = px.choropleth(data, locations="Country", color = "RCP 2.6", range_color=[-8,8],
                     color_continuous_scale='turbo',locationmode='country names', 
                     color_continuous_midpoint=0, labels={"RCP 2.6": "Anomaly<br>in °C"})
-fig5.update_layout(title_text="Anomaly projection for End of Century (2080-'99) <br><sup>...assuming Scenario RCP 2.6</sup>", font=dict(size=20))
+fig5.update_layout(autosize=False,margin = dict(l=0,r=0,b=0,t=0,pad=4, autoexpand=True), width=800)
 
 fig6 = px.choropleth(data, locations="Country", color = "RCP 4.5", range_color=[-8,8],
                     color_continuous_scale='turbo', locationmode='country names', 
                     color_continuous_midpoint=0, labels={"RCP 4.5": "Anomaly<br>in °C"})
-fig5.update_layout(title_text="<sup>...assuming Scenario RCP 4.5</sup>", font=dict(size=20))
+fig6.update_layout(autosize=False,margin = dict(l=0,r=0,b=0,t=0,pad=4, autoexpand=True), width=800)
 
 fig7 = px.choropleth(data, locations="Country", color = "RCP 6", range_color=[-8,8],
                     color_continuous_scale='turbo', locationmode='country names', 
                     color_continuous_midpoint=0, labels={"RCP 6": "Anomaly<br>in °C"})
-fig7.update_layout(title_text="<sup>...assuming Scenario RCP 6</sup>", font=dict(size=20))
+fig7.update_layout(autosize=False,margin = dict(l=0,r=0,b=0,t=0,pad=4, autoexpand=True), width=800)
 
 fig8 = px.choropleth(data, locations="Country", color = "RCP 8.5", range_color=[-8,8],
                     color_continuous_scale='turbo', locationmode='country names', 
                     color_continuous_midpoint=0, labels={"RCP 8.5": "Anomaly<br>in °C"})
-fig8.update_layout(title_text="<sup>...assuming Scenario RCP 8.5</sup>", font=dict(size=20))
+fig8.update_layout(autosize=False,margin = dict(l=0,r=0,b=0,t=0,pad=4, autoexpand=True), width=800)
 
 
 
