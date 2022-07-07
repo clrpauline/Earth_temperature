@@ -66,8 +66,8 @@ if genre == 'Zones':
       On peut alors observer que c'est à partir du 21ème siècle que les anomalies ne semblent pas réparties homogénéiquement entre l’hémisphère Nord et l’hémisphère Sud.
       Pour confirmer cette observation, regardons le test ANOVA sur l'indépendance de l'anomalie et les zones. Le résultat confirme l'observation: il dépend de la période de temps.
       """)
-     st.image('ressources/ANOVA_northsouth_full.jpg')
-     st.image('ressources/ANOVA_northsouth_recent.jpg')
+     st.image('ressources/ANOVA_northsouth_full.jpg',width=500)
+     st.image('ressources/ANOVA_northsouth_recent.jpg',width=500)
      st.markdown("""
       Les résultats des tests pour les données de 1880-2021 montrent que la zone n'a pas d'effet statistiquement significatif sur l'anomalie mesurée.
       Les résultats des tests pour les mêmes données, mais de 1980 à 2021 (c'est-à-dire des périodes plus récentes) montrent que la zone a un effet important sur l'anomalie.
@@ -93,7 +93,7 @@ if genre == 'Zones':
       Afin de valider ces observations graphiques, nous avons effectué un test ANOVA sur l’indépendance de la zone par rapport à l’anomalie de température (H0). 
       Le résultat obtenu nous permet ainsi de rejeter H0, validant le fait de la dépendance de la variation de l’anomalie avec les différentes zones (Tableau 2). 
       """)
-     st.image('ressources/ANOVA8zones.PNG', caption="Résultat de l'ANOVA entre l'anomalie de température et la variable latitudes") 
+     st.image('ressources/ANOVA8zones.PNG', caption="Résultat de l'ANOVA entre l'anomalie de température et la variable latitudes",width=500) 
 
 if genre=='Saisons':
      st.markdown("""
