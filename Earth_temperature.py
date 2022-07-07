@@ -133,7 +133,7 @@ elif genre== 'Dataset des projections par pays : CMIP 5 et World Bank ' :
      """)
      st.dataframe(df_HI )    
     
-st.header("2. Exploration des données")
+st.header("Exploration des données")
 st.markdown("**Langage utilisé :** Python")
 st.markdown("**Librairies utilisées :** Pandas, Numpy, Matplotlib, Seaborn, Plotly, Bokeh, Scikit-learn")
 st.markdown("**Valeurs manquantes :** Les valeurs manquantes sont identifiées par 3 astérisques, ces valeurs ont été supprimées du dataframe.")
