@@ -44,9 +44,7 @@ fig = px.bar(zones, x='Zone', y='Anomaly', color='Anomaly',color_continuous_scal
 fig.update_layout(title_text="Temperature Anomaly from 1880 to 2021<br><sup> Period Reference : mean 1951-1980")
 st.plotly_chart(fig, use_container_width=False, sharing="streamlit")
 
-st.markdown("""
-On note que les anomalies sont plus importantes sur l’hémisphère Nord tandis que l’hémisphère Sud croît moins rapidement, ce qui va dans le sens des observations scientifiques. En effet, l'hémisphère Nord est connu pour être plus chaud que l'hémisphère sud, notamment dû au ratio surface  terrestre/surface maritime et au courant des océans réchauffant l’hémisphère Nord  (Feulner and all. ,2013 & Kang, Seager, 2014).
-
+st.markdown("""On note que les anomalies sont plus importantes sur l’hémisphère Nord tandis que l’hémisphère Sud croît moins rapidement, ce qui va dans le sens des observations scientifiques. En effet, l'hémisphère Nord est connu pour être plus chaud que l'hémisphère sud, notamment dû au ratio surface  terrestre/surface maritime et au courant des océans réchauffant l’hémisphère Nord  (Feulner and all. ,2013 & Kang, Seager, 2014).
 Pour analyser l'évolution des anomalies par zone au fil du temps, regardons le graphique à barres animé ci-dessous : 
 """)
 
