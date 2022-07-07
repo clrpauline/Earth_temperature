@@ -90,12 +90,11 @@ elif genre== 'Dataset des projections par pays : CMIP 5 et World Bank ' :
      """)
 
      st.subheader('Datasets :')
-     st.markdown("<h3 style='text-align: center; '>Projection des radiations via forçage selon le RCP</h3>", unsafe_allow_html=True)
-     st.markdown('**Projection des radiations via forçage selon le RCP**')
+     st.markdown("<h4 style='text-align: center; '>Projection des radiations via forçage selon le RCP</h4>", unsafe_allow_html=True)
      st.markdown('**Unité de mesure :** W/m^2')
      st.dataframe(df_RCP )
 
-     st.markdown('**Projection des anomalies de température par pays et selon le RCP**')
+     st.markdown("<h4 style='text-align: center; '>Projection des anomalies de température par pays et selon le RCP</h4>", unsafe_allow_html=True)
      st.markdown("""
      - **Collection :** CMIP5 Projections
      - **Variable :** Mean-Temperature
@@ -109,7 +108,7 @@ elif genre== 'Dataset des projections par pays : CMIP 5 et World Bank ' :
      """)
      st.dataframe(df_proj_pays)    
 
-     st.markdown('**Projection du nombre de jour avec un Heat Index > 35°C  par pays et selon le RCP**')
+     st.markdown("<h4 style='text-align: center; '>Projection du nombre de jour avec un Heat Index > 35°C  par pays et selon le RCP</h4>", unsafe_allow_html=True)
      st.markdown("""
      - **Collection :** CMIP5 Projections
      - **Variable :** Heat index
