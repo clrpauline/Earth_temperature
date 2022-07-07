@@ -6,9 +6,12 @@ import plotly.express as px
 import plotly.graph_objects as go
 import plotly
 import streamlit as st
+st.set_page_config(
+    page_title="Analyse des anomalies de température par zones et pays 🌍",
+    page_icon="🌍",
+)
 
-st.markdown("<h1 style='text-align: center; '>Analyse des anomalies de température par zones et pays 🌍</h1>", unsafe_allow_html=True)
-
+st.write("# Analyse des anomalies de température par zones et pays 🌍")
 
 st.write("Pour aller plus loin, nous avons ainsi récupéré un jeu de données rescensant les anomalies de température par continents et par pays de 1961 à 2019. Ces anomalies sont comparées à la moyenne de température entre 1951 et 1980.")
 genre = st.radio('Visualisation des anomalies de température :',
