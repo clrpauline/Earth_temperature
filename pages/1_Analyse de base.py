@@ -76,17 +76,23 @@ Pour mieux discerner l'évolution au fil des ans, nous examinons les saisons (pr
 st.subheader("Analyse des anomalies de température par *saison* depuis 1880")
 
 #Importing the dataset, treating erroneous data:
-df_NASA=pd.read_csv('ressources/GLB.Ts+dSST_.csv')
+df_NASA=pd.read_csv('ressources/Anomalies_season.csv')
 df_NASA=df_NASA.loc[df_NASA['Year']!=2022]
 df_NASA= df_NASA.replace(to_replace='***', value=np.nan)
-df_NASA.iloc[:,1:]=df_NASA.iloc[:,1:].astype('float')
+df_NASA.iloc[:,3]=df_NASA.iloc[:,3].astype('float')
 
 #Creating a dataset to look at the four seasons: 
-df_glob_season = df_NASA[['Year', 'J-D','DJF','MAM','JJA','SON']]
+df_season = df_NASA[['Year', 'Season','Anomaly']]
 
 #Visualizing the dataset:
-fig = px.bar(df_glob_season, x='Year', y='J-D', color='J-D', color_continuous_scale='RdYlBu_r', labels={"J-D": "Anomaly<br>in °C"})
-fig.update_layout(title_text="Temperature Anomaly per season from 1880 to 2021<br><sup> Period Reference : mean 1951-1980")
-
+fig = px.bar_polar(df_season, r="Anomaly", theta="Season", color="Anomaly", animation_frame="Year",animation_group="Season",
+                   color_continuous_scale= 'RdYlBu_r', color_continuous_midpoint=0, 
+                    range_color=[df_season["Anomaly"].min(), df_Season["Anomaly"].max()],
+                   range_r=[df_Season["Anomaly"].min(), df_Season["Anomaly"].max()],
+                   labels={"Anomaly": "Anomalies <br>en °C"}
+                   )
+fig.update_layout(title_text="Anomalies de température mondiales par saison de 1880 à2021 <br><sup> Période de référence : 1951-1980")
+fig.update_polars(angularaxis_dtick=1, 
+                  angularaxis_exponentformat="power")
 #Get it online:
 st.plotly_chart(fig, use_container_width=False, sharing="streamlit")
