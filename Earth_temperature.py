@@ -14,7 +14,7 @@ st.set_page_config(
     page_icon="🌍",
 )
 st.markdown("<h1 style='text-align: center; '>Analyse du dérèglement climatique et projections 🌍</h1>", unsafe_allow_html=True)
-st.write("""Dans cette étude vous sera présenté une vision objective et factuelle du réchauffement climatique, du début de la révolution industrielle, jusqu'à la fin du XXIe siècle. 
+st.write("""Dans cette étude, vous sera présenté notre analyse réchauffement climatique, du début de la révolution industrielle, jusqu'à la fin du XXIe siècle. 
 Les données analysées sont des anomalies de température qui proviennent de différentes sources de données récupérées et cités ci-dessous.
 """)
 st.write(""" 
@@ -39,7 +39,7 @@ if genre == 'Dataset principal : NASA':
      df_per_zones=pd.read_csv('ressources/DataFrame_anomaly_per_zones.csv')
      df_per_zones=df_per_zones.drop('Unnamed: 0',axis=1)
      st.subheader('Source :')
-     st.write("Les données sont anomalies de température calculées par la NASA, plus précisément du GISS (Goddard Institute for Space Studies). Ces données sont des estimations globales issues des stations météorologiques du regroupement de plusieurs sources :")
+     st.write("Les données sont les anomalies de température calculées par la NASA, plus précisément du GISS (Goddard Institute for Space Studies). Ces données sont des estimations globales issues des stations météorologiques du regroupement de plusieurs sources :")
      st.write("- Le NOAA GHCN v4 pour les mesures des stations météorologiques terrestres;")
      st.write("- Le ERSST v5 pour les mesures océaniques.")
 
@@ -64,7 +64,7 @@ elif genre== 'Dataset par pays : Kaggle':
      df_country=pd.read_csv('ressources/df_country.csv')
      df_zones=pd.read_csv('ressources/df_zone.csv')
      st.subheader('Source :')
-     st.write("Les données sont anomalies de température calculées par la Food and Agriculture Organization of the United Nations :")
+     st.write("Les données sont les anomalies de température calculées par la Food and Agriculture Organization of the United Nations :")
      
      st.markdown("**Unités de mesures :** Degré Celsius")
 
