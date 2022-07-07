@@ -14,7 +14,7 @@ st.set_page_config(
 
 st.title("Une représentation qui fait chaud dans le dos!")
 
- df_country=pd.read_csv('ressources/df_country.csv')
+df_country=pd.read_csv('ressources/df_country.csv')
      df_country.head()
      y=[0,20,40,60,80,100,120,140,160,180,200,220,240,260,280,300,320,340,360,380,400,420,440,460]
      y=np.sort(y)[::-1]
