@@ -28,7 +28,28 @@ st.markdown("""
 La courbe représentant les anomalies de température mondiales est croissante avec un plateau, entre 1951 et 1980 expliqué par les moyennes prises sur cette période de référence pour construire les anomalies.
 
 On observe que la pente de la courbe est plus importante entre 1980 et 2020 qu’entre 1900 et 1940, signifiant une accélération du changement climatique
+""")
 
+st.markdown("New test start")
+
+###ANOVA on: global zone (South/North) & Anomaly
+#Import of an anomaly df across Northern & Southern Hemisphere, and Global. 
+#Dropping year 2022 (lots of NaNs), and Zone=Global.
+zones=pd.read_csv("ressources/AnomalyZones.csv")
+zones.drop(columns='Unnamed: 0', inplace=True)
+zones=zones[zones['Year'] != 2022]
+zones=zones[zones['Zone']!='Global']
+
+st.markdown("New test stop")
+
+
+
+
+
+
+
+
+st.markdown("""
 Nous allons ensuite visualiser l'évolution de ces anomalies en fonction des mois de l'année. 
 """)
 st.subheader("Analyse des anomalies de température par mois depuis 1880")
