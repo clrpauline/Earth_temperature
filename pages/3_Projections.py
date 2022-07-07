@@ -75,7 +75,7 @@ fig8.update_layout(autosize=False,margin = dict(l=0,r=0,b=0,t=0,pad=4, autoexpan
 Choix_selectbox=[" ","RCP2,6: Scénario optimiste","RCP4,5: Scénario moyen bas","RCP6: Scénario moyen haut","RCP8,5: Scénario pessimiste", "Tous les scénarios"]
 st.write("Comme on le remarque, 4 scénarios ont été prévus pour la fin du siècle (RCP2.6 pour le plus optimiste et RCP8.5 pour le plus pessimiste). Les scénarios RCP sont des prédictions complexes sur l'évolution de notre climat jusqu'à la fin du siècle. Elles prennent en compte enormément de paramètres comme les emissions de différents gaz à effet de serre, l'activité volcanique, l'impact des radiations solaires mmais tout est ici représenté en terme de CO2 pour faciliter la compréhension. Nous vous proposons de choisir entre les 4 voies possibles qui ont été évaluées par les scientifiques du GIEC:")
 
-results = st.selectbox("Quel scénario voulez vous afficher sous forme de cartes?", options=Choix_selectbox)
+results = st.sidebar.selectbox("Quel scénario voulez vous afficher sous forme de cartes?", options=Choix_selectbox)
 
 if results == "RCP2,6: Scénario optimiste":
     st.subheader("Projection des anomalies par pays en 2100")
