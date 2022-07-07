@@ -79,12 +79,14 @@ results = st.selectbox("Quel scénario voulez vous afficher sous forme de cartes
 
 if results == "RCP2,6: Scénario optimiste":
     st.subheader("Projection des anomalies par pays en 2100")
-    st.sidebar.write("Salut")
+    
     st.write("Avec le scénario RCP2,6")
     st.plotly_chart(fig5)
     st.subheader("Projection de l'invabilité des pays d'ici 2100")
     st.write("Avec le scénario RCP2,6")
     st.plotly_chart(fig1)
+    st.sidebar.title("Analyse RCP2,6")
+    st.sidebar.write("Salut")
     
 elif results == "RCP4,5: Scénario moyen bas":
     st.subheader("Projection des anomalies par pays en 2100")
@@ -93,21 +95,29 @@ elif results == "RCP4,5: Scénario moyen bas":
     st.subheader("Projection de l'invivabilité des pays d'ici 2100")
     st.write("Avec le scénario RCP2,6")
     st.plotly_chart(fig2) 
+    st.sidebar.title("Analyse RCP4,5")
+    st.sidebar.write("Salut")
     
 elif results == "RCP6: Scénario moyen haut":
     st.subheader("Projection des anomalies par pays en 2100")
     st.write("Avec le scénario RCP6")
     st.plotly_chart(fig7)
     st.subheader("Projection de l'invivabilité des pays d'ici 2100")
-    st.write("Avec le scénario RCP2,6")
+    st.write("Avec le scénario RCP6")
     st.plotly_chart(fig3)
+    st.sidebar.title("Analyse RCP6")
+    st.sidebar.write("Salut")
+    
 elif results == "RCP8,5: Scénario pessimiste":
     st.subheader("Projection des anomalies par pays en 2100")
     st.write("Avec le scénario RCP8,5")
     st.plotly_chart(fig8)
     st.subheader("Projection de l'invivabilité des pays d'ici 2100")
-    st.write("Avec le scénario RCP2,6")
+    st.write("Avec le scénario RCP8,5")
     st.plotly_chart(fig4)
+    st.sidebar.title("Analyse RCP8,5")
+    st.sidebar.write("Salut")
+    
 elif results == "Tous les scénarios":
     st.subheader("Projection de l'invivabilité des pays d'ici 2100")
     st.plotly_chart(fig1)
@@ -119,5 +129,7 @@ elif results == "Tous les scénarios":
     st.plotly_chart(fig6)
     st.plotly_chart(fig7)
     st.plotly_chart(fig8)
+    st.sidebar.title("Analyse Globale")
+    st.sidebar.write("Salut")
     
    
