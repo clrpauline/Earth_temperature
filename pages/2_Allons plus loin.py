@@ -39,6 +39,7 @@ st.subheader("Visualisation des données")
 df_zone=pd.read_csv('ressources/df_zone.csv')
 fig = px.bar_polar(df_zone, r="Anomalies", theta="Country Name", color="Anomalies", animation_frame="year",
                    animation_group="Country Name" , color_continuous_scale= 'RdYlBu_r', color_continuous_midpoint=0, 
+                   range_r=[df_zone["Anomaly"].min(), df_zone["Anomaly"].max()],
                     range_color=[df_zone["Anomalies"].min(), df_zone["Anomalies"].max()],labels={"Anomalies": "Anomaly<br>in °C"}
                    )
 fig.update_layout(title_text="Anomaly per zone from 1961 to 2019 <br><sup> Period Reference : mean 1951-1980")
