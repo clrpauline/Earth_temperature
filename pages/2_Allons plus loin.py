@@ -40,7 +40,7 @@ else :
      df=df.replace({"URSS": "Russia",})
      df=df.rename({'tem_change':'Anomalies'}, axis=1)
      fig = px.choropleth(df, locations="Country Name", color="Anomalies",
-                    color_continuous_scale='turbo', animation_group="Country Name",
+                    color_continuous_scale='RdYlBu_r', animation_group="Country Name",
                     locationmode='country names', animation_frame="year", color_continuous_midpoint=0, 
                    range_color=[-2, 3]
              )
