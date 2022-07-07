@@ -67,11 +67,11 @@ else :
      f=0
      j=0
      for i in uniques:
-       if f<= 16:
+       if f< 17:
             df_country.loc[df_country['Country Name']==i, 'x']=x[j]
             df_country.loc[df_country['Country Name']==i, 'y']=y[f]
             f+=1
-       if f==17:
+       else :
             df_country.loc[df_country['Country Name']==i, 'x']=x[j]
             df_country.loc[df_country['Country Name']==i, 'y']=y[f]
             f=0
