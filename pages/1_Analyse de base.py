@@ -80,7 +80,7 @@ if genre == 'Zones':
      lat8['Latitudes']=lat8['Latitudes'].replace(to_replace=['64N-90N', '44N-64N', '24N-44N', 'EQU-24N', '24S-EQU', '44S-24S',
         '64S-44S', '90S-64S'], value=['Arctic Circle (90N-64N)','Northern Tropic of Cancer (44N-64N)', 'Southern Tropic of Cancer (24N-44N)', 'Northern Equator (24N-equ)',
         'Southern Equator (equ-24S)','Northern Tropic of Capricorn (24S-44S)', 'Southern Tropic of Capricorn (44S-64S)','Antarctic Circle (64S-90S)'])
-     fig=px.line(lat8,x='Year', y='Anomaly', color='Latitudes', color_discrete_sequence=['#00008b', '#4169e1', '#1e90ff','#add8e6', '#fffacd', '#ffdead', '#f4a460', '#ff8c00'], width=1000, height=500)
+     fig=px.line(lat8,x='Year', y='Anomaly', color='Latitudes', color_discrete_sequence=['#00008b', '#4169e1', '#1e90ff','#add8e6', '#fffacd', '#ffdead', '#f4a460', '#ff8c00'], width=800, height=500)
      fig.add_trace(go.Scatter(x=df['Year'], y=df['Glob'], name='Global Mean',
                           line=dict(color='firebrick', width=4)))
 
