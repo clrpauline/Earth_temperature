@@ -133,7 +133,7 @@ elif results == "RCP8,5: Scénario pessimiste":
     st.write("Avec le scénario RCP8,5")
     st.plotly_chart(fig4)
     st.sidebar.title("Analyse RCP8,5")
-    st.sidebar.write("Salut")
+    st.sidebar.write("Le pire scénario selon le GIEC, la tendance d'émission de CO2 s'intensifie avec le développement humain. Les anomalies s'emballent et modifient l'ensemble du climat pour de bon. Notre planète avance à grand pas vers un avenir inhospitalier. Les zones qui jusquà maintenant avaient des conditions difficiles deviennent invivables.")
     st.write("Notre classification de l'invivabilité des pays se base sur l'indice de chaleur qui est un calcul entre la température et l'humidité, voici les seuils retenus:")
     st.write("🟩Vivable: Moins de 100 jours >35°C par an")
     st.write("🟧Conditions difficiles: Entre 100 et 200 jours >35°C par an")
