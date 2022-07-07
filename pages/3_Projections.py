@@ -15,7 +15,7 @@ st.set_page_config(
 
 st.title("Projections pour la fin du siècle")
 st.write("Sur cette page sont centralisées les prédictions qui émanent de notre étude préliminaire. L'objectif de ce rapport étant de répondre à la problématique: **Quels pays deviendront invivables d'ici la fin du siècle?**")
-st.write("Ci-dessous un graphique représentant l'un des élément essentiel de notre analyse, les **RCP (pour Representative Concentration Pathway)**.)
+st.write("Ci-dessous un graphique représentant l'un des élément essentiel de notre analyse, les **RCP (pour Representative Concentration Pathway)**.")
 
 df26=pd.read_csv("ressources/Dataframe_HI_2_6.csv")
 df45=pd.read_csv("ressources/DataFrame_HI_4_5.csv")
