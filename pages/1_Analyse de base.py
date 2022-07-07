@@ -90,14 +90,13 @@ st.plotly_chart(fig, use_container_width=False, sharing="streamlit")
 st.markdown("""
 Les saisons semblent évoluer de manière relativement égale, c'est-à-dire qu'il n'y a pas une seule saison qui connaît des anomalies particulièrement élevées ou faibles. 
 
-Il y a une exception : l'hiver, mais il ne présente des anomalies particulièrement élevées que dans les années les plus récentes. 
-
+Cependant, ces dernières années, il est devenu plus courant que les hivers soient exceptionnellement chauds.
 Pour confirmer cette hypothèse, examinons deux tests ANOVA : 
 """)
-st.subheader("Test ANOVA sur zone et anomalie : 1880-2021 (haut) et 1880-1920 (bas)")
-st.image("ressources/ANOVA_full.jpg")
+st.subheader("Test ANOVA sur season et anomalie : 1880-2021 (haut) et 1880-1920 (bas)")
+st.image("ressources/ANOVA_seasons_1880-2021.jpg")
 st.markdown(" ")
-st.image("ressources/ANOVA_recent.jpg")
+st.image("ressources/ANOVA_seasons_1880-1920.jpg")
 
 st.markdown("""
 Ce test nous permet de conclure sur l'indépendance des saisons envers l’anomalie de température de nos jours, tandis qu’il semblerait que cela ai pu avoir un impact avant 1920. 
