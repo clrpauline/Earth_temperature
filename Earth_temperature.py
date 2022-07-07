@@ -15,7 +15,7 @@ st.set_page_config(
 )
 st.markdown("<h1 style='text-align: center; '>Analyse du dérèglement climatique et projections 🌍</h1>", unsafe_allow_html=True)
 st.write("""Dans cette étude, vous sera présenté notre analyse réchauffement climatique, du début de la révolution industrielle, jusqu'à la fin du XXIe siècle. 
-Les données analysées sont des anomalies de température qui proviennent de différentes sources de données récupérées et cités ci-dessous.
+Les données analysées sont des anomalies de température qui proviennent de différentes sources de données récupérées et citées ci-dessous.
 """)
 st.write(""" 
 💡 Une **anomalie de température** est l’écart entre la température mesurée par rapport à la température moyenne calculée sur une période d’au moins trente ans. 
