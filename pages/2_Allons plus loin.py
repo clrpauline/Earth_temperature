@@ -90,7 +90,7 @@ fig = px.scatter(df_country2,x="x", y="y", size="abs Anomalies", color="Anomalie
 
 fig.update_xaxes(visible=False)
 fig.update_yaxes(visible=False)
-fig.update_layout(modebar_remove='autoscale')
+
 st.plotly_chart(fig, use_container_width=False, sharing="streamlit")
     
     
