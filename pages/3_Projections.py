@@ -24,7 +24,7 @@ df85=pd.read_csv("ressources/Dataframe_HI_8_5.csv")
 data=pd.read_csv("ressources/AnomalyScenarios_RCP.csv")
 image = Image.open('ressources/RCP représentation.png')
 
-st.image(imag
+st.image(image)
 
 fig1 = px.choropleth(df26, locations="Country", color="Seuil",range_color=[0,200],
                   color_discrete_sequence=["green","orange","red"],
