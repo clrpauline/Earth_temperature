@@ -24,8 +24,8 @@ genre = st.radio('',
      ('Dataset principal : NASA', 'Dataset par pays : Kaggle', 'Dataset des projections par pays : CMIP 5 et World Bank '))
 
 if genre == 'Dataset principal : NASA':
-     df_annuel=pd.read_csv('ZonAnn.Ts+dSST.csv')
-     df_per_zones=pd.read_csv('DataFrame_anomaly_per_zones.csv')
+     df_annuel=pd.read_csv('ressources/ZonAnn.Ts+dSST.csv')
+     df_per_zones=pd.read_csv('ressources/DataFrame_anomaly_per_zones.csv')
      df_per_zones=df_per_zones.drop('Unnamed: 0',axis=1)
      st.subheader('Source :')
      st.write("Les données sont anomalies de température calculées par la NASA, plus précisément du GISS (Goddard Institute for Space Studies). Ces données sont des estimations globales issues des stations météorologiques du regroupement de plusieurs sources :")
@@ -50,8 +50,8 @@ if genre == 'Dataset principal : NASA':
 
 
 elif genre== 'Dataset par pays : Kaggle':
-     df_country=pd.read_csv('df_country.csv')
-     df_zones=pd.read_csv('df_zone.csv')
+     df_country=pd.read_csv('ressources/df_country.csv')
+     df_zones=pd.read_csv('ressources/df_zone.csv')
      st.subheader('Source :')
      st.write("Les données sont anomalies de température calculées par la Food and Agriculture Organization of the United Nations :")
      
@@ -71,10 +71,10 @@ elif genre== 'Dataset par pays : Kaggle':
         st.dataframe(df_zones ,1000, 250)
 
 elif genre== 'Dataset des projections par pays : CMIP 5 et World Bank ' :
-     df_HI= pd.read_csv('Dataframe_HI_6.csv')
-     df_RCP= pd.read_csv('RCP6.csv')
+     df_HI= pd.read_csv('ressources/Dataframe_HI_6.csv')
+     df_RCP= pd.read_csv('ressources/RCP6.csv')
      df_RCP=df_RCP.drop('Unnamed: 0',axis=1)
-     df_proj_pays=pd.read_csv('AnomalyScenarios_RCP.csv')
+     df_proj_pays=pd.read_csv('ressources/AnomalyScenarios_RCP.csv')
 
      st.subheader('Sources :')
      st.markdown("""
