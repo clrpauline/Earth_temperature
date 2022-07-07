@@ -64,7 +64,7 @@ elif genre== 'Dataset par pays : Kaggle':
      df_country=pd.read_csv('ressources/df_country.csv')
      df_zones=pd.read_csv('ressources/df_zone.csv')
      st.subheader('Source :')
-     st.write("Les données sont les anomalies de température calculées par la Food and Agriculture Organization of the United Nations :")
+     st.write("Les données sont les anomalies de température calculées par la Food and Agriculture Organization of the United Nations.")
      
      st.markdown("**Unités de mesures :** Degré Celsius")
 
