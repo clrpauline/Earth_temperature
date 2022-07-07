@@ -87,8 +87,8 @@ df_season = df_NASA[['Year', 'Season','Anomaly']]
 #Visualizing the dataset:
 fig = px.bar_polar(df_season, r="Anomaly", theta="Season", color="Anomaly", animation_frame="Year",animation_group="Season",
                    color_continuous_scale= 'RdYlBu_r', color_continuous_midpoint=0, 
-                    range_color=[df_season["Anomaly"].min(), df_Season["Anomaly"].max()],
-                   range_r=[df_Season["Anomaly"].min(), df_Season["Anomaly"].max()],
+                    range_color=[df_season["Anomaly"].min(), df_season["Anomaly"].max()],
+                   range_r=[df_season["Anomaly"].min(), df_season["Anomaly"].max()],
                    labels={"Anomaly": "Anomalies <br>en °C"}
                    )
 fig.update_layout(title_text="Anomalies de température mondiales par saison de 1880 à2021 <br><sup> Période de référence : 1951-1980")
