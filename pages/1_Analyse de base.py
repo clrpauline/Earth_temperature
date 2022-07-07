@@ -39,6 +39,20 @@ zones=pd.read_csv("ressources/AnomalyZones.csv")
 zones.drop(columns='Unnamed: 0', inplace=True)
 zones=zones[zones['Year'] != 2022]
 zones=zones[zones['Zone']!='Global']
+#Calculating the mean anomaly for each zone each year
+zones['Anomaly']=(zones['Jan']+zones['Feb']+zones['Mar']+zones['Apr']+zones['May']+zones['Jun']+zones['Jul']+zones['Aug']+zones['Sep']+zones['Oct']+zones['Nov']+zones['Dec'])/12
+
+fig = go.Figure()
+fig = px.bar(zones, x="Zone", y='Anomaly', animation_frame="Year",animation_group="Zone" ,range_y=[-2,2], 
+             color='Anomaly',color_continuous_scale='RdYlBu_r' , orientation="v",color_continuous_midpoint=0, 
+             range_color=[zones["Anomaly"].min(), zones["Anomaly"].max()],labels={"Anomaly": "Anomalies <br>en °C"}
+             )
+fig.update_xaxes(
+        tickangle = 45,
+        title_text = None)
+
+fig.update_layout(title_text="Anomalies de température par zone (nord & sud) de 1880 à2021 <br><sup> Période de référence : 1951-1980")
+st.plotly_chart(fig, use_container_width=False, sharing="streamlit")
 
 st.markdown("New test stop")
 
