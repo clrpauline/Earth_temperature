@@ -92,6 +92,10 @@ elif results == "RCP2,6: Scénario optimiste":
     st.plotly_chart(fig1)
     st.sidebar.title("Analyse RCP2,6")
     st.sidebar.write("Dans ce scénario qui voit monter légèrement puis baisser les emissions de CO2, l'impact est minime vis à vis des anomalies. Nous resterons donc à des niveaux d'anomalies que nous connaissons actuellement. Aucun pays n'est déclaré invivable dans sa totalité selon nos critères.")
+    st.write("Notre classification de l'invivabilité des pays se base sur l'indice de chaleur qui est un calcul entre la température et l'humidité, voici les seuils:")
+    st.write("🟩Vivable: Moins de 100 jours >35°C par an")
+    st.write("🟧Conditions difficiles: Entre 100 et 200 jours >35°C par an")
+    st.write("🟥Invivable: Plus de 200 jours >35°C par an")
     
 elif results == "RCP4,5: Scénario moyen bas":
     st.subheader("Projection des anomalies par pays en 2100")
@@ -102,6 +106,10 @@ elif results == "RCP4,5: Scénario moyen bas":
     st.plotly_chart(fig2) 
     st.sidebar.title("Analyse RCP4,5")
     st.sidebar.write("Salut")
+    st.write("Notre classification de l'invivabilité des pays se base sur l'indice de chaleur qui est un calcul entre la température et l'humidité, voici les seuils:")
+    st.write("🟩Vivable: Moins de 100 jours >35°C par an")
+    st.write("🟧Conditions difficiles: Entre 100 et 200 jours >35°C par an")
+    st.write("🟥Invivable: Plus de 200 jours >35°C par an")
     
 elif results == "RCP6: Scénario moyen haut":
     st.subheader("Projection des anomalies par pays en 2100")
@@ -112,6 +120,10 @@ elif results == "RCP6: Scénario moyen haut":
     st.plotly_chart(fig3)
     st.sidebar.title("Analyse RCP6")
     st.sidebar.write("Salut")
+    st.write("Notre classification de l'invivabilité des pays se base sur l'indice de chaleur qui est un calcul entre la température et l'humidité, voici les seuils:")
+    st.write("🟩Vivable: Moins de 100 jours >35°C par an")
+    st.write("🟧Conditions difficiles: Entre 100 et 200 jours >35°C par an")
+    st.write("🟥Invivable: Plus de 200 jours >35°C par an")
     
 elif results == "RCP8,5: Scénario pessimiste":
     st.subheader("Projection des anomalies par pays en 2100")
@@ -122,6 +134,10 @@ elif results == "RCP8,5: Scénario pessimiste":
     st.plotly_chart(fig4)
     st.sidebar.title("Analyse RCP8,5")
     st.sidebar.write("Salut")
+    st.write("Notre classification de l'invivabilité des pays se base sur l'indice de chaleur qui est un calcul entre la température et l'humidité, voici les seuils:")
+    st.write("🟩Vivable: Moins de 100 jours >35°C par an")
+    st.write("🟧Conditions difficiles: Entre 100 et 200 jours >35°C par an")
+    st.write("🟥Invivable: Plus de 200 jours >35°C par an")
     
 elif results == "Tous les scénarios":
     st.subheader("Projection des anomalies par pays en 2100")
@@ -144,5 +160,9 @@ elif results == "Tous les scénarios":
     st.plotly_chart(fig4)
     st.sidebar.title("Analyse Globale")
     st.sidebar.write("Salut")
+    st.write("Notre classification de l'invivabilité des pays se base sur l'indice de chaleur qui est un calcul entre la température et l'humidité, voici les seuils:")
+    st.write("🟩Vivable: Moins de 100 jours >35°C par an")
+    st.write("🟧Conditions difficiles: Entre 100 et 200 jours >35°C par an")
+    st.write("🟥Invivable: Plus de 200 jours >35°C par an")
     
    
