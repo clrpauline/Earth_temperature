@@ -123,16 +123,16 @@ elif results == "RCP8,5: Scénario pessimiste":
     st.sidebar.write("Salut")
     
 elif results == "Tous les scénarios":
-    st.subheader("Projection de l'invivabilité des pays d'ici 2100")
-    st.plotly_chart(fig1)
-    st.plotly_chart(fig2)
-    st.plotly_chart(fig3)
-    st.plotly_chart(fig4)
     st.subheader("Projection des anomalies par pays en 2100")
     st.plotly_chart(fig5)
     st.plotly_chart(fig6)
     st.plotly_chart(fig7)
     st.plotly_chart(fig8)
+    st.subheader("Projection de l'invivabilité des pays d'ici 2100")
+    st.plotly_chart(fig1)
+    st.plotly_chart(fig2)
+    st.plotly_chart(fig3)
+    st.plotly_chart(fig4)
     st.sidebar.title("Analyse Globale")
     st.sidebar.write("Salut")
     
