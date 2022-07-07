@@ -82,7 +82,7 @@ df_NASA= df_NASA.replace(to_replace='***', value=np.nan)
 df_NASA.iloc[:,1:]=df_NASA.iloc[:,1:].astype('float')
 
 #Creating a dataset to look at the four seasons: 
-df_glob_season = df_NASA[['J-D','DJF','MAM','JJA','SON']]
+df_glob_season = df_NASA[['Year', 'J-D','DJF','MAM','JJA','SON']]
 
 #Visualizing the dataset:
 fig = px.bar(df_glob_season, x='Year', y='J-D', color='J-D',color_continuous_scale='RdYlBu_r', labels={"J-D": "Anomaly<br>in °C"})
