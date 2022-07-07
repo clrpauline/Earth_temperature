@@ -31,7 +31,7 @@ st.markdown("""Afin de détailler un peu plus notre analyse, nous avons voulu ob
 """)
 
 genre = st.radio("Afficher l'analyse par :",
-     ('Zones', 'Saisons'))
+     ('Saisons','Zones' ))
 
 if genre == 'Zones':
      st.markdown("Examinons maintenant les anomalies séparées par hémisphères :")
