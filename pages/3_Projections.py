@@ -14,7 +14,7 @@ st.set_page_config(
 )
 
 st.title("Projections pour la fin du siècle")
-st.write("Sur cette page sont centralisées les prédictions qui émanent de notre étude préliminaire. L'objectif de ce rapport étant de répondre à la problématique: Quels pays deviendront invivable d'ici la fin du siècle?")
+st.write("Sur cette page sont centralisées les prédictions qui émanent de notre étude préliminaire. L'objectif de ce rapport étant de répondre à la problématique: <B>Quels pays deviendront invivable d'ici la fin du siècle?</B>")
 
 
 df26=pd.read_csv("ressources/Dataframe_HI_2_6.csv")
