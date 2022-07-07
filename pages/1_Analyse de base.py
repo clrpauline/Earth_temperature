@@ -66,3 +66,7 @@ fig.update_xaxes(
 
 fig.update_layout(title_text="Anomalies de température mondiales de 1880 à2021 <br><sup> Période de référence : 1951-1980")
 st.plotly_chart(fig, use_container_width=False, sharing="streamlit")
+
+st.markdown("""
+Pour mieux discerner l'évolution au fil des ans, nous examinons les saisons (printemps, été, automne, hiver), plutôt que les mois. 
+""")
