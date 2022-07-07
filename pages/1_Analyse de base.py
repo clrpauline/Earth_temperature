@@ -76,7 +76,7 @@ Pour mieux discerner l'évolution au fil des ans, nous examinons les saisons (pr
 st.subheader("Analyse des anomalies de température par saison depuis 1880")
 
 #Importing the dataset
-df_NASA=pd.read_csv('ressources/GLB.Ts+dSST_.csv', header=1)
+df_NASA=pd.read_csv('ressources/GLB.Ts+dSST_.csv')
 
 #Treating the erroneous data:
 df_NASA= df_NASA.replace(to_replace='***', value=np.nan)
