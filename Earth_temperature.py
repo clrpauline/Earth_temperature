@@ -138,4 +138,42 @@ st.markdown("**Langage utilisé :** Python")
 st.markdown("**Librairies utilisées :** Pandas, Numpy, Matplotlib, Seaborn, Plotly, Bokeh, Scikit-learn")
 st.markdown("**Valeurs manquantes :** Les valeurs manquantes sont identifiées par 3 astérisques, ces valeurs ont été supprimées du dataframe.")
 
+st.header("Bibliographie")
+st.markdown("""
+**Jeux de données**
+
+Kaggle (2020). Climate Change Dataset. Climate Change | Kaggle
+
+NASA (s.d).GISTEMPS Datasets.  GISS Surface Temperature Analysis (GISTEMP v4)
+
+Potsdam Institute for Climate Impact Research (s.d). RCP Concentration Calculations and Dat, Final Version, background data, acknowledgements and further info. RCP Scenario data group
+
+World Bank Group (s.d).  Download Data : Climatology World Bank | Climate Change Knowledge Portal 
+
+**Autres sources**
+
+CoastAdapt (s.d.). What are the RCPs ?. What are the RCPs? | CoastAdapt
+
+Ecologie.gouv (2018). Changement climatique : causes, effets et enjeux. Changement climatique | Ecologie.gouv
+
+Feulner, Rahmstorf and all. (2013). Why is the Northern Hemisphere warmer than the Southern Hemisphere?. Geophysical Research Abstracts. Geophysical Research Abstracts
+
+Futura-Science (2021). Vers des étés qui dureront six mois avec le réchauffement climatique. Vers des étés qui dureront six mois.
+
+JM.Jancovici (2007). Qu’est-ce qu’un modèle climatique ? Quels sont leurs premières conclusions ? Qu'est-ce qu'un modèle climatique ? Quels sont leurs premières conclusions.
+
+Kang, Seager (2014). Croll revisited: Why is the northern hemisphere warmer than the southern hemisphere ?. Columbia University, New York. Croll Revisited: Why is the Northern Hemisphere Warmer than the Southern Hemisphere? 
+
+Le Point (2019). Étude : les sujets de conversation préférés des Français. Etude | Le Point
+
+Météo France (Juin 2022). De nouvelles normales pour qualifier le climat en France. De nouvelles normales pour qualifier le climat | Meteo France
+
+Program for Climate Model Diagnosis & Intercomparison (2013). CMIP5 Overview. CMIP5 - Coupled Model Intercomparison Project Phase 5 - Overview
+
+Save4Planet (2022). Réchauffement climatique : définition, causes et conséquences. Réchauffement climatique | Save4Planet.com
+
+Weather.gov (s.d). What is the Heat Index? (Index de chaleur). Heat Index | Weather.gov
+
+""")
+
 
