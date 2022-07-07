@@ -6,7 +6,6 @@ import plotly.express as px
 import plotly.graph_objects as go
 import plotly
 import streamlit as st
-from PIL import Image
 
 st.set_page_config(
     page_title="Projections",
