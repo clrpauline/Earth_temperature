@@ -35,51 +35,50 @@ genre = st.radio("Afficher l'analyse par :",
 
 if genre == 'Zone':
     st.markdown("Examinons maintenant les anomalies séparées par hémisphères :")
-
 ###ANOVA on: global zone (South/North) & Anomaly
 #Import of an anomaly df across Northern & Southern Hemisphere, and Global. 
 #Dropping year 2022 (lots of NaNs), and Zone=Global.
-     zones=pd.read_csv("ressources/AnomalyZones.csv")
-     zones.drop(columns='Unnamed: 0', inplace=True)
-     zones=zones[zones['Year'] != 2022]
-     zones=zones[zones['Zone']!='Global']
-     zones= zones.sort_values(by = ["Year", "Zone"])
+    zones=pd.read_csv("ressources/AnomalyZones.csv")
+    zones.drop(columns='Unnamed: 0', inplace=True)
+    zones=zones[zones['Year'] != 2022]
+    zones=zones[zones['Zone']!='Global']
+    zones= zones.sort_values(by = ["Year", "Zone"])
 #Calculating the mean anomaly for each zone each year
-     zones['Anomaly']=(zones['Jan']+zones['Feb']+zones['Mar']+zones['Apr']+zones['May']+zones['Jun']+zones['Jul']+zones['Aug']+zones['Sep']+zones['Oct']+zones['Nov']+zones['Dec'])/12
+    zones['Anomaly']=(zones['Jan']+zones['Feb']+zones['Mar']+zones['Apr']+zones['May']+zones['Jun']+zones['Jul']+zones['Aug']+zones['Sep']+zones['Oct']+zones['Nov']+zones['Dec'])/12
 
-     fig = px.bar(zones, x='Zone', y='Anomaly', color='Anomaly',color_continuous_scale='RdYlBu_r', labels={"Anomaly": "Anomaly<br>in °C"})
-     fig.update_layout(title_text="Temperature Anomaly from 1880 to 2021<br><sup> Period Reference : mean 1951-1980")
-     st.plotly_chart(fig, use_container_width=False, sharing="streamlit")
+    fig = px.bar(zones, x='Zone', y='Anomaly', color='Anomaly',color_continuous_scale='RdYlBu_r', labels={"Anomaly": "Anomaly<br>in °C"})
+    fig.update_layout(title_text="Temperature Anomaly from 1880 to 2021<br><sup> Period Reference : mean 1951-1980")
+    st.plotly_chart(fig, use_container_width=False, sharing="streamlit")
 
-     st.markdown("""On note que les anomalies sont plus importantes sur l’hémisphère Nord tandis que l’hémisphère Sud croît moins rapidement, ce qui va dans le sens des observations scientifiques. En effet, l'hémisphère Nord est connu pour être plus chaud que l'hémisphère sud, notamment dû au ratio surface  terrestre/surface maritime et au courant des océans réchauffant l’hémisphère Nord  (Feulner and all. ,2013 & Kang, Seager, 2014).
+    st.markdown("""On note que les anomalies sont plus importantes sur l’hémisphère Nord tandis que l’hémisphère Sud croît moins rapidement, ce qui va dans le sens des observations scientifiques. En effet, l'hémisphère Nord est connu pour être plus chaud que l'hémisphère sud, notamment dû au ratio surface  terrestre/surface maritime et au courant des océans réchauffant l’hémisphère Nord  (Feulner and all. ,2013 & Kang, Seager, 2014).
      Pour analyser l'évolution des anomalies par zone au fil du temps, regardons le graphique à barres animé ci-dessous : 
      """)
 
-     fig = go.Figure()
-     fig = px.bar(zones, x="Zone", y='Anomaly', animation_frame="Year",animation_group="Zone" ,range_y=[-2,2], 
+    fig = go.Figure()
+    fig = px.bar(zones, x="Zone", y='Anomaly', animation_frame="Year",animation_group="Zone" ,range_y=[-2,2], 
              color='Anomaly',color_continuous_scale='RdYlBu_r' , orientation="v",color_continuous_midpoint=0, 
              range_color=[zones["Anomaly"].min(), zones["Anomaly"].max()],labels={"Anomaly": "Anomalies <br>en °C"}
              )
-     fig.update_xaxes(
+    fig.update_xaxes(
         tickangle = 45,
         title_text = None)
 
-     fig.update_layout(title_text="Anomalies de température par zone (nord & sud) de 1880 à2021 <br><sup> Période de référence : 1951-1980")
-     st.plotly_chart(fig, use_container_width=False, sharing="streamlit")
+    fig.update_layout(title_text="Anomalies de température par zone (nord & sud) de 1880 à2021 <br><sup> Période de référence : 1951-1980")
+    st.plotly_chart(fig, use_container_width=False, sharing="streamlit")
 
-     st.markdown("""
-     On peut alors observer que c'est à partir du 21ème siècle que les anomalies ne semblent pas réparties homogénéiquement entre l’hémisphère Nord et l’hémisphère Sud.
-     Pour confirmer cette observation, regardons le test ANOVA sur l'indépendance de l'anomalie et les zones. Le résultat confirme l'observation: il dépend de la période de temps.
-     """)
-     st.image('ressources/ANOVA_northsouth_full.jpg')
-     st.image('ressources/ANOVA_northsouth_recent.jpg')
-     st.markdown("""
-     Les résultats des tests pour les données de 1880-2021 montrent que la zone n'a pas d'effet statistiquement significatif sur l'anomalie mesurée.
-     Les résultats des tests pour les mêmes données, mais de 1980 à 2021 (c'est-à-dire des périodes plus récentes) montrent que la zone a un effet important sur l'anomalie.
+    st.markdown("""
+    On peut alors observer que c'est à partir du 21ème siècle que les anomalies ne semblent pas réparties homogénéiquement entre l’hémisphère Nord et l’hémisphère Sud.
+    Pour confirmer cette observation, regardons le test ANOVA sur l'indépendance de l'anomalie et les zones. Le résultat confirme l'observation: il dépend de la période de temps.
+    """)
+    st.image('ressources/ANOVA_northsouth_full.jpg')
+    st.image('ressources/ANOVA_northsouth_recent.jpg')
+    st.markdown("""
+    Les résultats des tests pour les données de 1880-2021 montrent que la zone n'a pas d'effet statistiquement significatif sur l'anomalie mesurée.
+    Les résultats des tests pour les mêmes données, mais de 1980 à 2021 (c'est-à-dire des périodes plus récentes) montrent que la zone a un effet important sur l'anomalie.
 
-     On peut donc conclure que - dans les périodes plus récentes - les zones divergent dans l'évolution de l'anomalie de température : les deux zones se réchauffent, mais l'hémisphère Nord se réchauffe plus rapidement que la moyenne mondiale, tandis que l'hémisphère Sud se réchauffe plus lentement que la moyenne mondiale.
-     """)
-      st.subheader("Evolution des anomalies de températures de 1880 à 2021 selon la latitude")
+    On peut donc conclure que - dans les périodes plus récentes - les zones divergent dans l'évolution de l'anomalie de température : les deux zones se réchauffent, mais l'hémisphère Nord se réchauffe plus rapidement que la moyenne mondiale, tandis que l'hémisphère Sud se réchauffe plus lentement que la moyenne mondiale.
+    """)
+     st.subheader("Evolution des anomalies de températures de 1880 à 2021 selon la latitude")
      lat8=pd.read_csv('ressources/lat8.csv')
 
      lat8['Latitudes']=lat8['Latitudes'].replace(to_replace=['64N-90N', '44N-64N', '24N-44N', 'EQU-24N', '24S-EQU', '44S-24S',
