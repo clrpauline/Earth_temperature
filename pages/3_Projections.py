@@ -6,6 +6,7 @@ import plotly.express as px
 import plotly.graph_objects as go
 import plotly
 import streamlit as st
+from Pillow import Image
 
 st.set_page_config(
     page_title="Projections",
@@ -21,7 +22,9 @@ df45=pd.read_csv("ressources/DataFrame_HI_4_5.csv")
 df6=pd.read_csv("ressources/DataFrame_HI_6.csv")
 df85=pd.read_csv("ressources/Dataframe_HI_8_5.csv")
 data=pd.read_csv("ressources/AnomalyScenarios_RCP.csv")
+image = Image.open('ressources/RCP représentation.png')
 
+st.image(imag
 
 fig1 = px.choropleth(df26, locations="Country", color="Seuil",range_color=[0,200],
                   color_discrete_sequence=["green","orange","red"],
