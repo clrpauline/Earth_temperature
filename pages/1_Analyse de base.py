@@ -37,7 +37,7 @@ zones=pd.read_csv("ressources/AnomalyZones.csv")
 zones.drop(columns='Unnamed: 0', inplace=True)
 zones=zones[zones['Year'] != 2022]
 zones=zones[zones['Zone']!='Global']
-zones= zones.sort_values(by = ["Year", "Zone])
+zones= zones.sort_values(by = ["Year", "Zone"])
 #Calculating the mean anomaly for each zone each year
 zones['Anomaly']=(zones['Jan']+zones['Feb']+zones['Mar']+zones['Apr']+zones['May']+zones['Jun']+zones['Jul']+zones['Aug']+zones['Sep']+zones['Oct']+zones['Nov']+zones['Dec'])/12
 
