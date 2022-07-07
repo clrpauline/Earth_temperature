@@ -73,7 +73,7 @@ st.markdown("""
 Pour mieux discerner l'évolution au fil des ans, nous examinons les saisons (printemps, été, automne, hiver), plutôt que les mois. 
 """)
 
-st.subheader("Analyse des anomalies de température par saison depuis 1880")
+st.subheader("Analyse des anomalies de température par *saison* depuis 1880")
 
 #Importing the dataset, treating erroneous data:
 df_NASA=pd.read_csv('ressources/GLB.Ts+dSST_.csv')
@@ -85,7 +85,7 @@ df_NASA.iloc[:,1:]=df_NASA.iloc[:,1:].astype('float')
 df_glob_season = df_NASA[['Year', 'J-D','DJF','MAM','JJA','SON']]
 
 #Visualizing the dataset:
-fig = px.bar(df_glob_season, x='Year', y='J-D', color='J-D',color_continuous_scale='RdYlBu_r', labels={"J-D": "Anomaly<br>in °C"})
+fig = px.bar(df_glob_season, x='Year', y='J-D', color='J-D', color_continuous_scale='RdYlBu_r', labels={"J-D": "Anomaly<br>in °C"})
 fig.update_layout(title_text="Temperature Anomaly per season from 1880 to 2021<br><sup> Period Reference : mean 1951-1980")
 
 #Get it online:
