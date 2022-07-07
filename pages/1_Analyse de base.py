@@ -25,7 +25,7 @@ La courbe représentant les anomalies de température mondiales est croissante a
 
 On observe que la pente de la courbe est plus importante entre 1980 et 2020 qu’entre 1900 et 1940, signifiant une accélération du changement climatique
 """)
-st.markdwon("""Afin de détailler un peu plus notre analyse, nous avons voulu observer si :
+st.markdown("""Afin de détailler un peu plus notre analyse, nous avons voulu observer si :
 - Les anomalies sont indépendantes des saisons et des mois
 - Les anomalies sont indépendantes des différentes zones de la planète
 """)
