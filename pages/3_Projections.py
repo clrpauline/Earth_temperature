@@ -14,8 +14,7 @@ st.set_page_config(
 )
 
 st.title("Projections pour la fin du siècle")
-st.write("Sur cette page sont centralisées les prédictions qui émanent de notre étude préliminaire. L'objectif de ce rapport étant de répondre à la problématique: **Quels pays deviendront invivables d'ici la fin du siècle?**")
-st.write("Ci-dessous un graphique représentant l'un des élément essentiel de notre analyse, les **RCP (pour Representative Concentration Pathway)**.")
+
 
 df26=pd.read_csv("ressources/Dataframe_HI_2_6.csv")
 df45=pd.read_csv("ressources/DataFrame_HI_4_5.csv")
@@ -24,7 +23,6 @@ df85=pd.read_csv("ressources/Dataframe_HI_8_5.csv")
 data=pd.read_csv("ressources/AnomalyScenarios_RCP.csv")
 image = Image.open('ressources/RCP représentation.png')
 
-st.image(image)
 
 fig1 = px.choropleth(df26, locations="Country", color="Seuil",range_color=[0,200],
                   color_discrete_sequence=["green","orange","red"],
@@ -72,12 +70,18 @@ fig8.update_layout(autosize=False,margin = dict(l=0,r=0,b=0,t=0,pad=4, autoexpan
 
 
 
-Choix_selectbox=[" ","RCP2,6: Scénario optimiste","RCP4,5: Scénario moyen bas","RCP6: Scénario moyen haut","RCP8,5: Scénario pessimiste", "Tous les scénarios"]
-st.write("Comme on le remarque, 4 scénarios ont été prévus pour la fin du siècle (RCP2.6 pour le plus optimiste et RCP8.5 pour le plus pessimiste). Les scénarios RCP sont des prédictions complexes sur l'évolution de notre climat. Elles prennent en compte beaucoup de paramètres comme les émissions de différents gaz à effet de serre, l'activité volcanique, l'impact des radiations solaires mais tout est ici représenté en terme de CO2 pour faciliter la compréhension. Nous vous proposons de choisir entre les 4 voies possibles qui ont été évaluées par les scientifiques du GIEC:")
+Choix_selectbox=["Introduction","RCP2,6: Scénario optimiste","RCP4,5: Scénario moyen bas","RCP6: Scénario moyen haut","RCP8,5: Scénario pessimiste", "Tous les scénarios"]
 
 results = st.sidebar.selectbox("Quel scénario voulez vous afficher sous forme de cartes?", options=Choix_selectbox)
 
-if results == "RCP2,6: Scénario optimiste":
+
+if results == "Introduction":
+    st.write("Sur cette page sont centralisées les prédictions qui émanent de notre étude préliminaire. L'objectif de ce rapport étant de répondre à la problématique: **Quels pays deviendront invivables d'ici la fin du siècle?**")
+    st.write("Ci-dessous un graphique représentant l'un des élément essentiel de notre analyse, les **RCP (pour Representative Concentration Pathway)**.")
+    st.write("Comme on le remarque, 4 scénarios ont été prévus pour la fin du siècle (RCP2.6 pour le plus optimiste et RCP8.5 pour le plus pessimiste). Les scénarios RCP sont des prédictions complexes sur l'évolution de notre climat. Elles prennent en compte beaucoup de paramètres comme les émissions de différents gaz à effet de serre, l'activité volcanique, l'impact des radiations solaires mais tout est ici représenté en terme de CO2 pour faciliter la compréhension. Nous vous proposons de choisir entre les 4 voies possibles qui ont été évaluées par les scientifiques du GIEC:")
+    st.image(image)
+
+elif results == "RCP2,6: Scénario optimiste":
     st.subheader("Projection des anomalies par pays en 2100")
     
     st.write("Avec le scénario RCP2,6")
