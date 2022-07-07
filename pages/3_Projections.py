@@ -13,7 +13,7 @@ st.set_page_config(
     page_icon="🌍",
 )
 
-st.title("Projections pour la fin du siècle")
+st.title("Projections pour la fin du siècle🌍")
 
 
 df26=pd.read_csv("ressources/Dataframe_HI_2_6.csv")
