@@ -86,7 +86,7 @@ if results == "RCP2,6: Scénario optimiste":
     st.write("Avec le scénario RCP2,6")
     st.plotly_chart(fig1)
     st.sidebar.title("Analyse RCP2,6")
-    st.sidebar.write("Salut")
+    st.sidebar.write("Dans ce scénario qui voit monter légèrement puis baisser les emissions de CO2, l'impact est minime vis à vis des anomalies. Nous resterons donc à des niveaux d'anomalies que nous connaissons actuellement. Aucun pays n'est déclaré invivable dans sa totalité selon nos critères.")
     
 elif results == "RCP4,5: Scénario moyen bas":
     st.subheader("Projection des anomalies par pays en 2100")
