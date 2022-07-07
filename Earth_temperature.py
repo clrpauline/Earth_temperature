@@ -13,13 +13,24 @@ st.set_page_config(
     page_title="Earth Temperature",
     page_icon="🌍",
 )
-st.title("Etude du réchauffement climatique de 1880 à 2100")
-st.write("Dans cette étude vous sera présenté une vision objective et factuelle du réchauffement climatique, du début de la révolution industrielle, jusqu'à la fin du XXIe siècle. Les données interactives et visuelles proviennent de mesures de la NASA, plus particulièrement du GISS (Goddard Institute for Space Studies).")
-st.write("Les projections que nous proposons pour le futurs proviennent elles de modèles de machine learning ou de modèles statistiques basées sur les mesures passées. Un phénomène si complexe de le réchauffement climatique ne saurait se prévoir purement grâce mesures d'hier mais seront fortement impactés par les choix que nous ferons.")
+st.markdown("<h1 style='text-align: center; '>Analyse du dérèglement climatique et projections 🌍</h1>", unsafe_allow_html=True)
+st.write("""Dans cette étude vous sera présenté une vision objective et factuelle du réchauffement climatique, du début de la révolution industrielle, jusqu'à la fin du XXIe siècle. 
+Les données analysées sont des anomalies de température qui proviennent de différentes sources de données récupérées et cités ci-dessous.
+""")
+st.write(""" 
+💡 Une **anomalie de température** est l’écart entre la température mesurée par rapport à la température moyenne calculée sur une période d’au moins trente ans. 
+Elle peut être positive ou négative et nous informe ainsi du réchauffement ou refroidissement d’une zone, d’un pays, d’une surface maritime ou même de l'entièreté du globe terrestre.
+""")
 
+st.markdown("""
+Afin de pouvoir évaluer et constater ce dérèglement climatique, nous avons décidé d’étudier les **anomalies de température** issues de différents datasets (NASA, Kaggle, World Bank, CMIP 5) : 
+- Analyse du dérèglement climatique à **l’échelle globale** grâce aux données récupérées sur le site de la NASA;
+- Réduction du maillage afin de constater si l’analyse reste la même que précédemment lorsque l'on analyse les **données par continents et pays**; 
+- Pour finir, nous essayerons de nous projeter dans un futur plus ou moins proche (2100) afin d’observer **quel potentiel avenir est attendu pour le monde actuel**
 
+""")
 
-st.header("1. Jeux de données utilisés")
+st.markdown("<h2 style='text-align: center; '>Jeux de données utilisés</h2>", unsafe_allow_html=True)
 genre = st.radio('',
      ('Dataset principal : NASA', 'Dataset par pays : Kaggle', 'Dataset des projections par pays : CMIP 5 et World Bank '))
 
