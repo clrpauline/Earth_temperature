@@ -12,7 +12,7 @@ st.set_page_config(
     page_icon="🌍",
 )
 
-st.title("Une visualisation graphique qui fait chaud dans le dos!")
+st.title("Une visualisation graphique qui fait chaud dans le dos😰")
 
 df_country=pd.read_csv('ressources/df_country.csv')
 df_country.head()
