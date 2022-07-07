@@ -51,4 +51,4 @@ else :
      st.markdown("""Il est ainsi évident qu’en 50 ans, nous avons des anomalies de températures qui ont radicalement évoluées avec en 1969 des anomalies autour de 0°C tandis qu’en 2019, ces dernières se situent autour des 1°C à 2°C selon les pays, suivant ainsi la courbe globale de l’évolution des anomalies de température. On peut ainsi également observer que les pays de l’hémisphère Nord ont plus de variation de température que les pays de l’hémisphère Sud.""")
 
        
-     st.markdown('Etant donné la croissance de ces anomalies, engendrant des températures extrêmes, une question importante pour les prochaines années se pose : il y aura-t-il des pays définis comme invivables d’ici quelques années ?')
+     st.markdown('Etant donné la croissance de ces anomalies, engendrant des températures extrêmes, une question importante pour les prochaines années se pose : y aura-t-il des pays définis comme invivables d’ici quelques années ?')
