@@ -29,6 +29,7 @@ La courbe représentant les anomalies de température mondiales est croissante a
 
 On observe que la pente de la courbe est plus importante entre 1980 et 2020 qu’entre 1900 et 1940, signifiant une accélération du changement climatique
 """)
+st.markdown("Examinons maintenant les anomalies séparées par hémisphères :")
 
 ###ANOVA on: global zone (South/North) & Anomaly
 #Import of an anomaly df across Northern & Southern Hemisphere, and Global. 
