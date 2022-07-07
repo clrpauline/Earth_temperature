@@ -33,7 +33,7 @@ st.markdown("""Afin de détailler un peu plus notre analyse, nous avons voulu ob
 genre = st.radio("Afficher l'analyse par :",
      ('Zones', 'Saisons'))
 
-if genre == 'Zone':
+if genre == 'Zones':
      st.markdown("Examinons maintenant les anomalies séparées par hémisphères :")
      zones=pd.read_csv("ressources/AnomalyZones.csv")
      zones.drop(columns='Unnamed: 0', inplace=True)
@@ -96,7 +96,7 @@ if genre == 'Zone':
      image = Image.open('ANOVA8zones.png')
      st.image(image, caption="Résultat de l'ANOVA entre l'anomalie de température et la variable latitudes") 
 
-if genre=='Saison':
+if genre=='Saisons':
      st.markdown("""
       Nous allons ensuite visualiser l'évolution de ces anomalies en fonction des mois de l'année. 
       """)
