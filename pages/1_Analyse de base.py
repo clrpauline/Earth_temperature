@@ -94,3 +94,5 @@ Il y a une exception : l'hiver, mais il ne présente des anomalies particulière
 
 Pour confirmer cette hypothèse, examinons deux tests ANOVA : 
 """)
+st.image("ressources/ANOVA_full.jpg")
+st.image("ressources/ANOVA_recent.jpg")
