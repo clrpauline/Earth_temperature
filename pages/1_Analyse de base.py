@@ -96,3 +96,4 @@ fig.update_polars(angularaxis_dtick=1,
                   angularaxis_exponentformat="power")
 #Get it online:
 st.plotly_chart(fig, use_container_width=False, sharing="streamlit")
+fig = go.Figure()
