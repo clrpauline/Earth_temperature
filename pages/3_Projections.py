@@ -27,25 +27,25 @@ fig1 = px.choropleth(df26, locations="Country", color="Seuil",range_color=[0,200
                   color_discrete_sequence=["green","orange","red"],
                    locationmode='country names',color_continuous_midpoint=0,
                     labels={'Annual':'Nb de jour >35°C'})
-fig1.update_layout(autosize=False,margin = dict(l=0,r=0,b=0,t=0,pad=4, autoexpand=True), width=700, legend=dict(yanchor="top",y=0.99,xanchor="right",x=0.99))
+fig1.update_layout(autosize=False,margin = dict(l=0,r=0,b=0,t=0,pad=4, autoexpand=True), width=730, legend=dict(yanchor="top",y=0.99,xanchor="right",x=0.99))
 
 
 
 fig2 = px.choropleth(df45, locations="Country", color="Seuil",range_color=[0,200],
                   color_discrete_sequence=["green","orange","red"],
                    locationmode='country names',color_continuous_midpoint=0)
-fig2.update_layout(autosize=False,margin = dict(l=0,r=0,b=0,t=0,pad=4, autoexpand=True), width=800, legend=dict(yanchor="top",y=0.99,xanchor="right",x=0.99))
+fig2.update_layout(autosize=False,margin = dict(l=0,r=0,b=0,t=0,pad=4, autoexpand=True), width=730, legend=dict(yanchor="top",y=0.99,xanchor="right",x=0.99))
 
 
 fig3 = px.choropleth(df6, locations="Country", color="Seuil",range_color=[0,200],
                   color_discrete_sequence=["green","orange","red"],
                    locationmode='country names',color_continuous_midpoint=0)
-fig3.update_layout(autosize=False,margin = dict(l=0,r=0,b=0,t=0,pad=4, autoexpand=True), width=800, legend=dict(yanchor="top",y=0.99,xanchor="right",x=0.99))
+fig3.update_layout(autosize=False,margin = dict(l=0,r=0,b=0,t=0,pad=4, autoexpand=True), width=730, legend=dict(yanchor="top",y=0.99,xanchor="right",x=0.99))
 
 fig4 = px.choropleth(df85, locations="Country", color="Seuil",range_color=[0,200],
                   color_discrete_sequence=["red","green","orange"],
                    locationmode='country names',color_continuous_midpoint=0)
-fig4.update_layout(autosize=False,margin = dict(l=0,r=0,b=0,t=0,pad=4, autoexpand=True), width=800, legend=dict(yanchor="top",y=0.99,xanchor="right",x=0.99))
+fig4.update_layout(autosize=False,margin = dict(l=0,r=0,b=0,t=0,pad=4, autoexpand=True), width=730, legend=dict(yanchor="top",y=0.99,xanchor="right",x=0.99))
 
 fig5 = px.choropleth(data, locations="Country", color = "RCP 2.6", range_color=[-8,8],
                     color_continuous_scale='turbo',locationmode='country names', 
