@@ -7,7 +7,7 @@ import plotly.graph_objects as go
 import plotly
 import streamlit as st
 
-
+st.sidebar.title("Credits")
 
 st.set_page_config(
     page_title="Earth Temperature",
