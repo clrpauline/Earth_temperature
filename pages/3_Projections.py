@@ -72,7 +72,7 @@ fig8.update_layout(autosize=False,margin = dict(l=0,r=0,b=0,t=0,pad=4, autoexpan
 
 Choix_selectbox=["Introduction","RCP2.6: Scénario optimiste","RCP4.5: Scénario moyen bas","RCP6: Scénario moyen haut","RCP8.5: Scénario pessimiste", "Tous les scénarios"]
 
-results = st.sidebar.selectbox("Quel scénario voulez vous afficher sous forme de cartes?", options=Choix_selectbox)
+results = st.sidebar.radio("Quel scénario voulez vous afficher sous forme de cartes?", options=Choix_selectbox)
 
 
 if results == "Introduction":
