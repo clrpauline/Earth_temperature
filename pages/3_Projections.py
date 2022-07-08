@@ -70,7 +70,7 @@ fig8.update_layout(autosize=False,margin = dict(l=0,r=0,b=0,t=0,pad=4, autoexpan
 
 
 
-Choix_selectbox=["Introduction","RCP2,6: Scénario optimiste","RCP4,5: Scénario moyen bas","RCP6: Scénario moyen haut","RCP8,5: Scénario pessimiste", "Tous les scénarios"]
+Choix_selectbox=["Introduction","RCP2.6: Scénario optimiste","RCP4.5: Scénario moyen bas","RCP6: Scénario moyen haut","RCP8.5: Scénario pessimiste", "Tous les scénarios"]
 
 results = st.sidebar.selectbox("Quel scénario voulez vous afficher sous forme de cartes?", options=Choix_selectbox)
 
@@ -82,29 +82,29 @@ if results == "Introduction":
     st.write("Comme on le remarque, 4 scénarios ont été prévus pour la fin du siècle (RCP2.6 pour le plus optimiste et RCP8.5 pour le plus pessimiste). Les scénarios RCP sont des prédictions complexes sur l'évolution de notre climat. Elles prennent en compte beaucoup de paramètres comme les émissions de différents gaz à effet de serre, l'activité volcanique, l'impact des radiations solaires.L'unité de mesure globale est le W/M² qui correspond au chiffres après RCP. Nous vous proposons donc de choisir entre les 4 voies possibles qui ont été évaluées par les scientifiques du GIEC (Voir la slidebar)")
     
 
-elif results == "RCP2,6: Scénario optimiste":
+elif results == "RCP2.6: Scénario optimiste":
     st.subheader("Projection des anomalies par pays en 2100")
     
-    st.write("Avec le scénario RCP2,6")
+    st.write("Avec le scénario RCP2.6")
     st.plotly_chart(fig5)
     st.subheader("Projection de l'invabilité des pays d'ici 2100")
-    st.write("Avec le scénario RCP2,6")
+    st.write("Avec le scénario RCP2.6")
     st.plotly_chart(fig1)
-    st.sidebar.title("Analyse RCP2,6")
+    st.sidebar.title("Analyse RCP2.6")
     st.sidebar.write("Dans ce scénario qui voit monter légèrement puis baisser les emissions de CO2, l'impact est minime vis à vis des anomalies. Nous resterons donc à des niveaux d'anomalies que nous connaissons actuellement. Aucun pays n'est déclaré invivable dans sa totalité selon nos critères.")
     st.write("Notre classification de l'invivabilité des pays se base sur l'indice de chaleur qui est un calcul entre la température et l'humidité, voici les seuils retenus:")
     st.write("🟩Vivable: Moins de 100 jours >35°C par an")
     st.write("🟧Conditions difficiles: Entre 100 et 200 jours >35°C par an")
     st.write("🟥Invivable: Plus de 200 jours >35°C par an")
     
-elif results == "RCP4,5: Scénario moyen bas":
+elif results == "RCP4.5: Scénario moyen bas":
     st.subheader("Projection des anomalies par pays en 2100")
-    st.write("Avec le scénario RCP4,5")
+    st.write("Avec le scénario RCP4.5")
     st.plotly_chart(fig6)
     st.subheader("Projection de l'invivabilité des pays d'ici 2100")
-    st.write("Avec le scénario RCP2,6")
+    st.write("Avec le scénario RCP4.5")
     st.plotly_chart(fig2) 
-    st.sidebar.title("Analyse RCP4,5")
+    st.sidebar.title("Analyse RCP4.5")
     st.sidebar.write("Ce scénario peut-être plus réaliste prévoit que les anomlies vont progressivement doubler durant le siècle. On atteindra des valeurs de +2,5°C dans la majorité des pays. On voit clairement les pays proches des zones polaires se réchauffer plus vite que la moyenne. La Colombie, l'Afrique de l'Ouest et l'Asie du sud-est deviennent des zones ou les conditions seront difficiles pour vivre")
     st.write("Notre classification de l'invivabilité des pays se base sur l'indice de chaleur qui est un calcul entre la température et l'humidité, voici les seuils retenus:")
     st.write("🟩Vivable: Moins de 100 jours >35°C par an")
@@ -125,14 +125,14 @@ elif results == "RCP6: Scénario moyen haut":
     st.write("🟧Conditions difficiles: Entre 100 et 200 jours >35°C par an")
     st.write("🟥Invivable: Plus de 200 jours >35°C par an")
     
-elif results == "RCP8,5: Scénario pessimiste":
+elif results == "RCP8.5: Scénario pessimiste":
     st.subheader("Projection des anomalies par pays en 2100")
-    st.write("Avec le scénario RCP8,5")
+    st.write("Avec le scénario RCP8.5")
     st.plotly_chart(fig8)
     st.subheader("Projection de l'invivabilité des pays d'ici 2100")
-    st.write("Avec le scénario RCP8,5")
+    st.write("Avec le scénario RCP8.5")
     st.plotly_chart(fig4)
-    st.sidebar.title("Analyse RCP8,5")
+    st.sidebar.title("Analyse RCP8.5")
     st.sidebar.write("Le pire scénario selon le GIEC, la tendance d'émission de CO2 s'intensifie avec le développement humain. Les anomalies s'emballent et modifient l'ensemble du climat pour de bon. Notre planète avance à grand pas vers un avenir inhospitalier. Les zones qui jusquà maintenant avaient des conditions difficiles deviennent invivables.")
     st.write("Notre classification de l'invivabilité des pays se base sur l'indice de chaleur qui est un calcul entre la température et l'humidité, voici les seuils retenus:")
     st.write("🟩Vivable: Moins de 100 jours >35°C par an")
@@ -141,22 +141,22 @@ elif results == "RCP8,5: Scénario pessimiste":
     
 elif results == "Tous les scénarios":
     st.subheader("Projection des anomalies par pays en 2100")
-    st.write("Avec le scénario RCP2,6")
+    st.write("Avec le scénario RCP2.6")
     st.plotly_chart(fig5)
-    st.write("Avec le scénario RCP4,5")
+    st.write("Avec le scénario RCP4.5")
     st.plotly_chart(fig6)
     st.write("Avec le scénario RCP6")
     st.plotly_chart(fig7)
-    st.write("Avec le scénario RCP8,5")
+    st.write("Avec le scénario RCP8.5")
     st.plotly_chart(fig8)
     st.subheader("Projection de l'invivabilité des pays d'ici 2100")
-    st.write("Avec le scénario RCP2,6")
+    st.write("Avec le scénario RCP2.6")
     st.plotly_chart(fig1)
-    st.write("Avec le scénario RCP4,5")
+    st.write("Avec le scénario RCP4.5")
     st.plotly_chart(fig2)
     st.write("Avec le scénario RCP6")
     st.plotly_chart(fig3)
-    st.write("Avec le scénario RCP8,5")
+    st.write("Avec le scénario RCP8.5")
     st.plotly_chart(fig4)
     st.sidebar.title("Analyse Globale")
     st.sidebar.write("Une page qui vous permet d'explorer l'ensemble des scénarios. Selon vous, lequel est le plus probable?")
