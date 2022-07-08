@@ -13,6 +13,7 @@ st.set_page_config(
 )
 
 st.title("Une visualisation graphique qui fait chaud dans le dos😰")
+st.write("Pour une meilleure visualisation, n'hésitez pas à afficher ce graphique en plein écran en appuyant les flèches ↔️ en haut à droite du graphique")
 
 df_country=pd.read_csv('ressources/df_country.csv')
 df_country.head()
