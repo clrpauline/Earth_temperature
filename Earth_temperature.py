@@ -16,7 +16,7 @@ st.sidebar.title("Credits")
 st.sidebar.write("**Made with love by:**")
 st.sidebar.write("🤖Pauline Cellier")
 st.sidebar.write("🐸Mariella Goebl")
-st.sidebar.write("🤪Guillaume Chavanne")
+st.sidebar.write("🦆Guillaume Chavanne")
      
                            
 
