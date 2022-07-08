@@ -9,7 +9,7 @@ import streamlit as st
 
 st.set_page_config(
     page_title="Bonus",
-    page_icon="🌍",
+    page_icon="🦄",
 )
 
 st.title("Une visualisation graphique qui fait chaud dans le dos😰")
