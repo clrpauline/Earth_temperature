@@ -7,19 +7,19 @@ import plotly.graph_objects as go
 import plotly
 import streamlit as st
 
+st.set_page_config(
+    page_title="Earth Temperature",
+    page_icon="🌍",
+)
+
 st.sidebar.title("Credits")
 st.sidebar.write("Made with love by:")
 st.sidebar.write("🤖Pauline Cellier")
 st.sidebar.write("🐸Mariella Goebl")
 st.sidebar.write("🤪Guillaume Chavanne")
      
-                 
-                 
-                 
-st.set_page_config(
-    page_title="Earth Temperature",
-    page_icon="🌍",
-)
+                           
+
 st.markdown("<h1 style='text-align: center; '>Analyse du dérèglement climatique et projections 🌍</h1>", unsafe_allow_html=True)
 st.write("""Dans cette étude, vous sera présenté notre analyse réchauffement climatique, du début de la révolution industrielle, jusqu'à la fin du XXIe siècle. 
 Les données analysées sont des anomalies de température qui proviennent de différentes sources de données récupérées et citées ci-dessous.
