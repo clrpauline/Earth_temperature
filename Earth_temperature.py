@@ -8,7 +8,13 @@ import plotly
 import streamlit as st
 
 st.sidebar.title("Credits")
-
+st.sidebar.write("👾Pauline Cellier:)
+st.sidebar.write("🧐Mariella Goebl:)
+st.sidebar.write("🤪Mariella Goebl:)
+     
+                 
+                 
+                 
 st.set_page_config(
     page_title="Earth Temperature",
     page_icon="🌍",
