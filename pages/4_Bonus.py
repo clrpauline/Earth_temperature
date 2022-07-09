@@ -49,7 +49,7 @@ df_country.head()
 df_country2=df_country.drop('Country Code',axis=1)
 df_country2=df_country2.fillna(0)
 
-fig = px.scatter(df_country2,x="x", y="y", size="abs Anomalies", color="Anomalies",color_continuous_scale='RdYlBu_r',
+fig = px.scatter(df_country2,x="x", y="y", size="abs Anomalies", color="Anomalies",color_continuous_scale='RdYlBu_r', title= "Anomalies de températures par pays de 1961 à 2015",
                 hover_name="Country Name",animation_frame="year", animation_group='Country Name', size_max=60, text='Country Name',
                 range_color=[df_country2["Anomalies"].min(), 2.2], color_continuous_midpoint=0, width=800, height=1200)
 
