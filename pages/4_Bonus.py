@@ -51,7 +51,7 @@ df_country2=df_country2.fillna(0)
 
 fig = px.scatter(df_country2,x="x", y="y", size="abs Anomalies", color="Anomalies",color_continuous_scale='RdYlBu_r',
                 hover_name="Country Name",animation_frame="year", animation_group='Country Name', size_max=60, text='Country Name',
-                range_color=[df_country2["Anomalies"].min(), df_country2["Anomalies"].max()], color_continuous_midpoint=0, width=800, height=1200)
+                range_color=[df_country2["Anomalies"].min(), 2.2], color_continuous_midpoint=0, width=800, height=1200)
 
 fig.update_xaxes(visible=False)
 fig.update_yaxes(visible=False)
