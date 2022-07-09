@@ -59,7 +59,7 @@ fig.update_layout(
         'x':0.5,
         'xanchor': 'center',
         'yanchor': 'top',
-            size=20})
+            'size'=20})
 
 fig.update_xaxes(visible=False)
 fig.update_yaxes(visible=False)
