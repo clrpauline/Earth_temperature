@@ -58,7 +58,7 @@ fig.update_layout(
         'y':0.9,
         'x':0.5,
         'xanchor': 'center',
-        'yanchor': 'top'
+        'yanchor': 'top',
             size=20})
 
 fig.update_xaxes(visible=False)
